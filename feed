@@ -5,7 +5,7 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Mathias Verraes</title>
- <link href="http://mathias.verraes.net/atom.xml" rel="self"/>
+ <link href="http://mathias.verraes.net/feed" rel="self"/>
  <link href="http://mathias.verraes.net/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>http://mathias.verraes.net/</id>
