@@ -4,7 +4,14 @@ slug: code-folder-structure
 date: 2011-10-22
 layout: post
 published: true
+filename: 2011-10-22-code-folder-structure.markdown
 ---
+<!-- *********************************************************************
+**                                                                      **
+** To add a comment, scroll to the bottom and use the comment template. **
+** Then save the file and send me a pull request.                       **
+**                                                                      **
+***********************************************************************-->
 
 
 All code bases I ever read or worked with, share a similar folder structure:
@@ -62,3 +69,13 @@ This makes it a lot easier to communicate bounded contexts, and to illustrate de
 In other words: A BlogPost and a Comment know about their author. A BlogPost has zero or more Comments, but the Comments are not aware that they belong to BlogPost. A BlogPostRepository manages BlogPost entities, but those entities have no idea that they are being managed.
 
 Obviously the whole example is too simple, as examples usually are. The point is that, to keep code clean, it’s important to think hard about coupling between elements. A folder structure aides to delineate depedencies. Close proximity in the tree suggests closer coupling. Documentation can further help to explain the direction of the coupling. We may just as well decide that Comments do know about the BlogPost they belong too, but that should be a conscious decision.
+
+
+## Comments
+
+<!-- To add a comment, copy this template:
+
+### YOUR NAME - YYY/MM/DD
+YOUR COMMENT TEXT HERE....
+
+-->

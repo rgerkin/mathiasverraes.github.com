@@ -4,7 +4,14 @@ slug: beautiful-code
 date: 2011-04-05
 layout: post
 published: true
+filename: 2011-04-05-beautiful-code.markdown
 ---
+<!-- *********************************************************************
+**                                                                      **
+** To add a comment, scroll to the bottom and use the comment template. **
+** Then save the file and send me a pull request.                       **
+**                                                                      **
+***********************************************************************-->
 
 Jenkins/Hudson, the tool that has helped so many teams write better software, [turns out to be rather ugly](http://gojko.net/2011/04/05/how-is-it-even-possible-code-to-be-this-bad/). And Santa is a fat drunk guy in a suit.
 
@@ -17,3 +24,12 @@ And even if the code isn’t there yet, just having the opportunity to improve i
 A last-minute change request from a customer is no problem for beautiful code. We welcome it as a chance to prove that the painstaking refactoring was worth it. We’re thrilled at how ridiculously easy it has become to respond to change.
 
 The world is littered with garbage. So let’s pick up the trash in our own neighbourhood. Leave every piece of code behind a little cleaner than you found it. Beautiful code does make a difference.
+
+## Comments
+
+<!-- To add a comment, copy this template:
+
+### YOUR NAME - YYY/MM/DD
+YOUR COMMENT TEXT HERE....
+
+-->

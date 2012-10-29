@@ -4,7 +4,14 @@ slug: coping-with-change-in-software-development
 date: 2011-07-21
 layout: post
 published: true
+filename: 2011-07-21-coping-with-change-in-software-development.markdown
 ---
+<!-- *********************************************************************
+**                                                                      **
+** To add a comment, scroll to the bottom and use the comment template. **
+** Then save the file and send me a pull request.                       **
+**                                                                      **
+***********************************************************************-->
 
 In a discussion about keeping developers motivated, someone said:
 
@@ -19,3 +26,13 @@ The effect is backwards: customers, managers and developers are instilled with a
 Knowing how to cope with change in a software project is a skill like any other, whether it's atomic refactoring, or big architectural changes, or writing the automated tests that will help you keep your sanity in the process.
 
 Like any skill, you can master it with study and practice. Perhaps the best way to learn how to cope with change in software development, is to deliberately introduce change. It would make an interesting experiment: tell your developers to change things, just to keep them alert and well-trained in the art of change. I don't know if they will declare you crazy, or if they will be motivated by it. All I know is that I would.
+
+
+## Comments
+
+<!-- To add a comment, copy this template:
+
+### YOUR NAME - YYY/MM/DD
+YOUR COMMENT TEXT HERE....
+
+-->

@@ -4,7 +4,14 @@ slug: git-vs-svn
 date: 2011-03-29
 layout: post
 published: true
+filename: 2011-03-29-git-vs-svn.markdown
 ---
+<!-- *********************************************************************
+**                                                                      **
+** To add a comment, scroll to the bottom and use the comment template. **
+** Then save the file and send me a pull request.                       **
+**                                                                      **
+***********************************************************************-->
 
 A couple of weeks ago, I switched from Subversion to Git for a couple of smaller projects. Below are some of my findings.
 
@@ -35,3 +42,12 @@ With SVN, commits are pretty much written in stone. Because of that, a conventio
   * Incomplete commits are followed by a commit with the same message
 
 Git has a lot more possibilities to fix errors, amend to commits, etc. That’s a blessing and a curse. I find that by trying to make my history look pretty, I seem to make a mess of things. It’s not a big deal, because in Git, nothing is ever lost. Perhaps it’s just my lack of experience with git. In any case, I think that for now, I will stick to the SVN convention and won’t try to hide my clumsiness from the world.
+
+## Comments
+
+<!-- To add a comment, copy this template:
+
+### YOUR NAME - YYY/MM/DD
+YOUR COMMENT TEXT HERE....
+
+-->

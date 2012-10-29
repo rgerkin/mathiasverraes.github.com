@@ -4,7 +4,14 @@ slug: keep-you-controllers-thin-with-doctrine2
 date: 2011-03-23
 layout: post
 published: true
+filename: 2011-03-23-keep-you-controllers-thin-with-doctrine2.markdown
 ---
+<!-- *********************************************************************
+**                                                                      **
+** To add a comment, scroll to the bottom and use the comment template. **
+** Then save the file and send me a pull request.                       **
+**                                                                      **
+***********************************************************************-->
 
 Doctrine2 does such a nice job abstracting everything related to the database, that you might be tempted to do everything else in your controllers. Say we have a Bug entity:
 
@@ -29,3 +36,48 @@ Finally we can replace the code in our controller with this
 <script src="https://gist.github.com/882898.js?file=thincontrollers5.php"></script>
 
 Our controller is now decoupled from the database. As an added bonus, the code does a much better job of communicating it’s intent than our first version ever could.
+
+
+## Comments
+
+### Torkil Johnsen - 2012/03/23
+Looks extremely nifty, but left me with questions. I'm not familiar with Doctrine, and you probably just wrote this as a crude example, so forgive the silly question! :)
+
+I'm wondering why you write something as specific as findAllFixedBugs()? Seems to me like you'll need a findAllFixedBugsFilteredByUser() and findAllFixedBugsWithStatusCritical() around the next bend?
+
+And why did you not use findBy() in your final version of the method, but instead write a regular SQL statement?
+
+Other than that: Step up the pace on the blog posts, we need more of these :)
+
+### Mathias Verraes  - 2012/03/23
+It's indeed a crude example.
+
+You would indeed need more methods, which you would discover as you write tests (see my previous post). The point of having these methods is that your code is speaking the same language as you speak with your customer (called 'ubiquitous language' in DDD). If you decide to move your bugs from a relational database to, say, a remote service, your methods would still be there, but the implementation would be entirely different. And of course, you can easily replace BugRepository with a mock object during testing, so you wouldn't need a database to test your controller.
+
+There's no particular reason I didn't use findBy() in the last snippet, except that I wanted to illustrate that the method can contain complex queries that can't be done with find by.
+
+Off topic: the queries in the example are DQL, not SQL. http://docs.doctrine-project.org/projects/doctrine-orm/en/2.0.x/reference/dql-doctrine-query-language.html
+
+### Alessandro Nadalin - 2012/03/23
+Hi Torkil,
+
+yes, the repository patterns was specifically born to incapsulate all the methods you need to retrieve objects from the DB.
+So you basically add there all the possible queries you need in your application...
+
+You are obviously able to abstract some methods using a custom class between your repositories and the EntityRepository, which inherits from the latter.
+
+To use OO api and not raw DQL statements you need a QueryBuilder instance:
+<script src="https://gist.github.com/883091.js?file=gistfile1.txt"></script>
+
+ciao!
+
+### Torkil Johnsen - 2012/03/23
+Thanks to you both, enlightening!
+
+
+<!-- To add a comment, copy this template:
+
+### YOUR NAME - YYY/MM/DD
+YOUR COMMENT TEXT HERE....
+
+-->
