@@ -1,15 +1,12 @@
 ---
 comments: true
-date: 2011-04-05 23:50:26
+date: 2011-04-05
 layout: post
 slug: beautiful-code
 title: Beautiful code
-wordpress_id: 76
-categories:
-- Software development
-tags:
-- code quality
 ---
+
+## {{ page.title }}
 
 Jenkins/Hudson, the tool that has helped so many teams write better software, [turns out to be rather ugly](http://gojko.net/2011/04/05/how-is-it-even-possible-code-to-be-this-bad/). And Santa is a fat drunk guy in a suit.
 

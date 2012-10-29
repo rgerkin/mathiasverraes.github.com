@@ -4,14 +4,9 @@ date: 2011-05-17 21:57:07
 layout: post
 slug: lazy-loading-with-closures
 title: Lazy Loading in PHP with Closures
-wordpress_id: 90
-categories:
-- Software development
-tags:
-- ddd
-- design patterns
-- php
 ---
+
+## {{ page.title }}
 
 Closures are a great way to do all kinds of neat tricks in PHP, and they’re particularly useful for  Lazy Loading. I’m currently involved in a +200k SLoC legacy project, and the challenge is moving it to a Domain Driven implementation (while improving the performance), with the ultimate goal of making it more testable.
 

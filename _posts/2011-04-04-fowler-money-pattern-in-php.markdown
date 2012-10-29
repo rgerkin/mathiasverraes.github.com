@@ -1,17 +1,12 @@
 ---
 comments: true
-date: 2011-04-04 21:46:35
+date: 2011-04-04
 layout: post
 slug: fowler-money-pattern-in-php
 title: Representing Money in PHP, Fowler-style
-wordpress_id: 67
-categories:
-- Software development
-tags:
-- ddd
-- design patterns
-- money
 ---
+
+## {{ page.title }}
 
 Whenever working with values in object oriented programming, it's often a good idea to wrap them in a ValueObject. Money is a perfect candidate for a ValueObject: When talking about money, numbers are meaningless if they are not combined with a currency.
 

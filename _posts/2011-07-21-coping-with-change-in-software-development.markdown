@@ -1,17 +1,12 @@
 ---
 comments: true
-date: 2011-07-21 20:19:40
+date: 2011-07-21
 layout: post
 slug: coping-with-change-in-software-development
 title: Coping with Change in Software Development
-wordpress_id: 102
-categories:
-- Software development
-tags:
-- agile
-- change
-- refactoring
 ---
+
+## {{ page.title }}
 
 In a discussion about keeping developers motivated, someone said:
 

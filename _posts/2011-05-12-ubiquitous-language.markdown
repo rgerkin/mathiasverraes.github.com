@@ -1,16 +1,12 @@
 ---
 comments: true
-date: 2011-05-12 12:45:29
+date: 2011-05-12
 layout: post
 slug: ubiquitous-language
 title: Ubiquitous Language
-wordpress_id: 82
-categories:
-- Software development
-tags:
-- code quality
-- ddd
 ---
+
+## {{ page.title }}
 
 Customers usually have never been forced to really think about their domain in a structured way -- let alone explain it in detail to a developer, who doesn’t know anything about that domain. Often the customer doesn’t have a set of clear definitions for the concepts his business uses daily, or has multiple terms for the same concepts.
 

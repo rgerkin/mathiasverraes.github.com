@@ -1,16 +1,12 @@
 ---
 comments: true
-date: 2011-03-23 11:35:31
+date: 2011-03-23
 layout: post
 slug: keep-you-controllers-thin-with-doctrine2
 title: Keep your controllers thin with Doctrine2
-wordpress_id: 29
-categories:
-- Software development
-tags:
-- ddd
-- doctrine2
 ---
+
+## {{ page.title }}
 
 Doctrine2 does such a nice job abstracting everything related to the database, that you might be tempted to do everything else in your controllers. Say we have a Bug entity:
 

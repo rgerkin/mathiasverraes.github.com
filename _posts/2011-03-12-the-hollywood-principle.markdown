@@ -1,32 +1,19 @@
 ---
 comments: true
-date: 2011-03-12 18:04:59
+date: 2011-03-12
 layout: post
 slug: the-hollywood-principle
 title: The Hollywood Principle
-wordpress_id: 7
-categories:
-- Blogging
-tags:
-- blogging
 ---
+
+## {{ page.title }}
 
 Here's my new blog. I've been postponing it for nine months, because of these recognisable bumps in the road:
 
-
-
-	
   * I wanted a cool design
-
-	
   * I wanted to use some cool new app that stores the posts on GitHub
-
-	
   * I wanted to write my own blog app in a framework or language I haven't tried yet
-
-	
   * I wanted to write a bunch of blog posts before I start publishing them
-
 
 So I ended up using WordPress, with the stock template, no pre-written posts, and an Emile Claus painting.
 
