@@ -3,15 +3,13 @@ layout: post
 title: Sample Post
 ---
 
-{{ page.title }}
-================
+## {{ page.title }}
 
 <p class="meta">22 Nov 2011 - San Francisco</p>
 
 Sample post ...
 
-Subtitle
---------
+### Subtitle
 
 More sample text
 

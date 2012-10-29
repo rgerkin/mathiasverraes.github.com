@@ -1,56 +1,114 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<!doctype html>
+<html lang="en" class="no-js">
 <head>
-   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-   <title>{{ page.title }}</title>
-   <meta name="author" content="Tom Preston-Werner" />
-   <!--<link href="http://feeds.feedburner.com/tom-preston-werner" rel="alternate" title="Tom Preston-Werner" type="application/atom+xml" />-->
-   <!--<meta name="readability-verification" content="QCzSs992GxmRYRKVpPeZ6LE2tS8aYKxsSSQKV8YM"/>-->
+	<meta charset="utf-8">
 
-   <!-- syntax highlighting CSS -->
-   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+	<!-- www.phpied.com/conditional-comments-block-downloads/ -->
+	<!--[if IE]><![endif]-->
 
-   <!-- Homepage CSS -->
-   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+	<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame  -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>{{ page.title }}</title>
+	<meta name="description" content="Freelance Web Application Developer">
+	<meta name="author" content="Mathias Verraes">
+	<link rel="shortcut icon" href="/favicon.ico">
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+	<link href="/css/style.css" rel="stylesheet" type="text/css" />
+	<link href="/css/base.css" rel="stylesheet" type="text/css" />
 
-   <!-- Typekit -->
-   <script type="text/javascript" src="http://use.typekit.com/jpd0pfm.js"></script>
-   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<script src="/js/modernizr-1.5.min.js"></script>
+
+	<script type="text/javascript">
+
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-2620608-6']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+
+	</script>
 </head>
+
+<!--[if IE 7 ]>    <body class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <body class="ie8"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
 <body>
+<!--<![endif]-->
+
+<header>
+	<div class="wrapper">
+		<h1 id="logo"><a href="#home">Mathias Verraes</a></h1>
+		<nav>
+			<ul>
+				<li><a href="http://blog.verraes.net">Blog&rarr;</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#about">About</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div class="topfade"> &nbsp; </div>
+</header>
+
+<div id="wrapper">
+	{{ content }}
 
 
 
-<div class="site">
-  <div class="title">
-    <a href="/">Mathias Verraes</a>
-    <a class="extra" href="/">home</a>
-  </div>
-  
-  {{ content }}
-  
-  <div class="footer">
-    <div class="contact">
-      <p>
-        Mathias Verraes<br />
-        mathias at verraes.net
-      </p>
-    </div>
-    <div class="contact">
-      <p>
-        <a href="http://github.com/mathiasverraes/">github.com/mathiasverraes</a><br />
-        <a href="http://twitter.com/mathiasverraes">twitter.com/mathiasverraes</a><br />
-      </p>
-    </div>
-    <!--<div class="rss">-->
-      <!--<a href="http://feeds.feedburner.com/tom-preston-werner">-->
-        <!--<img src="/images/rss.png" alt="Subscribe to RSS Feed" />-->
-      <!--</a>-->
-    <!--</div>-->
-  </div>
+	<!--<div class="rss">-->
+	<!--<a href="http://feeds.feedburner.com/tom-preston-werner">-->
+	<!--<img src="/img/rss.png" alt="Subscribe to RSS Feed" />-->
+	<!--</a>-->
+	<!--</div>-->
+
+
+	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 </div>
 
-<a href="http://github.com/mathiasverraes"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
+<footer>
+	<div class="bottomfade"> &nbsp; </div>
+	<div class="wrapper">
+		<ul class="social">
+			<li><a href="Resume_Mathias_Verraes.pdf" title="Download the resume of Mathias Verraes"><img src="/img/social/cv.png" height="32" width="32" alt="cv" /></a></li>
+			<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+			<li><a href="mailto:mathias@removethis@verraes.net" title="Send an email to Mathias Verraes"><img src="/img/social/email.png" height="32" width="32" alt="email" /></a></li>
+			<li><a href="skype:mathias.verraes?add" title="Add Mathias Verraes on Skype"><img src="/img/social/skype.png" height="32" width="32" alt="skype" /></a></li>
+			<li><a href="http://twitter.com/mathiasverraes" title="Mathias Verraes on Twitter"><img src="/img/social/twitter.png" height="32" width="32" alt="twitter" /></a></li>
+			<li><a href="http://www.facebook.com/mathias.verraes" title="Mathias Verraes on Facebook"><img src="/img/social/facebook.png" height="32" width="32" alt="facebook" /></a></li>
+			<li><a href="http://www.linkedin.com/in/mathiasverraes" title="Mathias Verraes on LinkedIn"><img src="/img/social/linkedin.png" height="32" width="32" alt="linkedin" /></a></li>
+			<li><a href="http://www.imdb.com/name/nm1637714/" title="Mathias Verraes on the Internet Movie Database"><img src="/img/social/imdb.png" height="32" width="32" alt="IMDB" /></a></li>
+			<li><a href="http://soundcloud.com/mathias-verraes" title="Songs by Mathias Verraes on Soundcloud"><img src="/img/social/soundcloud.png" height="32" width="32" alt="soundcloud" /></a></li>
+			<li><a href="https://github.com/mathiasverraes" title="Fork Mathias Verraes on GitHub"><img src="/img/social/github.png" height="32" width="32" alt="GitHub" /></a></li>
+		</ul>
+	</div>
+</footer>
+
+<!-- Grab Google CDN's jQuery + jQuery UI. fall back to local if necessary -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script>!window.jQuery && document.write('<script src="/js/jquery-1.4.2.min.js"><\/script>')</script>
+<script type="text/javascript" src="/js/jquery.localscroll-min.js"></script>
+<script type="text/javascript" src="/js/jquery.scrollTo-min.js"></script>
+<script type="text/javascript" src="/js/jquery.lightbox-0.5.min.js"></script>
+<script type="text/javascript" src="/js/jquery.form.js"></script>
+<script src="/js/cufon-yui.js" type="text/javascript"></script>
+<script src="/js/Aller.font.js" type="text/javascript"></script>
+<script type="text/javascript">
+	Cufon.replace('h1,h2,h3,h4');
+
+	$(document).ready(function () {
+		$.localScroll.defaults.axis = 'y';
+		$.localScroll();
+
+	});
+</script>
+<!--[if lt IE 7 ]>
+<script src="/js/dd_belatedpng.js"></script>
+<![endif]-->
 
 </body>
 </html>

@@ -3,12 +3,16 @@ layout: default
 title: Mathias Verraes
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
 
-</div>
+<section id="blog">
+	<h2 class="tagline">Blog</h2>
+	<ul class="posts">
+		{% for post in site.posts %}
+			<li>
+				<a href="{{ post.url }}">{{ post.title }}</a>
+				<small>{{ post.date | date_to_string }}</small>
+			</li>
+		{% endfor %}
+	</ul>
+
+</section>
