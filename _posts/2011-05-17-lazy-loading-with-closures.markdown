@@ -1,9 +1,8 @@
 ---
-comments: true
+title: Lazy Loading in PHP with Closures
+slug: lazy-loading-with-closures
 date: 2011-05-17 21:57:07
 layout: post
-slug: lazy-loading-with-closures
-title: Lazy Loading in PHP with Closures
 published: true
 ---
 

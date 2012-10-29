@@ -1,9 +1,8 @@
 ---
-comments: true
+title: Interface discovery with PHPUnit’s Mock objects
+slug: interface-discovery-with-phpunit-mock-objects
 date: 2011-03-21
 layout: post
-slug: interface-discovery-with-phpunit-mock-objects
-title: Interface discovery with PHPUnit’s Mock objects
 published: true
 ---
 

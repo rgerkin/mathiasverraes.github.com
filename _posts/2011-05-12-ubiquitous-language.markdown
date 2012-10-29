@@ -1,9 +1,8 @@
 ---
-comments: true
+title: Ubiquitous Language
+slug: ubiquitous-language
 date: 2011-05-12
 layout: post
-slug: ubiquitous-language
-title: Ubiquitous Language
 published: true
 ---
 

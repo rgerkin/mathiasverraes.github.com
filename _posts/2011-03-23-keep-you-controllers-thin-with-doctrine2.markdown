@@ -1,9 +1,8 @@
 ---
-comments: true
+title: Keep your controllers thin with Doctrine2
+slug: keep-you-controllers-thin-with-doctrine2
 date: 2011-03-23
 layout: post
-slug: keep-you-controllers-thin-with-doctrine2
-title: Keep your controllers thin with Doctrine2
 published: true
 ---
 

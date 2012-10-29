@@ -1,9 +1,8 @@
 ---
-comments: true
+title: Coping with Change in Software Development
+slug: coping-with-change-in-software-development
 date: 2011-07-21
 layout: post
-slug: coping-with-change-in-software-development
-title: Coping with Change in Software Development
 published: true
 ---
 

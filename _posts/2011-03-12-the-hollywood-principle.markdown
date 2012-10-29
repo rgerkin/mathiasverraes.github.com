@@ -1,9 +1,8 @@
 ---
-comments: true
+title: The Hollywood Principle
+slug: the-hollywood-principle
 date: 2011-03-12
 layout: post
-slug: the-hollywood-principle
-title: The Hollywood Principle
 published: false
 ---
 

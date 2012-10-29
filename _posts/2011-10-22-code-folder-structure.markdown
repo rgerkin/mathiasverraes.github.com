@@ -1,9 +1,8 @@
 ---
-comments: true
+title: Code Folder Structure
+slug: code-folder-structure
 date: 2011-10-22
 layout: post
-slug: code-folder-structure
-title: Code Folder Structure
 published: true
 ---
 

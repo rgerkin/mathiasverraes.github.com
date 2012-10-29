@@ -1,9 +1,8 @@
 ---
-comments: true
+title: Beautiful code
+slug: beautiful-code
 date: 2011-04-05
 layout: post
-slug: beautiful-code
-title: Beautiful code
 published: true
 ---
 

@@ -1,9 +1,8 @@
 ---
-comments: true
+title: Random thoughts on using Git
+slug: git-vs-svn
 date: 2011-03-29
 layout: post
-slug: git-vs-svn
-title: Random thoughts on using Git
 published: true
 ---
 

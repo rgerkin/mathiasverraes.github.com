@@ -1,9 +1,8 @@
 ---
-comments: true
+title: Accessing private properties from other instances
+slug: accessing-private-properties-from-other-instances
 date: 2011-03-24
 layout: post
-slug: accessing-private-properties-from-other-instances
-title: Accessing private properties from other instances
 published: true
 ---
 

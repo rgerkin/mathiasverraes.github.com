@@ -1,9 +1,8 @@
 ---
-comments: true
+title: Representing Money in PHP, Fowler-style
+slug: fowler-money-pattern-in-php
 date: 2011-04-04
 layout: post
-slug: fowler-money-pattern-in-php
-title: Representing Money in PHP, Fowler-style
 published: true
 ---
 
