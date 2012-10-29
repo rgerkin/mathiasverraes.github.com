@@ -4,9 +4,8 @@ date: 2011-03-23
 layout: post
 slug: keep-you-controllers-thin-with-doctrine2
 title: Keep your controllers thin with Doctrine2
+published: true
 ---
-
-## {{ page.title }}
 
 Doctrine2 does such a nice job abstracting everything related to the database, that you might be tempted to do everything else in your controllers. Say we have a Bug entity:
 

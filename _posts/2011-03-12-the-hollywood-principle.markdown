@@ -4,9 +4,8 @@ date: 2011-03-12
 layout: post
 slug: the-hollywood-principle
 title: The Hollywood Principle
+published: true
 ---
-
-## {{ page.title }}
 
 Here's my new blog. I've been postponing it for nine months, because of these recognisable bumps in the road:
 

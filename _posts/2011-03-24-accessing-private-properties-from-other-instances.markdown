@@ -4,9 +4,8 @@ date: 2011-03-24
 layout: post
 slug: accessing-private-properties-from-other-instances
 title: Accessing private properties from other instances
+published: true
 ---
-
-## {{ page.title }}
 
 In PHP, when a property or method is marked private, it can only be accessed from within that class. That includes **other instances of the same class**. This may seem counter-intuitive at first, because we are used to dealing with instances of classes. The visibility operator however works not on object-level, but on class level.
 

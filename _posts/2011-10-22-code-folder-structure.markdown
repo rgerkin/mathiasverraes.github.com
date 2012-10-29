@@ -4,9 +4,9 @@ date: 2011-10-22
 layout: post
 slug: code-folder-structure
 title: Code Folder Structure
+published: true
 ---
 
-## {{ page.title }}
 
 All code bases I ever read or worked with, share a similar folder structure:
 

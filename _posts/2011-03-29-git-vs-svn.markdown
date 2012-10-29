@@ -4,15 +4,12 @@ date: 2011-03-29
 layout: post
 slug: git-vs-svn
 title: Random thoughts on using Git
+published: true
 ---
-
-## {{ page.title }}
 
 A couple of weeks ago, I switched from Subversion to Git for a couple of smaller projects. Below are some of my findings.
 
-
-## Switching from Subversion
-
+### Switching from Subversion
 
 Git is a little harder to understand than Subversion, because of it’s lack of a centralized repository, and because it has more concepts you need to understand. But if you already understand SVN well, it’s very manageable. I’ve no idea how the learning curve compares to SVN for a complete newbie to version control.
 
@@ -21,17 +18,17 @@ If you are on the fence, there are two things that I wish I knew about sooner:
   * [Git Immersion](http://gitimmersion.com/) only takes an hour or so, but you’ll understand so much more of git than when using conventional books or tutorials.
   * [Migrating an SVN repo to git](http://help.github.com/svn-importing/) is dead easy.
 
-## Open source community
+### Open source community
 
 GitHub alone is plenty of reason to switch to Git. It seems like the whole PHP community (and the whole open source community) are moving to GitHub. And you can’t blame them. GitHub works really, really well. It makes it easy to maintain your own fork of a project, make changes and send them as pull requests. Symfony2 for example noticed a huge increase in contributions since the move.
 
 Even if you only consume open source code and don’t plan on contributing patches, you’ll find you need to understand at least how cloning and pulling work, so you can easily download code.
 
-## Svn:externals
+### Svn:externals
 
 I usually include third party libraries in my projects using svn:externals. At the moment, a lot of PHP libraries that switched to git, still sync to SVN. But I’m sure that people will stop bothering with that. That’s a problem if your SVN repository depends externals. You could set up your own syncing, or take the hint and move to git.
 
-## Fixing ‘oops’ moments
+### Fixing ‘oops’ moments
 
 With SVN, commits are pretty much written in stone. Because of that, a convention has emerged:
 

@@ -4,6 +4,8 @@ layout: default
 
 <section id="blog">
 	<div id="post">
+		<h2>{{ page.title }}</h2>
+		<small><em>{{ page.date | date_to_string }}</em></small><br /><br />
 		{{ content }}
 	</div>
 
