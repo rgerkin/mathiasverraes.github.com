@@ -179,10 +179,7 @@ nav a:hover {
 	margin:0 auto;
 }
 header {
-	background:#fff;
-	position:fixed;
 	width:100%;
-	z-index:500;
 	top:0;
 	left:0;
 	right:0;
@@ -193,12 +190,9 @@ header .wrapper {
 }
 footer {
 	padding:20px 0 15px;
-	background: #fff;
 	color:#333;
 	font-size:93%;
-	position:fixed;
 	width:100%;
-	z-index:500;
 	bottom:0;
 	height:35px;
 }
@@ -217,26 +211,7 @@ footer p {
 	margin:0;
 	padding:5px 0 0;
 }
-.topfade {
-	background:url("../img/top_bg.png") repeat-x scroll 0 0 transparent;
-	height:70px;
-	position:fixed;
-	top:50px;
-	width:100%;
-	z-index:100;
-	left:0;
-	right:0;
-}
-.bottomfade {
-	background:url("../img/bottom_bg.png") repeat-x scroll 0 0 transparent;
-	bottom:70px;
-	height:70px;
-	position:fixed;
-	width:100%;
-	z-index:100;
-	left:0;
-	right:0;
-}
+
 section {
 	margin-bottom:20px;
 	font-size:108%;
