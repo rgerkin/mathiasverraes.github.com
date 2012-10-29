@@ -10,6 +10,7 @@ published: true
 
 All code bases I ever read or worked with, share a similar folder structure:
 
+
   * Controllers
     * BlogPostController
     * CommentController
@@ -21,6 +22,7 @@ All code bases I ever read or worked with, share a similar folder structure:
     * BlogPostDetailView
   * Helpers
     * …
+
 
 The ones where the developer has read Domain Driven Design, or is using Doctrine2 or Hibernate, usually have a better focus on the domain model:
 
@@ -56,7 +58,7 @@ For your application, it’s a missed opportunity. You are not communicating the
 
 This makes it a lot easier to communicate bounded contexts, and to illustrate dependencies. For example, the BlogDomain depends on the CoreDomain. On a smaller scale, the BlogPost package depends on the Comment package. Zooming in even further, BlogPostRepository depends on BlogPost.
 
-[![](http://blog.verraes.net/wp-content/uploads/2011/10/folderstructure1.png)](http://blog.verraes.net/wp-content/uploads/2011/10/folderstructure1.png)
+![Folder structure](/img/posts/folderstructure1.png)
 
 In other words: A BlogPost and a Comment know about their author. A BlogPost has zero or more Comments, but the Comments are not aware that they belong to BlogPost. A BlogPostRepository manages BlogPost entities, but those entities have no idea that they are being managed.
 

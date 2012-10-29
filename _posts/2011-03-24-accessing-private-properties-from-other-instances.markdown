@@ -11,11 +11,11 @@ In PHP, when a property or method is marked private, it can only be accessed fro
 
 An example:
 
-[gist][/gist]
+<script src="https://gist.github.com/885448.js?file=private_properties1.php"></script>
 
 This should make it clear that both instances of Foo have access to each other's private properties.
 
 What practical use does this have? A great candidate for this are [Value Objects](http://domaindrivendesign.org/node/135). If we want to make sure that to separate instances of Foo are actually equal, we can easily compare their private properties:
 
-[gist][/gist]
+<script src="https://gist.github.com/885448.js?file=private_properties2.php"></script>
 
