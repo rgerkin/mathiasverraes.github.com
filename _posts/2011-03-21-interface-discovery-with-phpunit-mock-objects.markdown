@@ -68,7 +68,7 @@ Later on, we probably build a RESTfulTwitter implements Twitter, which would pos
 
 <!-- To add a comment, copy this template:
 
-### YOUR NAME - YYY/MM/DD
+### [YOUR NAME](YOUR URL) - YYY/MM/DD
 YOUR COMMENT TEXT HERE....
 
 -->

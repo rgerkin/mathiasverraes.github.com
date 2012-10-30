@@ -54,22 +54,31 @@ Partials can easily be used to 'configure' a function in a DIC, and the use the 
 <script src="https://gist.github.com/3972442.js?file=function-based.js"></script>
 
 I'm still playing around with this kind of code, so I haven't decided yet if this is the approach I'll be using to replace
-all single-method classes. In any case, Jaavascript's dynamic nature makes it easy to come up with many different ways of
+all single-method classes. In any case, Javascript's dynamic nature makes it easy to come up with many different ways of
 doing this.
 
 ## Comments
 
+
+### [Marijn Huizendveld](http://twitter.com/huizenveld) - 2012/10/30
+This looks nice. However, what you loose in cruft you also loose in clarity. In
+the class-based implementation, a new developer can simply look up the class
+definition to see the dependencies of a certain command handler. It seems to me
+that with this partial-function approach a new developer has to look at the
+handler implementation _and_ the DIC to validate what stuff gets injected. Not
+sure if that's a trade-off I'd be willing to make.
+
+### [Mathias Verraes](http://twitter.com/mathiasverraes) - 2012/10/30
+If you're just writing client code, I don't think there's any added complexity.
+In production code, you'd write something like `container.handleCommand(command)` instead of
+`container.commandHandler.handle(command)`. I suppose you could do type hinting in an IDE
+with annotations like JsDoc or Google Closure Compiler, so that should help reduce the clicking around.
+But as I said, I'm stilling fooling around, I'm sure I'll get a better feel for what is practical and what is not.
+
+
 <!-- To add a comment, copy this template:
 
-### YOUR NAME - YYY/MM/DD
+### [YOUR NAME](YOUR URL) - YYY/MM/DD
 YOUR COMMENT TEXT HERE....
 
 -->
-
-### Marijn Huizendveld - 2012/10/30
-This looks nice. However, what you loose in cruft you also loose in clarity. In
-the class-based implementation, a new developer can simply look up the class 
-definition to see the dependencies of a certain command handler. It seems to me
-that with this partial-function approach a new developer has to look at the 
-handler implementation _and_ the DIC to validate what stuff gets injected. Not 
-sure if that's a trade-off I'd be willing to make.

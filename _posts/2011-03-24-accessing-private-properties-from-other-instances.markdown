@@ -41,7 +41,7 @@ This is also the case in Java, which i found rather awkward when i found it.. bu
 
 <!-- To add a comment, copy this template:
 
-### YOUR NAME - YYY/MM/DD
+### [YOUR NAME](YOUR URL) - YYY/MM/DD
 YOUR COMMENT TEXT HERE....
 
 -->

@@ -36,7 +36,7 @@ You’ll notice that soon, communication between everyone in the project will go
 
 <!-- To add a comment, copy this template:
 
-### YOUR NAME - YYY/MM/DD
+### [YOUR NAME](YOUR URL) - YYY/MM/DD
 YOUR COMMENT TEXT HERE....
 
 -->

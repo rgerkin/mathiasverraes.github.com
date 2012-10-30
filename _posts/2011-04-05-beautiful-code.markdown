@@ -29,7 +29,7 @@ The world is littered with garbage. So let’s pick up the trash in our own neig
 
 <!-- To add a comment, copy this template:
 
-### YOUR NAME - YYY/MM/DD
+### [YOUR NAME](YOUR URL) - YYY/MM/DD
 YOUR COMMENT TEXT HERE....
 
 -->

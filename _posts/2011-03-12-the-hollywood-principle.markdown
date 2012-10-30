@@ -31,7 +31,7 @@ So that should give you a clue: I intend to blog about OOP, quality assurance, c
 
 <!-- To add a comment, copy this template:
 
-### YOUR NAME - YYY/MM/DD
+### [YOUR NAME](YOUR URL) - YYY/MM/DD
 YOUR COMMENT TEXT HERE....
 
 -->
