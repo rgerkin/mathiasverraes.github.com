@@ -19,7 +19,7 @@ class-based languages. Turns out Javascript allows you to do a whole bunch of th
 more elegantly. All you have to do is let go of the luggage you bring from languages like Java or PHP.
 
 Say we want to handle some commands. In classical OOP, we'd start by making a `CommandHandler`, and give it one public method
-called `handle(command)`. Our method is probably oing to have some services it depends on, like a Repository. We inject that
+called `handle(command)`. Our method is probably going to have some services it depends on, like a Repository. We inject that
 into the class' constructor. (Note that in javascript, passing `repository` as a parameter will automatically bring it into scope
 in `handle()`).
 
