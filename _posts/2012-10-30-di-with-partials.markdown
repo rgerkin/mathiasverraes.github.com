@@ -65,3 +65,11 @@ doing this.
 YOUR COMMENT TEXT HERE....
 
 -->
+
+### Marijn Huizendveld - 2012/10/30
+This looks nice. However, what you loose in cruft you also loose in clarity. In
+the class-based implementation, a new developer can simply look up the class 
+definition to see the dependencies of a certain command handler. It seems to me
+that with this partial-function approach a new developer has to look at the 
+handler implementation _and_ the DIC to validate what stuff gets injected. Not 
+sure if that's a trade-off I'd be willing to make.
