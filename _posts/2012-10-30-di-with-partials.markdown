@@ -13,8 +13,7 @@ filename: 2012-10-30-di-with-partials.markdown
 **                                                                      **
 ***********************************************************************-->
 
-For a new project, I'm writing a CQRS/ES application (my first), and I'm doing that in Node.js (also my first). I've never
-done any serious Javascript programming, so my gut reaction is to try and mimck patterns and concepts that I'm used to in
+My gut reaction when writing Javascript, is to try and mimck patterns and concepts that I'm used to in
 class-based languages. Turns out Javascript allows you to do a whole bunch of things differently, and, dare I say it,
 more elegantly. All you have to do is let go of the luggage you bring from languages like Java or PHP.
 
