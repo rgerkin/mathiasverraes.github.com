@@ -23,30 +23,52 @@ An important aspect of ValueObjects is their immutability:
 
 Let's say Jim and Hannah both want to buy a copy of book priced at EUR 25.
 
-<script src="https://gist.github.com/3973917.js?file=1.php"></script>
+{% highlight php %}
+<?php
+$jim_price = $hannah_price = new Money(2500, new Euro);
+{% endhighlight %}
 
 Jim has a coupon for EUR 5.
 
-<script src="https://gist.github.com/3973917.js?file=2.php"></script>
+{% highlight php %}
+<?php
+$coupon = new Money(500, new Euro);
+$jim_price->subtract($coupon);
+{% endhighlight %}
 
 Because `$jim_price` and `$hannah_price` are the same object, you'd expect Hannah to now have the reduced price as well. To prevent this problem, Money objects are immutable. With the code above, both `$jim_price` and `$hannah_price` are still EUR 25:
 
-<script src="https://gist.github.com/3973917.js?file=3.php"></script>
+{% highlight php %}
+<?php
+$jim_price->equals($hannah_price); // true
+{% endhighlight %}
 
 The correct way of doing operations is:
 
-<script src="https://gist.github.com/3973917.js?file=4.php"></script>
+{% highlight php %}
+<?php
+$jim_price = $jim_price->subtract($coupon);
+$jim_price->lessThan($hannah_price); // true
+$jim_price->equals(Money::euro(2000)); // true
+{% endhighlight %}
 
 
 ### Allocation
 
 My company made a whopping profit of 5 cents, which has to be divided amongst myself (70%) and my investor (30%). Cents can't be divided, so I can't give 3.5 and 1.5 cents. If I round up, I get 4 cents, the investor gets 2, which means I need to conjure up an additional cent. Rounding down to 3 and 1 cent leaves me 1 cent. Apart from re-investing that cent in the company, the best solution is to keep handing out the remainder until all money is spent. In other words:
 
-<script src="https://gist.github.com/3973917.js?file=5.php"></script>
+{% highlight php %}
+<?php
+$profit = new Money(5, new Euro);
+list($my_cut, $investors_cut) = $profit->allocate(70, 30);
+{% endhighlight %}
 
 Now `$my_cut` is 4 cents, and `$investors_cut` is 1 cent. The order in which you allocate the the money is important:
 
-<script src="https://gist.github.com/3973917.js?file=6.php"></script>
+{% highlight php %}
+<?php
+list($investors_cut, $my_cut) = $profit->allocate(30, 70);
+{% endhighlight %}
 
 Now `$my_cut` is 3 cents, and `$investors_cut` is 2 cents.
 

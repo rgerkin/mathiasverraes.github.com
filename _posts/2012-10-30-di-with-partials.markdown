@@ -26,7 +26,20 @@ in `handle()`).
 Elsewhere, we create an instance of the `CommandHandler` -- for example when we set up a dependency injection container.
 And again elsewhere, we call the `handle` method on our instance.
 
-<script src="https://gist.github.com/3972442.js?file=class-based.js"></script>
+{% highlight js %}
+// CommandHandler Class
+var CommandHandler = function(repository) {
+  this.handle = function(command) {
+    // do stuff with repository and command
+  }
+}
+
+// Elsewhere, create an instance of the class...
+var myCommandHandler = new CommandHandler(repository);
+
+// ...and use it
+myCommandHandler.handle(command);
+{% endhighlight %}
 
 ### Going class-less
 
@@ -47,11 +60,33 @@ Functional programming has a neat little trick that can be applied here. A parti
 and 'pre-fills' a number of parameters. It returns a function that only needs the leftover parameters. Here's a typical
 example:
 
-<script src="https://gist.github.com/3972442.js?file=partial-example.js"></script>
+{% highlight js %}
+var sum = function(a, b) {
+  return a + b;
+}
+
+var addFiveTo = partial(sum, 5);
+
+sum(5, 10) // returns 15
+addFiveTo(10) // returns 15
+{% endhighlight %}
 
 Partials can easily be used to 'configure' a function in a DIC, and the use the pre-configured version of the function in the client code:
 
-<script src="https://gist.github.com/3972442.js?file=function-based.js"></script>
+{% highlight js %}
+var _ = require('lodash'); // Lodash is an API-compatible fork of Underscore.js
+
+// The same as the first example, but as a class-less function
+var handle = function(repository, command) {
+  // do stuff with repository and command
+}
+
+// Elsewhere, inject the repository by creating a partial
+var handle = _.partial(handle, repository);
+
+// ...and use it
+handle(command);
+{% endhighlight %}
 
 I'm still playing around with this kind of code, so I haven't decided yet if this is the approach I'll be using to replace
 all single-method classes. In any case, Javascript's dynamic nature makes it easy to come up with many different ways of

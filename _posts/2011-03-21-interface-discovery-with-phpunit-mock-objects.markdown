@@ -21,7 +21,18 @@ The PHPUnit documentation doesn’t explicitly state this, but you can also crea
 
 Let’s write some code, in true [TDD](http://en.wikipedia.org/wiki/Test-driven_development) style. Let’s say we want to post to Twitter whenever someone deposits money in our bank account. We don’t want the test to actually send out tweets. In fact, we haven’t even thought about what our Twitter class will look like. This is our test:
 
-<script src="https://gist.github.com/879470.js?file=BankAccountTest1.php"></script>
+{% highlight php %}
+<?php
+class BankAccountTest extends PHPUnit_Framework_TestCase
+{
+  public function testSendEmailWhenReceivingMoney()
+  {
+    $twitter = $this->getMock('Twitter');
+    $account = new BankAccount($twitter);
+    $account->deposit(10);
+  }
+}
+{% endhighlight %}
 
 Running this test fails, as we haven’t got a BankAccount class yet.
 
@@ -30,11 +41,36 @@ Running this test fails, as we haven’t got a BankAccount class yet.
 
 Let’s add it:
 
-<script src="https://gist.github.com/879470.js?file=BankAccount1.php"></script>
+{% highlight php %}
+<?php
+class BankAccount
+{
+  private $twitter;
+  public function __construct(Twitter $twitter)
+  {
+    $this->twitter = $twitter;
+  }
+  public function deposit($amount){
+  }
+}
+{% endhighlight %}
 
 The test now succeeds, for the simple reason we are not really testing anything. Let’s make sure that BankAccount::deposit() actually sends out a tweet. We do this by telling the mock to expect a call to it’s tweet() method.
 
-<script src="https://gist.github.com/879470.js?file=BankAccountTest2.php"></script>
+{% highlight php %}
+<?php
+class BankAccountTest extends PHPUnit_Framework_TestCase
+{
+  public function testSendEmailWhenReceivingMoney()
+  {
+    $twitter = $this->getMock('Twitter');
+    $twitter->expects($this->once())
+      ->method('tweet');
+    $account = new BankAccount($twitter);
+    $account->deposit(10);
+  }
+}
+{% endhighlight %}
 
 The test fails with the following message:
 
@@ -46,7 +82,17 @@ The test fails with the following message:
 
 Let’s add some code that calls tweet() to our deposit() method.
 
-<script src="https://gist.github.com/879470.js?file=BankAccount2.php"></script>
+{% highlight php %}
+<?php
+class BankAccount
+{
+  // ...
+  public function deposit($amount)
+  {
+    $this->twitter->tweet("Yay, someone deposited $amount");
+  }
+}
+{% endhighlight %}
 
 We get a new error:
 
@@ -55,7 +101,13 @@ We get a new error:
 
 Mock_Twitter_28053312 is the class that PHPUnit generated based on the Twitter interface, which we haven’t written yet. The good news is that by now, we have discovered what the interface should look like:
 
-<script src="https://gist.github.com/879470.js?file=Twitter.php"></script>
+{% highlight php %}
+<?php
+interface Twitter
+{
+  function tweet($message);
+}
+{% endhighlight %}
 
 ### Conclusion
 

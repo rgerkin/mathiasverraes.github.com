@@ -21,12 +21,31 @@ currently involved in a +200k SLoC legacy project, and the challenge is moving i
 
 We want to find a Customer, and ask it for a list of Orders:
 
-<script src="https://gist.github.com/977230.js?file=listing1.php"></script>
+{% highlight php %}
+<?php
+// client code
+$customer = $customerRepository->find($id);
+$orders = $customer->getOrders();
+{% endhighlight %}
 
 With the ActiveRecord pattern, this is simple. The Customer object holds an instance of the database adapter, and queries
 it for related Orders:
 
-<script src="https://gist.github.com/977230.js?file=listing2.php"></script>
+{% highlight php %}
+<?php
+class Customer
+{
+    public function getOrders()
+    {
+        $ordersData = $this->db->query(/* select orders... */);
+        $orders = array();)
+        foreach($ordersdata as $orderdata) {
+            $orders[] = new Order($orderdata);
+        }
+        return $orders;
+    }
+}
+{% endhighlight %}
 
 The downside of ActiveRecord, is that it violates the principle of Separation of Concerns. The Customer class contains
 domain knowledge (“What is a customer, how does it behave?”), as well as persistence knowledge (“How do we store a customer?”).
@@ -37,7 +56,30 @@ In DDD, we solve this by keeping the Customer class pure, and move the logic for
 Clients of the Repository don’t know how or where it finds Customers, and the Customer class itself doesn’t know anything
 about the Repository or the database it is stored in. As for the Orders, they are pushed in the Customer at creation time.
 
-<script src="https://gist.github.com/977230.js?file=listing3.php"></script>
+{% highlight php %}
+<?php
+class Customer
+{
+    public function getOrders()
+    {
+        return $this->orders;
+    }
+}
+
+class CustomerRepository
+{
+    public function find($id)
+    {
+        $customerdata = $this->db->query(/* select customer ...*/);
+        $customer = new Customer($customerdata);
+
+        $ordersdata = $this->db->query(/* select orders ... */);
+        foreach($ordersdata as $orderdata){
+            $customer->addOrder(new Order($orderdata));
+        }
+    }
+}
+{% endhighlight %}
 
 Note that the client code for this example is still the same as in the first snippet.
 
@@ -46,7 +88,46 @@ Note that the client code for this example is still the same as in the first sni
 The problem with the previous example is that we always query the database for the Orders, even when we don’t need them.
 We don’t want to move that query back to the Customer class, but we want to keep our client code intact. The trick is to move the logic for finding Orders into a Closure, push it into the Customer instance, and execute only when we actually need the Orders. In other words, Customer now holds a reference to the Orders, and only dereferences it at the very last moment -- hence the term Lazy Loading.
 
-<script src="https://gist.github.com/977230.js?file=listing4.php"></script>
+{% highlight php %}
+<?php
+class Customer
+{
+    public function setOrdersReference(Closure $ordersReference)
+    {
+        $this->ordersReference = $ordersReference;
+    }
+
+    public function getOrders()
+    {
+        if(!isset($this->orders)) {
+            $reference = $this->ordersReference;
+            $this->orders = $reference();
+        }
+        return $this->orders;
+    }
+}
+
+class CustomerRepository
+{
+    public function find($id)
+    {
+        $db = $this->db;
+        $customerdata = $db->query(/* select customer ...*/);
+        $customer = new Customer($customerdata);
+
+        $ordersReference = function($customer) use($id, $db) {
+            $ordersdata = $db->query(/* select orders ... */);
+            $orders = array();
+            foreach($ordersdata as $orderdata) {
+                $orders[] = new Order($orderdata);
+            }
+            return $orders;
+        };
+        $customer->setOrderReference($ordersReference);
+        return $customer;
+    }
+}
+{% endhighlight %}
 
 The client code is still exactly as in the very first code snippet. But this time, when we call getOrders(), the Closure
 we prepared in find() is executed. It’s self-contained: it has the database instance and the Customer’s id, and it knows
@@ -71,7 +152,15 @@ BTW, i'd suggest not to inject the whole instance of the DB abstraction into the
 
 In order to avoid "a whole bunch of real life use cases where this method would cause an abundance of queries" you should not use a ->find(), which should be relation-agnostic, but some other pre-defined methods like:
 
-<script src="https://gist.github.com/1014682.js?file=query.php"></script>
+{% highlight php %}
+<?php
+class UserRepository
+{
+  public function getUserWithFriends($userId)
+  {
+      return $this->createQuery('UserTable')->leftJoin('friends')->blablabla();
+  }
+{% endhighlight %}
 
 ### Herman Peeren - 2011/05/17
 My idea about Lazy Loading:

@@ -17,13 +17,45 @@ In PHP, when a property or method is marked private, it can only be accessed fro
 
 An example:
 
-<script src="https://gist.github.com/885448.js?file=private_properties1.php"></script>
+{% highlight php %}
+<?php
+class Foo
+{
+    private $private;
+    public function __construct($value)
+    {
+        $this->private = $value;
+    }
+    public function getOther(Foo $object)
+    {
+       return $object->private;
+    }
+}
+
+$foo1 = new Foo('foo1');
+$foo2 = new Foo('foo2');
+
+echo $foo1->getOther($foo2); // outputs 'foo2'
+{% endhighlight %}
 
 This should make it clear that both instances of Foo have access to each other's private properties.
 
 What practical use does this have? A great candidate for this are [Value Objects](http://domaindrivendesign.org/node/135). If we want to make sure that to separate instances of Foo are actually equal, we can easily compare their private properties:
 
-<script src="https://gist.github.com/885448.js?file=private_properties2.php"></script>
+{% highlight php %}
+<?php
+class Foo
+{
+    // ...
+    public function equals(Foo $other)
+    {
+        return $this->private === $other->private;
+    }
+}
+
+// ...
+echo $foo1->equals($foo2) ? 'Equal' : 'Different';
+{% endhighlight %}
 
 
 ## Comments
