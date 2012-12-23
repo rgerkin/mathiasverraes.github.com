@@ -90,27 +90,6 @@ class CustomerQualifiesForDeduction extends PHPUnit_Framework_TestCase {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### References
 
 - http://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215
