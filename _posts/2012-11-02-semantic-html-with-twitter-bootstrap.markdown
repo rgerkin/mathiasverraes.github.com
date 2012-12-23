@@ -1,6 +1,6 @@
 ---
-title:Semantic HTML with Twitter Bootstrap
-slug:2012-11-02-semantic-html-with-twitter-bootstrap
+title: Semantic HTML with Twitter Bootstrap
+slug: 2012-11-02-semantic-html-with-twitter-bootstrap
 date: 2012-11-02
 layout: post
 published: true

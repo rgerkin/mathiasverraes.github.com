@@ -1,10 +1,10 @@
 ---
-title:How to read more books
-slug:2012-12-23-how-to-read-more-books
+title: How to read more books
+slug: 2012-12-23-how-to-read-more-books
 date: 2012-12-23
 layout: post
 published: true
-filename:2012-12-23-how-to-read-more-books.markdown
+filename: 2012-12-23-how-to-read-more-books.markdown
 ---
 <!-- *********************************************************************
 **                                                                      **
