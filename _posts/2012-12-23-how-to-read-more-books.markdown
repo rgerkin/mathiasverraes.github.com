@@ -1,6 +1,6 @@
 ---
 title:How to read more books
-slug:how-to-read-more-books
+slug:2012-12-23-how-to-read-more-books
 date: 2012-12-23
 layout: post
 published: true
