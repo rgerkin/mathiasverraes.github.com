@@ -34,7 +34,7 @@ but only watch things that you consciously choose to watch.
 
 - Don't watch live television. Most programs last either 22 or 44 minutes, but that's 30 or 60 minutes with commercials. Watch recorded tv instead.
 - Don't zap. The ultimate time sink hole.
-- Don't watch the news. It's amways the same. The little information you can get from a 22 minute news program, can be read online in 5 minutes.
+- Don't watch the news. It's always the same. The little information you can get from a 22 minute news program, can be read online in 5 minutes.
 
 Which brings me to:
 
@@ -58,9 +58,9 @@ pages on my phone. I read in bed, in the bathroom, on lunch breaks, in transit, 
 
 ### Make it a habit
 
-I read when I'm too tired too read. Obviously, some of it gets lost, and I often need to reread the last couple of pages
+I read when I'm too tired to read. Obviously, some of it gets lost, and I often need to reread the last couple of pages
 the next day. I do it because I feel that even reading only a little bit, keeps the habit alive. That's also why I try to make
- sure I always have my next book lined up. Some e-book stores gives you the first chapter for free, which is great way to find
+ sure I always have my next book lined up. Some e-book stores give you the first chapter for free, which is great way to find
  out if a book is worth reading.
 
 ### Train your muscle

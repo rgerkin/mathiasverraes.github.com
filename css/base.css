@@ -364,7 +364,7 @@ padding-left:20px;
 .about-list li.last {
 	border:0;
 }
-.aboutpic {
+.aboutpic, #post img {
 	background:#fff;
 	border:1px solid #ccc;
 	padding:13px;
