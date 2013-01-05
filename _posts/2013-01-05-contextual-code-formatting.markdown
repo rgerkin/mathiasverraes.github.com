@@ -28,9 +28,10 @@ The goal should be to write easily readable and maintainable code. What makes co
 
 Can you spot the difference between these to statements?
 
+
 {% highlight php %}
 <?php
-$countries = ["AD"=>"Andorra","AE"=>"United Arab Emirates","AF"=>"Afghanistan","AG"=>"Antigua and Barbuda","AI"=>"Anguilla","AL"=>"Albania","AM"=>"Armenia","AN"=>"Netherlands Antilles","AO"=>"Angola","AQ"=>"Antarctica","AR"=>"Argentina","AS"=>"American Samoa","AT"=>"Austria","AU"=>"Australia","AW"=>"Aruba","AX"=>"\u00c5land Islands","AZ"=>"Azerbaijan","BA"=>"Bosnia and Herzegovina","BB"=>"Barbados","BD"=>"Bangladesh","BE"=>"Belgium","BF"=>"Burkina Faso","BG"=>"Bulgaria","BH"=>"Bahrain","BI"=>"Burundi","BJ"=>"Benin", <clipped...>
+$countries = ["AD"=>"Andorra","AE"=>"UnitedArabEmirates","AF"=>"Afghanistan","AG"=>"AntiguaAndBarbuda","AI"=>"Anguilla","AL"=>"Albania","AM"=>"Armenia","AN"=>"NetherlandsAntilles","AO"=>"Angola","AQ"=>"Antarctica","AR"=>"Argentina","AS"=>"AmericanSamoa","AT"=>"Austria","AU"=>"Australia","AW"=>"Aruba",etc
 $options = [
     "entryPoint" => "http://example.com",
     "alwaysUsePost" => false,
@@ -38,12 +39,15 @@ $options = [
 ];
 {% endhighlight %}
 
-`$countries` is written very compact, no whitespace, in a single line. `$options`, despite having only three elements, uses
-ample whitespace and newlines. But why?
+
+`$countries` is written very compact, no whitespace, in a single line that laughs in the face of 80 character margins.
+ `$options`, despite having only three elements, uses ample whitespace and newlines. But why?
 
 The `$countries` is not very readable, because it doesn't have to be. Chances are you'll never need to change that list, let alone
-read it entirely. (And if you do need to update it, you'll probably copy/paste a list from somewhere else.) By writing
-the line very compact, you give a visual suggestion to the reader: "The contents of this line is not important to you,
+read it entirely. Just glancing at the beginning of the line tells you what you can expect the rest of the contents to be like.
+And if you do need to update the countries, you'll probably copy/paste a list from somewhere else.
+
+By writing the line very compact, you give a visual suggestion to the reader: "The contents of this line is not important to you,
 don't bother reading it."
 
 The contents of the `$options` array on the other hand are important. If one day you need to investigate why redirects aren't
