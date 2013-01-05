@@ -132,15 +132,7 @@ sup { vertical-align: super; font-size: smaller; }
 pre { 
   padding: 15px; 
   
-  /* www.pathf.com/blogs/2008/05/formatting-quoted-code-in-blog-posts-css21-white-space-pre-wrap/ */
-  /* CSS2 */
-  white-space: pre;
-  /* CSS 2.1 */
-  white-space: pre-wrap;
-  /* CSS 3 (and 2.1 as well, actually) */
-  white-space: pre-line;
-  /* IE */
-  word-wrap: break-word;
+
 }
 
 /* align checkboxes, radios, text inputs with their label
