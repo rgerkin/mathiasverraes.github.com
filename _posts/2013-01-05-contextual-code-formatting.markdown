@@ -66,6 +66,25 @@ implementation details, look like boring code. Compact the stuff the never chang
 
 ## Comments
 
+### [tvlooy](http://ctors.net) - 2013/01/05
+Nice post, thanks. Another advantage of the $option approach is that it is easier to read VCS diffs. For example, if you
+would change alwaysUsePost to true, this is very obvious in a diff. If you make a change to $countries, this is less
+obvious. I personally also format method calls this way, if the call is bigger than one line for example, and only if
+it improves readability. Like:
+{% highlight php %}
+<?php
+$myObject->setOptions(array("entryPoint" => "http://example.com", "alwaysUsePost" => false), false, LongClassName::SOME_CONSTANT);
+$myObject->setOptions(
+    array(
+        "entryPoint" => "http://example.com",
+        "alwaysUsePost" => false,
+    ),
+    false,
+    LongClassName::SOME_CONSTANT
+);
+{% endhighlight %}
+Adding an option to the array will then also just show a clear 1 line add in VCS diffs.
+
 <!-- To add a comment, copy this template:
 
 ### [YOUR NAME](YOUR URL) - YYY/MM/DD
