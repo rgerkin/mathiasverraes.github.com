@@ -4,7 +4,7 @@ slug: 2013-02-16-casting-value_objects
 date: 2013-02-16
 layout: post
 published: true
-filename: 2013-02-16-casting-value_objects.markdown
+filename: 2013-02-16-casting-value-objects.markdown
 ---
 <!-- *********************************************************************
 **                                                                      **
