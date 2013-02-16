@@ -85,7 +85,7 @@ $myObject->setOptions(
 {% endhighlight %}
 Adding an option to the array will then also just show a clear 1 line add in VCS diffs.
 
-<!-- To add a comment, copy this template:
+<!-- To add a comment, copy this template: (don't worry about markup, I'll clean it up if need be)
 
 ### [YOUR NAME](YOUR URL) - YYY/MM/DD
 YOUR COMMENT TEXT HERE....

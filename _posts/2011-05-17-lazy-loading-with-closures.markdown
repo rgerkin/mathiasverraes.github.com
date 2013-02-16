@@ -177,7 +177,7 @@ But, as far as I know, Doctrine2  ALWAYS uses Lazy Loading. And my point is: the
 
 An advantage when you need to program everything yourself, is that you can still take the decision yourself to use Eager or Lazy Loading. As Johan Cruijff (Dutch Ajax Champion) would say: "every disadvantage has it's advantage".
 
-<!-- To add a comment, copy this template:
+<!-- To add a comment, copy this template: (don't worry about markup, I'll clean it up if need be)
 
 ### [YOUR NAME](YOUR URL) - YYY/MM/DD
 YOUR COMMENT TEXT HERE....

@@ -110,7 +110,7 @@ with annotations like JsDoc or Google Closure Compiler, so that should help redu
 But as I said, I'm stilling fooling around, I'm sure I'll get a better feel for what is practical and what is not.
 
 
-<!-- To add a comment, copy this template:
+<!-- To add a comment, copy this template: (don't worry about markup, I'll clean it up if need be)
 
 ### [YOUR NAME](YOUR URL) - YYY/MM/DD
 YOUR COMMENT TEXT HERE....

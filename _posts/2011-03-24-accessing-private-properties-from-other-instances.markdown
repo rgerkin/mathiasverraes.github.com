@@ -71,7 +71,7 @@ Also, great use case....very practical!
 ### Lolol - 2011/03/24
 This is also the case in Java, which i found rather awkward when i found it.. but apparently it has some use. kind of takes away the principle behind private if you can extend a class to create functions to read another instance of that base class` privates :)
 
-<!-- To add a comment, copy this template:
+<!-- To add a comment, copy this template: (don't worry about markup, I'll clean it up if need be)
 
 ### [YOUR NAME](YOUR URL) - YYY/MM/DD
 YOUR COMMENT TEXT HERE....

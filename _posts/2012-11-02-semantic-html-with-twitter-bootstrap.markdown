@@ -108,7 +108,7 @@ the first imports with a custom list. You can leave out what you don't need, set
 
 ## Comments
 
-<!-- To add a comment, copy this template:
+<!-- To add a comment, copy this template: (don't worry about markup, I'll clean it up if need be)
 
 ### [YOUR NAME](YOUR URL) - YYY/MM/DD
 YOUR COMMENT TEXT HERE....

@@ -118,7 +118,7 @@ Later on, we probably build a RESTfulTwitter implements Twitter, which would pos
 
 ## Comments
 
-<!-- To add a comment, copy this template:
+<!-- To add a comment, copy this template: (don't worry about markup, I'll clean it up if need be)
 
 ### [YOUR NAME](YOUR URL) - YYY/MM/DD
 YOUR COMMENT TEXT HERE....
