@@ -126,3 +126,16 @@ Whether or not we have additional business logic in our methods, is a different 
 much logic in the `pay()` method. It would however be a perfect place to put some invariants: What if the paid amount is incorrect?
 What if the currency is wrong? What if the order was already paid? This is all logic that is harder to find a place for in a
 CRUD system.
+
+
+### [Tobias Wooldridge](http://tobias.wooldridge.id.au/) - 2013/04/20
+One of the most useful things about design patterns and anti-patterns is that, outside of highlighting problems and
+solutions, they have a widely understood, unique name.
+
+In this case, my confusion came about because CRUD is an inappropriate term for what you’re describing. The
+anti-pattern definition unfortunately takes the word “CRUD” from the database implementation level of design and applies
+it to the domain level.
+
+Compared to names such as ‘God object’ and ‘Spaghetti code’, 'CRUD' is ambiguous. While I’m not a fan of
+[other names given to this anti-pattern]( http://en.wikipedia.org/wiki/Object_orgy), I don’t feel CRUD is an
+improvement, as it fails to clearly identify the problem at hand.
