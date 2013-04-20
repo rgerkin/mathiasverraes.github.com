@@ -108,3 +108,11 @@ I introduce new verbs: `pay`, `hire`, `promote`. Having domain logic in CRUD sys
 My point here is mostly that we should build applications that express user intent using a rich language with verbs that users
  actually use. And that is in fact mutually exclusive with CRUD.
 
+### [Daniel Lo Nigro](http://dan.cx/) - 2013/04/20
+I think that `$order->pay(...)` might still be CRUD because in the end, it's just doing a single database update (like 
+`UPDATE order SET status = 'paid', amount = 120 WHERE order_id = 123`) and no other logic, which is a CRUD 
+operation. It's a thin domain model abstraction of the CRUD operation, but it's just a regular update statement with a 
+different name, and hence it's still a CRUD operation. I wouldn't consider it CRUD if it had more logic. I could be
+totally wrong though!
+
+And in any case, getters and setters aren't CRUD, and calling `$order->setStatus` doesn't automatically imply CRUD.
