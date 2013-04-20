@@ -116,3 +116,13 @@ different name, and hence it's still a CRUD operation. I wouldn't consider it CR
 totally wrong though!
 
 And in any case, getters and setters aren't CRUD, and calling `$order->setStatus` doesn't automatically imply CRUD.
+
+### [Mathias Verraes](http://twitter.com/mathiasverraes) - 2013/04/20
+You're right that setters don't imply CRUD, but they are mostly seen together. The fact that the backend could use an UPDATE
+SQL has nothing to do with the problem at hand though. Databases use primitive verbs, because they have no knowledge of the
+ meaning of the data.
+
+Whether or not we have additional business logic in our methods, is a different matter. My example is oversimplified, and indeed doesn't have
+much logic in the `pay()` method. It would however be a perfect place to put some invariants: What if the paid amount is incorrect?
+What if the currency is wrong? What if the order was already paid? This is all logic that is harder to find a place for in a
+CRUD system.
