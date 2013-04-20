@@ -98,3 +98,13 @@ Hmm... I don't know if CRUD is the right term here. Your `pay` method is only se
 and thus is still a CRUD operation. I think you're complaining about using "raw" getters and setters as opposed to
 methods that encapsulate the business or domain logic. There's definite advantages to containing domain logic, but
 domain logic and CRUD aren't mutually exclusive.
+
+### [Mathias Verraes](http://twitter.com/mathiasverraes) - 2013/04/20
+Care to elaborate why you believe `$order->pay(...)` is still CRUD?
+
+CRUD is the idea that everything in a model can be described using only four verbs: `create`, `read`, `update`, `delete`. In this
+post, and in [the next one](http://verraes.net/2013/04/decoupling-symfony2-forms-from-entities/) I show some examples where
+I introduce new verbs: `pay`, `hire`, `promote`. Having domain logic in CRUD systems is possible, but it's harder to express.
+My point here is mostly that we should build applications that express user intent using a rich language with verbs that users
+ actually use. And that is in fact mutually exclusive with CRUD.
+
