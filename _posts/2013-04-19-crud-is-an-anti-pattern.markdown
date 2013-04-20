@@ -92,3 +92,9 @@ context. In any case, it's always worth considering.
 YOUR COMMENT TEXT HERE....
 
 -->
+
+### [Daniel Lo Nigro](http://dan.cx/) - 2013/04/20
+Hmm... I don't know if CRUD is the right term here. Your `pay` method is only setting values and saving the entity,
+and thus is still a CRUD operation. I think you're complaining about using "raw" getters and setters as opposed to
+methods that encapsulate the business or domain logic. There's definite advantages to containing domain logic, but
+domain logic and CRUD aren't mutually exclusive.
