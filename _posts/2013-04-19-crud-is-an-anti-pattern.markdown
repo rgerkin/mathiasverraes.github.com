@@ -49,7 +49,7 @@ Note that internally, the Order object still stores the `status` field. That's p
 
 {% highlight php %}
 <?php
-$money = new Money(120, new Currency('EUR'))
+$money = new Money(120, new Currency('EUR'));
 $order->setPaidMoney($money);
 {% endhighlight %}
 
