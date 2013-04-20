@@ -139,3 +139,16 @@ it to the domain level.
 Compared to names such as ‘God object’ and ‘Spaghetti code’, 'CRUD' is ambiguous. While I’m not a fan of
 [other names given to this anti-pattern]( http://en.wikipedia.org/wiki/Object_orgy), I don’t feel CRUD is an
 improvement, as it fails to clearly identify the problem at hand.
+
+### [Paul Mitchum](http://github.com/paul-m) - 2013/04/20
+CRUD is a pattern that encapsulates certain behavior, related to persisting and managing data outside the script.
+
+If you need that pattern, then use it. If you don't, then don't. :-)
+
+Your customer doesn't care whether you implement `$order->setStuff()->persist();` or
+`$order->pay(new SemtanticallyCleanObjectName($currency, $amt));` Your work is to abstract these details away
+for your customer, in exactly the same way that `setStuff()->persist();` abstracts CRUD away for you.
+
+The real question is what your customer needs, and how you can deliver it to them in an efficient and maintainable way.
+CRUD isn't an anti-pattern working against this goal. Viewing it as the only required layer of abstraction is,
+however, most likely a design error.
