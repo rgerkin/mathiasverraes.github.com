@@ -4,7 +4,7 @@ slug: decoupling-symfony2-forms-from-entities
 date: 2013-04-20
 layout: post
 published: true
-filename: 2013-04-20-decoupling-symfony2-forms-from-your-entities.markdown
+filename: 2013-04-20-decoupling-symfony2-forms-from-entities.markdown
 ---
 <!-- *********************************************************************
 **                                                                      **
