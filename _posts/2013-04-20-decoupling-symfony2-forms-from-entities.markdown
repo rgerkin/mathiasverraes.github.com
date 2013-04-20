@@ -173,6 +173,24 @@ A better solution is to move that particular code into a CommandHandler. Maybe s
 
 ## Comments
 
+### [CryptoCompress] - 2013/04/20
+
+Very nice Blog! Thank You!
+
+off-topic:
+
+# "static function hire()" (1):
+Static methods considered harmful. I use static-method-in-object instead in-factory for stateful objects too. Is this a common approach? Maybe you have more information about it?
+    
+# "static function hire()" (2):
+A company hire "instantiated" employees. Bonus points for $company->hire($employee) :D
+
+# last code snippet
+There is no obvious connection between repository and entity manager.
+$this->employeeRepository->persist($employee);
+or
+$this->entityManager->employeeRepository->find();
+
 <!-- To add a comment, copy this template: (don't worry about markup, I'll clean it up if need be)
 
 ### [YOUR NAME](YOUR URL) - YYY/MM/DD
