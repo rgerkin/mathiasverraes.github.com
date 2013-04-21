@@ -112,7 +112,7 @@ But as I said, I'm stilling fooling around, I'm sure I'll get a better feel for 
 
 <!-- To add a comment, copy this template: (don't worry about markup, I'll clean it up if need be)
 
-### [YOUR NAME](YOUR URL) - YYY/MM/DD
+### [YOUR NAME](YOUR URL|TWITTER|...) - YYYY/MM/DD
 YOUR COMMENT TEXT HERE....
 
 -->

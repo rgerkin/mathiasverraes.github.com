@@ -75,7 +75,7 @@ Obviously the whole example is too simple, as examples usually are. The point is
 
 <!-- To add a comment, copy this template: (don't worry about markup, I'll clean it up if need be)
 
-### [YOUR NAME](YOUR URL) - YYY/MM/DD
+### [YOUR NAME](YOUR URL|TWITTER|...) - YYYY/MM/DD
 YOUR COMMENT TEXT HERE....
 
 -->
