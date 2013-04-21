@@ -179,17 +179,26 @@ Very nice Blog! Thank You!
 
 off-topic:
 
-# "static function hire()" (1):
+#### "static function hire()" (1):
 Static methods considered harmful. I use static-method-in-object instead in-factory for stateful objects too. Is this a common approach? Maybe you have more information about it?
     
-# "static function hire()" (2):
+#### "static function hire()" (2):
 A company hire "instantiated" employees. Bonus points for $company->hire($employee) :D
 
-# last code snippet
+#### last code snippet
 There is no obvious connection between repository and entity manager.
 $this->employeeRepository->persist($employee);
 or
 $this->entityManager->employeeRepository->find();
+
+
+
+### [Bernhard Schussek](https://twitter.com/webmozart) - 2013/04/21
+FYI, the Form component is able to deal with constructors by using the (empty_data)[http://symfony.com/doc/current/cookbook/form/use_empty_data.html] option.
+
+Of course, if you don't want to use any getters/setters, the automatic data mapping is pointless. It is there only as a
+RAD helper to save some lines of code (especially when the entities also define validation constraints). But if you don't
+ want that, your approach is a very good alternative. Another alternative would be to use an array-backed form.
 
 <!-- To add a comment, copy this template: (don't worry about markup, I'll clean it up if need be)
 
@@ -197,10 +206,3 @@ $this->entityManager->employeeRepository->find();
 YOUR COMMENT TEXT HERE....
 
 -->
-
-
-
-### [Bernhard Schussek](https://twitter.com/webmozart) - 2013/04/21
-FYI, the Form component is able to deal with constructors by using the (empty_data)[http://symfony.com/doc/current/cookbook/form/use_empty_data.html] option.
-
-Of course, if you don't want to use any getters/setters, the automatic data mapping is pointless. It is there only as a RAD helper to save some lines of code (especially when the entities also define validation constraints). But if you don't want that, your approach is a very good alternative. Another alternative would be to use an array-backed form.
