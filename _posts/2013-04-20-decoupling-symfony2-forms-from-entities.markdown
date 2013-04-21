@@ -197,3 +197,10 @@ $this->entityManager->employeeRepository->find();
 YOUR COMMENT TEXT HERE....
 
 -->
+
+
+
+### [Bernhard Schussek](https://twitter.com/webmozart) - 2013/04/21
+FYI, the Form component is able to deal with constructors by using the (empty_data)[http://symfony.com/doc/current/cookbook/form/use_empty_data.html] option.
+
+Of course, if you don't want to use any getters/setters, the automatic data mapping is pointless. It is there only as a RAD helper to save some lines of code (especially when the entities also define validation constraints). But if you don't want that, your approach is a very good alternative. Another alternative would be to use an array-backed form.
