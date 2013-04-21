@@ -173,7 +173,7 @@ A better solution is to move that particular code into a CommandHandler. Maybe s
 
 ## Comments
 
-### [CryptoCompress] - 2013/04/20
+### [CryptoCompress](https://twitter.com/CryptoCompress)  - 2013/04/20
 
 Very nice Blog! Thank You!
 
