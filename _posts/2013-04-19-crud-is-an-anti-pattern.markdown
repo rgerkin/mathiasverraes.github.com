@@ -152,3 +152,31 @@ for your customer, in exactly the same way that `setStuff()->persist();` abstrac
 The real question is what your customer needs, and how you can deliver it to them in an efficient and maintainable way.
 CRUD isn't an anti-pattern working against this goal. Viewing it as the only required layer of abstraction is,
 however, most likely a design error.
+
+### [Rasmus Schultz](http://twitter.com/mindplaydk) - 2013-04-22
+
+Hi Mathias,
+
+Two things :-)
+
+First, your post explains how to "replace" the code that uses the accessors directly to perform the change - but "replace" is not the right term here, that's not what's happening. You're not "replacing" anything - you're  introducing better encapsulation for an identified type of transaction, and your code is now self-documenting and clearly reflects the fact that the code that uses the accessors is in fact a transcation. Your Order::pay() implementation will still contain the "replaced" code - and possibly other aspects of the transaction, such as logging, statistics, e-mail notifications, etc.
+
+The code that uses the accessors of course should not go directly in a Controller - and I think that was your point? Although you never used the word Controller. But it has got to go somewhere, right? I think we agree on that much, and your post definitely points out something very important. So far so good :-)
+
+Now secondly, you give "bonus points" for implementing the transaction method in the Customer entity instead of the Order entity. But this particular transaction depends on two things equally: an Order and a Transaction - while implementing the method in the Customer entity makes the controller-code read out more like english ("Customer pay order") there is no logical reason why one is better than the other, and the semantics remain essentially the same.
+
+You can find countless examples of this in the real world - for any transaction that involves more than one entity, you will have to make this decision. It gets particularly tricky when you have three or more entities involved in a transaction - which party is going to be responsible? And even worse, when one of those entities are optional in the same type of transaction. Of course, these are all questions you can answer, but your answers and thinking might not be the same as the next guy who has to work with your code.
+
+That's why I prefer to avoid those questions and use a service-oriented approach instead. Introduce a static PaymentService class to act as a mediator for that transaction. Or introduce an encapsulated PaymentTransaction object, since encapsulation was what you were questing for in the first place. This eliminates all of the above questions - the responsible party is now the transaction service or object, not an arbitrary entity. If an entity is optional in that transaction, make it obvious by allowing a required null-argument for that entity in the transaction service or object.
+
+Adhering to this pattern has other advantages too - in particular, it enables composition: more than one type of service or transaction probably sends e-mail notifications or performs logging, so you can encapsulate those requirements in a base-class, and so on. Which furthermore helps with testing, since you can now inject a mock e-mail client or logger during tests.
+
+But perhaps most importantly, it helps with perception - because your transactions are no longer scattered across entities, but encapsulated in services or transaction objects, it's easier for somebody else to gain an overview of all the possible transactions in an application. It's also easier to look at an entity and expect to find only methods that operate on the entity itself - rather than methods that depend on other entities. It scales better in terms of complexity, because each entity and service will have a fixed scope - rather than growing each class to meet new requirements, you introduce more classes, each with an isolated responsibility and fixed scope.
+
+In the case of PHP specifically, it also marginally helps with performance, because you're no longer loading transaction code that doesn't get executed.
+
+Maybe this is just way beyond the scope of your post :-)
+
+And under any circumstances, having done this little write-up, I will probably end up posting that on my own blog. Feel free to post as comments on your blog though, if you wish. Though it's almost longer than your blog-post at this point ;-)
+
+I know, I do go on. Sorry about that.
