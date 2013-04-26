@@ -78,9 +78,17 @@ What are your reading tips?
 
 ## Comments
 
+### [Mathias Verraes](http://twitter.com/mathiasverraes) - 2013/26/04
+
+According to this [this article](http://www.guardian.co.uk/media/2013/apr/12/news-is-bad-rolf-dobelli), news is not just a
+waste of time, it is in fact really bad for you. Giving up reading news will make you happier.
+
+
 <!-- To add a comment, copy this template: (don't worry about markup, I'll clean it up if need be)
 
 ### [YOUR NAME](YOUR URL|TWITTER|...) - YYYY/MM/DD
 YOUR COMMENT TEXT HERE....
 
 -->
+
+
