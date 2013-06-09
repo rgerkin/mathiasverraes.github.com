@@ -82,7 +82,7 @@ Implemented inside TwitterHandle, it looks like this:
 {% highlight php %}
 
 <?php
-class TwitterHandleTest extends PHPUnit_Framework_TestCase
+class TwitterHandle
 {
     private $handle;
 
