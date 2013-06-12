@@ -33,6 +33,16 @@ I'd like to thank the good people at iBuildings for organizing this conference, 
 The organization was flawless, they took great care of the speakers, and the atmosphere was very open and inspiring. Whenever
 I talk to iBuildings people, I get the feeling that they have a wonderful company culture of learning and discovery.
 
+
+## Conference Round-ups
+
+- [Rowan Merewood - Inviqa](http://techportal.inviqa.com/2013/06/12/dpc13/)
+- [Richard Tuin - Enrise](http://www.enrise.com/2013/06/a-review-of-the-dutch-php-conference-2013/)
+- [Tim De Pater - Enrise](http://www.enrise.com/2013/06/dutch-php-conference-2013/)
+- [Jeroen Van Dijck](http://jrdk.nl/blog/2013/06/09/dutch-php-mobile-conference-2013-uncon/)
+- [Future500](http://future500.nl/dutch-php-conference-2013-revisited/)
+- [Erika Heidi](http://erikaheidi.com/2013/06/09/the-dutch-conference-2013-dpc/)
+
 ## Comments
 
 <!-- To add a comment, copy this template: (don't worry about markup, I'll clean it up if need be)
