@@ -39,7 +39,7 @@ I talk to iBuildings people, I get the feeling that they have a wonderful compan
 - [Rowan Merewood - Inviqa](http://techportal.inviqa.com/2013/06/12/dpc13/)
 - [Richard Tuin - Enrise](http://www.enrise.com/2013/06/a-review-of-the-dutch-php-conference-2013/)
 - [Tim De Pater - Enrise](http://www.enrise.com/2013/06/dutch-php-conference-2013/)
-- [Jeroen Van Dijck](http://jrdk.nl/blog/2013/06/09/dutch-php-mobile-conference-2013-uncon/)
+- [Jeroen Van Dijk](http://jrdk.nl/blog/2013/06/09/dutch-php-mobile-conference-2013-uncon/)
 - [Future500](http://future500.nl/dutch-php-conference-2013-revisited/)
 - [Erika Heidi](http://erikaheidi.com/2013/06/09/the-dutch-conference-2013-dpc/)
 
