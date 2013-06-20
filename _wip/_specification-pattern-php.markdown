@@ -99,7 +99,7 @@ class CustomerQualifiesForDeduction extends PHPUnit_Framework_TestCase {
 
 <!-- To add a comment, copy this template:
 
-### [YOUR NAME](YOUR URL) - YYY/MM/DD
+### [YOUR NAME](YOUR URL|TWITTER|...) - YYYY/MM/DD
 YOUR COMMENT TEXT HERE....
 
 -->
