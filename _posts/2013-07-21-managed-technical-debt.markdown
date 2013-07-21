@@ -12,17 +12,17 @@ filename: 2013-07-21-managed-technical-debt.markdown
 ** Then save the file and send me a pull request.                       **
 ** (Or just send me an email. The whole fork-to-comment idea was an     **
 ** experiment, but I guess it failed. I will replace it with something  **
-** simpler soonish            .                                         **
+** simpler soonish.                                                     **
 **                                                                      **
 ***********************************************************************-->
 
 
-Alberto Brandolini said at IDDD Belgium (quoting from memory):
+[Alberto Brandolini](https://twitter.com/mathiasverraes/status/326435664319111170) said at IDDD Belgium (quoting from memory):
 "We've always explained 'technical debt' badly to the business. If you have debt with a bank, you can talk to someone,
 negotiate, and agree on a payment plan. But technical debt is like debt with the mob: they come at night, pointing a gun
 to your head, and they want their money NOW."
 
-Greg Young on the other hand, has talked on several occasions about how technical debt is not necessarily bad. Businesses
+[Greg Young](http://codebetter.com/gregyoung/2013/03/06/startups-and-tdd/) on the other hand, has talked on several occasions about how technical debt is not necessarily bad. Businesses
 take loans all the time. They are a powerful tool to make an investment now, and pay for it later. It's a fundamental
 aspect of our economy.
 
@@ -44,8 +44,8 @@ hang a sticky note in the backlog. Whenever new code is affected by earlier debt
 
 When opinions are at odds, like in the quotes above, there's often a problem in the language. There's one term, and two
 concepts. In the interest of making
-the implicit explicit, I'd like to propose that we make a clear distinction between *Managed Technical Debt*, and *Unmanaged
-Technical Debt*. The former is defined as technical debt where most of the following conditions are present:
+the implicit explicit, I'd like to propose that we make a clear distinction between **Managed Technical Debt**, and **Unmanaged
+Technical Debt**. The former is defined as technical debt where most of the following conditions are present:
 
 - The team is disciplined: it applies techniques such as refactoring, pair programming, iterative development, CI, TDD (or other testing schemes) ...
 - The codebase is well structured, well tested, and stable.
