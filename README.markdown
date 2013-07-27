@@ -7,6 +7,6 @@ It is automatically transformed by [Jekyll](http://github.com/mojombo/jekyll) in
 https://github.com/mojombo/jekyll/wiki/install
 
 ```
-jekyll --server --auto
+./server.sh
 ```
 
