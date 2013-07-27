@@ -6,6 +6,8 @@ layout: post
 published: true
 ---
 
+**tl;dr We should make a distinction between Managed and Unmanaged Technical Debt**
+
 [Alberto Brandolini](https://twitter.com/mathiasverraes/status/326435664319111170) said at IDDD Belgium (quoting from memory):
 "We've always explained 'technical debt' badly to the business. If you have debt with a bank, you can talk to someone,
 negotiate, and agree on a payment plan. But technical debt is like debt with the mob: they come at night, pointing a gun

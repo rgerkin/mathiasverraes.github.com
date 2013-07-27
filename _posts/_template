@@ -4,17 +4,9 @@ slug:
 date: yyyy-mm-dd
 layout: post
 published: true
-filename:
 ---
-<!-- *********************************************************************
-**                                                                      **
-** To add a comment, scroll to the bottom and use the comment template. **
-** Then save the file and send me a pull request.                       **
-** (Or just send me an email. The whole fork-to-comment idea was an     **
-** experiment, but I guess it failed. I will replace it with something  **
-** simpler as soon as possible.                                         **
-**                                                                      **
-***********************************************************************-->
+
+**tl;dr ABSTRACT HERE**
 
 CONTENT HERE
 
