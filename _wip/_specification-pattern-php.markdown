@@ -4,14 +4,7 @@ slug: specification-pattern-php
 date: 2012-12-12
 layout: post
 published: true
-filename: 2012-12-12-specification-pattern-php.markdown
 ---
-<!-- *********************************************************************
-**                                                                      **
-** To add a comment, scroll to the bottom and use the comment template. **
-** Then save the file and send me a pull request.                       **
-**                                                                      **
-***********************************************************************-->
 
 
 The Specification pattern, straight from DDD, is a very elegant way to encapsulate how you select objects, and, as we'll
@@ -95,11 +88,3 @@ class CustomerQualifiesForDeduction extends PHPUnit_Framework_TestCase {
 - http://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215
 - http://martinfowler.com/apsupp/spec.pdf
 
-## Comments
-
-<!-- To add a comment, copy this template:
-
-### [YOUR NAME](YOUR URL|TWITTER|...) - YYYY/MM/DD
-YOUR COMMENT TEXT HERE....
-
--->
