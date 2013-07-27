@@ -4,15 +4,7 @@ slug: the-hollywood-principle
 date: 2011-03-12
 layout: post
 published: false
-filename: 2011-03-12-the-hollywood-principle.markdown
 ---
-<!-- *********************************************************************
-**                                                                      **
-** To add a comment, scroll to the bottom and use the comment template. **
-** Then save the file and send me a pull request.                       **
-**                                                                      **
-***********************************************************************-->
-
 
 Here's my new blog. I've been postponing it for nine months, because of these recognisable bumps in the road:
 
@@ -27,11 +19,3 @@ The Hollywood Principle is a methodology in Object Oriented design: "Don't call 
 
 So that should give you a clue: I intend to blog about OOP, quality assurance, continuous integration, but also PHP, the web, and, as blogs go, anything that comes to mind. Wish me luck.
 
-## Comments
-
-<!-- To add a comment, copy this template: (don't worry about markup, I'll clean it up if need be)
-
-### [YOUR NAME](YOUR URL|TWITTER|...) - YYYY/MM/DD
-YOUR COMMENT TEXT HERE....
-
--->

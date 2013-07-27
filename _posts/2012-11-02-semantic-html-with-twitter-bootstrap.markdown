@@ -6,12 +6,6 @@ layout: post
 published: true
 filename: 2012-11-02-semantic-html-with-twitter-bootstrap.markdown
 ---
-<!-- *********************************************************************
-**                                                                      **
-** To add a comment, scroll to the bottom and use the comment template. **
-** Then save the file and send me a pull request.                       **
-**                                                                      **
-***********************************************************************-->
 
 The downside to using front-end frameworks like [Twitter Bootstrap](http://getbootstrap.com),
 is that you're likely to end up with a HTML that contains a lot of styling logic. The
@@ -106,11 +100,3 @@ the first imports with a custom list. You can leave out what you don't need, set
 /* Etc ...  See bootstrap.less */
 {% endhighlight %}
 
-## Comments
-
-<!-- To add a comment, copy this template: (don't worry about markup, I'll clean it up if need be)
-
-### [YOUR NAME](YOUR URL|TWITTER|...) - YYYY/MM/DD
-YOUR COMMENT TEXT HERE....
-
--->

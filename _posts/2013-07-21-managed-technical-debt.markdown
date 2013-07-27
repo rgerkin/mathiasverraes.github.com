@@ -4,18 +4,7 @@ slug: managed-technical-debt
 date: 2013-07-21
 layout: post
 published: true
-filename: 2013-07-21-managed-technical-debt.markdown
 ---
-<!-- *********************************************************************
-**                                                                      **
-** To add a comment, scroll to the bottom and use the comment template. **
-** Then save the file and send me a pull request.                       **
-** (Or just send me an email. The whole fork-to-comment idea was an     **
-** experiment, but I guess it failed. I will replace it with something  **
-** simpler soonish.                                                     **
-**                                                                      **
-***********************************************************************-->
-
 
 [Alberto Brandolini](https://twitter.com/mathiasverraes/status/326435664319111170) said at IDDD Belgium (quoting from memory):
 "We've always explained 'technical debt' badly to the business. If you have debt with a bank, you can talk to someone,
@@ -63,13 +52,3 @@ For Unmanaged Technical Debt on the other hand, most of the opposite conditions 
 - The team is unaware that a newly introduced solution is not optimal,
 - or the team is aware, but does not understand what an optimal solution would be or how to achieve it.
 
-
-
-## Comments
-
-<!-- To add a comment, copy this template: (don't worry about markup, I'll clean it up if need be)
-
-### [YOUR NAME](YOUR URL|TWITTER|...)  - YYYY/MM/DD
-YOUR COMMENT TEXT HERE....
-
--->

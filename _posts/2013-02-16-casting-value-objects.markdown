@@ -4,14 +4,7 @@ slug: 2013-02-16-casting-value_objects
 date: 2013-02-16
 layout: post
 published: true
-filename: 2013-02-16-casting-value-objects.markdown
 ---
-<!-- *********************************************************************
-**                                                                      **
-** To add a comment, scroll to the bottom and use the comment template. **
-** Then save the file and send me a pull request.                       **
-**                                                                      **
-***********************************************************************-->
 
 __tl;dr: Cast Value Objects to strings that can be parsed back into the Value Object.__
 
@@ -206,12 +199,3 @@ Related posts:
 
  - [Representing Money in PHP, Fowler-style](/2011/04/fowler-money-pattern-in-php/)
 
-
-## Comments
-
-<!-- To add a comment, copy this template: (don't worry about markup, I'll clean it up if need be)
-
-### [YOUR NAME](YOUR URL|TWITTER|...) - YYYY/MM/DD
-YOUR COMMENT TEXT HERE....
-
--->

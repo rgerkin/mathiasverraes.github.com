@@ -4,14 +4,7 @@ slug: crud-is-an-anti-pattern
 date: 2013-04-19
 layout: post
 published: true
-filename: 2013-04-19-crud-is-an-anti-pattern.markdown
 ---
-<!-- *********************************************************************
-**                                                                      **
-** To add a comment, scroll to the bottom and use the comment template. **
-** Then save the file and send me a pull request.                       **
-**                                                                      **
-***********************************************************************-->
 
 **tl;dr CRUD doesn't express behaviour. Avoid setters, and use expressive, encapsulated operations instead.**
 
@@ -86,12 +79,7 @@ context. In any case, it's always worth considering.
 
 ## Comments
 
-<!-- To add a comment, copy this template: (don't worry about markup, I'll clean it up if need be)
 
-### [YOUR NAME](YOUR URL|TWITTER|...) - YYYY/MM/DD
-YOUR COMMENT TEXT HERE....
-
--->
 
 ### [Daniel Lo Nigro](http://dan.cx/) - 2013/04/20
 Hmm... I don't know if CRUD is the right term here. Your `pay` method is only setting values and saving the entity,

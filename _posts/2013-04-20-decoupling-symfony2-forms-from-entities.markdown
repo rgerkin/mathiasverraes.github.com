@@ -4,15 +4,7 @@ slug: decoupling-symfony2-forms-from-entities
 date: 2013-04-20
 layout: post
 published: true
-filename: 2013-04-20-decoupling-symfony2-forms-from-entities.markdown
 ---
-<!-- *********************************************************************
-**                                                                      **
-** To add a comment, scroll to the bottom and use the comment template. **
-** Then save the file and send me a pull request.                       **
-**                                                                      **
-***********************************************************************-->
-
 
 **tl;dr; Avoid tight coupling between your forms and your Entities by using the Command pattern as an intermediate.**
 
@@ -201,11 +193,3 @@ Of course, if you don't want to use any getters/setters, the automatic data mapp
 RAD helper to save some lines of code (especially when the entities also define validation constraints). But if you don't
  want that, your approach is a very good alternative. Another alternative would be to use an array-backed form.
 
-
-
-<!-- To add a comment, copy this template: (don't worry about markup, I'll clean it up if need be)
-
-### [YOUR NAME](YOUR URL|TWITTER|...) - YYYY/MM/DD
-YOUR COMMENT TEXT HERE....
-
--->

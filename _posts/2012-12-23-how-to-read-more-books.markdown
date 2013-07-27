@@ -4,14 +4,7 @@ slug: 2012-12-23-how-to-read-more-books
 date: 2012-12-23
 layout: post
 published: true
-filename: 2012-12-23-how-to-read-more-books.markdown
 ---
-<!-- *********************************************************************
-**                                                                      **
-** To add a comment, scroll to the bottom and use the comment template. **
-** Then save the file and send me a pull request.                       **
-**                                                                      **
-***********************************************************************-->
 
 
 "You can't learn everything from books", people say. It's nothing but an excuse not to read books. It's a straw man argument,
@@ -82,13 +75,5 @@ What are your reading tips?
 
 According to this [this article](http://www.guardian.co.uk/media/2013/apr/12/news-is-bad-rolf-dobelli), news is not just a
 waste of time, it is in fact really bad for you. Giving up reading news will make you happier.
-
-
-<!-- To add a comment, copy this template: (don't worry about markup, I'll clean it up if need be)
-
-### [YOUR NAME](YOUR URL|TWITTER|...) - YYYY/MM/DD
-YOUR COMMENT TEXT HERE....
-
--->
 
 

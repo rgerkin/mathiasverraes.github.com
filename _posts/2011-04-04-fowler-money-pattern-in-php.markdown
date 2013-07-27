@@ -4,14 +4,7 @@ slug: fowler-money-pattern-in-php
 date: 2011-04-04
 layout: post
 published: true
-filename: 2011-04-04-fowler-money-pattern-in-php.markdown
 ---
-<!-- *********************************************************************
-**                                                                      **
-** To add a comment, scroll to the bottom and use the comment template. **
-** Then save the file and send me a pull request.                       **
-**                                                                      **
-***********************************************************************-->
 
 Whenever working with values in object oriented programming, it's often a good idea to wrap them in a ValueObject. Money is a perfect candidate for a ValueObject: When talking about money, numbers are meaningless if they are not combined with a currency.
 
@@ -75,12 +68,3 @@ Now `$my_cut` is 3 cents, and `$investors_cut` is 2 cents.
 ### Conclusion
 
 At the moment my Money class has all the features that Fowler lists. You can see some more example by looking at the [unit tests](https://github.com/mathiasverraes/money/tree/master/tests). I hope to add a lot stuff more if time permits: currency conversion, parsing of strings like '$2.00' and 'USD 2.00', dealing with major units and subunits in currencies, etc. In any case, I hope it's useful to somebody in it's present form.
-
-## Comments
-
-<!-- To add a comment, copy this template: (don't worry about markup, I'll clean it up if need be)
-
-### [YOUR NAME](YOUR URL|TWITTER|...) - YYYY/MM/DD
-YOUR COMMENT TEXT HERE....
-
--->

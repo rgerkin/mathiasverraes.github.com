@@ -4,14 +4,7 @@ slug: 2013-01-05-contextual-code-formatting
 date: 2013-01-05
 layout: post
 published: true
-filename: 2013-01-05-contextual-code-formatting.markdown
 ---
-<!-- *********************************************************************
-**                                                                      **
-** To add a comment, scroll to the bottom and use the comment template. **
-** Then save the file and send me a pull request.                       **
-**                                                                      **
-***********************************************************************-->
 
 
 I used to care a great deal about having a coding standard. I often took the initiative to write a document for the team that
@@ -85,9 +78,3 @@ $myObject->setOptions(
 {% endhighlight %}
 Adding an option to the array will then also just show a clear 1 line add in VCS diffs.
 
-<!-- To add a comment, copy this template: (don't worry about markup, I'll clean it up if need be)
-
-### [YOUR NAME](YOUR URL|TWITTER|...) - YYYY/MM/DD
-YOUR COMMENT TEXT HERE....
-
--->

@@ -4,14 +4,7 @@ slug: accessing-private-properties-from-other-instances
 date: 2011-03-24
 layout: post
 published: true
-filename: 2011-03-24-accessing-private-properties-from-other-instances.markdown
 ---
-<!-- *********************************************************************
-**                                                                      **
-** To add a comment, scroll to the bottom and use the comment template. **
-** Then save the file and send me a pull request.                       **
-**                                                                      **
-***********************************************************************-->
 
 In PHP, when a property or method is marked private, it can only be accessed from within that class. That includes **other instances of the same class**. This may seem counter-intuitive at first, because we are used to dealing with instances of classes. The visibility operator however works not on object-level, but on class level.
 
@@ -71,9 +64,3 @@ Also, great use case....very practical!
 ### Lolol - 2011/03/24
 This is also the case in Java, which i found rather awkward when i found it.. but apparently it has some use. kind of takes away the principle behind private if you can extend a class to create functions to read another instance of that base class` privates :)
 
-<!-- To add a comment, copy this template: (don't worry about markup, I'll clean it up if need be)
-
-### [YOUR NAME](YOUR URL|TWITTER|...) - YYYY/MM/DD
-YOUR COMMENT TEXT HERE....
-
--->

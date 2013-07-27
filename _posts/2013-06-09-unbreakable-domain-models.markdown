@@ -4,17 +4,7 @@ slug: unbreakable-domain-models
 date: 2013-06-09
 layout: post
 published: true
-filename: 2013-06-09-unbreakable-domain-models.markdown
 ---
-<!-- *********************************************************************
-**                                                                      **
-** To add a comment, scroll to the bottom and use the comment template. **
-** Then save the file and send me a pull request.                       **
-** (Or just send me an email. The whole fork-to-comment idea was an     **
-** experiment, but I guess it failed. I will replace it with something  **
-** simpler as soon as possible.                                         **
-**                                                                      **
-***********************************************************************-->
 
 These are the slides for my presentation at the Dutch PHP Conference 2013 in Amsterdam. It's mostly code samples, the real meat
 of the presentation was me ranting making your code as close as possible to the language of the business. I talked about
@@ -43,11 +33,3 @@ I talk to iBuildings people, I get the feeling that they have a wonderful compan
 - [Future500](http://future500.nl/dutch-php-conference-2013-revisited/)
 - [Erika Heidi](http://erikaheidi.com/2013/06/09/the-dutch-conference-2013-dpc/)
 
-## Comments
-
-<!-- To add a comment, copy this template: (don't worry about markup, I'll clean it up if need be)
-
-### [YOUR NAME](YOUR URL|TWITTER|...) - YYYY/MM/DD
-YOUR COMMENT TEXT HERE....
-
--->

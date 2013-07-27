@@ -4,14 +4,7 @@ slug: ubiquitous-language
 date: 2011-05-12
 layout: post
 published: true
-filename: 2011-05-12-ubiquitous-language.markdown
 ---
-<!-- *********************************************************************
-**                                                                      **
-** To add a comment, scroll to the bottom and use the comment template. **
-** Then save the file and send me a pull request.                       **
-**                                                                      **
-***********************************************************************-->
 
 Customers usually have never been forced to really think about their domain in a structured way -- let alone explain it in detail to a developer, who doesn’t know anything about that domain. Often the customer doesn’t have a set of clear definitions for the concepts his business uses daily, or has multiple terms for the same concepts.
 
@@ -31,12 +24,3 @@ Maintain this ubiquitous language throughout the project. When concepts change, 
 
 You’ll notice that soon, communication between everyone in the project will go much easier. When something is unclear, you can refer to the documentation. For new people on the project, it will be a lot easier to get up to speed. Code becomes easier to read, and easier to understand, as there are less concepts, and they are clearly defined. The application is much less vulnerable to regressions, and changing or refactoring is a breeze.
 
-
-## Comments
-
-<!-- To add a comment, copy this template: (don't worry about markup, I'll clean it up if need be)
-
-### [YOUR NAME](YOUR URL|TWITTER|...) - YYYY/MM/DD
-YOUR COMMENT TEXT HERE....
-
--->

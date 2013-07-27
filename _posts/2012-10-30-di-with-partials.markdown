@@ -4,14 +4,7 @@ slug: javascript-dependency-injection-with-partial-functions
 date: 2012-10-30
 layout: post
 published: true
-filename: 2012-10-30-di-with-partials.markdown
 ---
-<!-- *********************************************************************
-**                                                                      **
-** To add a comment, scroll to the bottom and use the comment template. **
-** Then save the file and send me a pull request.                       **
-**                                                                      **
-***********************************************************************-->
 
 My gut reaction when writing Javascript, is to try and mimck patterns and concepts that I'm used to in
 class-based languages. Turns out Javascript allows you to do a whole bunch of things differently, and, dare I say it,
@@ -110,9 +103,3 @@ with annotations like JsDoc or Google Closure Compiler, so that should help redu
 But as I said, I'm stilling fooling around, I'm sure I'll get a better feel for what is practical and what is not.
 
 
-<!-- To add a comment, copy this template: (don't worry about markup, I'll clean it up if need be)
-
-### [YOUR NAME](YOUR URL|TWITTER|...) - YYYY/MM/DD
-YOUR COMMENT TEXT HERE....
-
--->

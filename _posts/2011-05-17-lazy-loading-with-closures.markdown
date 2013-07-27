@@ -4,14 +4,7 @@ slug: lazy-loading-with-closures
 date: 2011-05-17 21:57:07
 layout: post
 published: true
-filename: 2011-05-17-lazy-loading-with-closures.markdown
 ---
-<!-- *********************************************************************
-**                                                                      **
-** To add a comment, scroll to the bottom and use the comment template. **
-** Then save the file and send me a pull request.                       **
-**                                                                      **
-***********************************************************************-->
 
 Closures are a great way to do all kinds of neat tricks in PHP, and they’re particularly useful for  Lazy Loading. I’m
 currently involved in a +200k SLoC legacy project, and the challenge is moving it to a Domain Driven implementation
@@ -177,9 +170,3 @@ But, as far as I know, Doctrine2  ALWAYS uses Lazy Loading. And my point is: the
 
 An advantage when you need to program everything yourself, is that you can still take the decision yourself to use Eager or Lazy Loading. As Johan Cruijff (Dutch Ajax Champion) would say: "every disadvantage has it's advantage".
 
-<!-- To add a comment, copy this template: (don't worry about markup, I'll clean it up if need be)
-
-### [YOUR NAME](YOUR URL|TWITTER|...) - YYYY/MM/DD
-YOUR COMMENT TEXT HERE....
-
--->

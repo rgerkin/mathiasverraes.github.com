@@ -4,14 +4,7 @@ slug: interface-discovery-with-phpunit-mock-objects
 date: 2011-03-21
 layout: post
 published: true
-filename: 2011-03-21-interface-discovery-with-phpunit-mock-objects.markdown
 ---
-<!-- *********************************************************************
-**                                                                      **
-** To add a comment, scroll to the bottom and use the comment template. **
-** Then save the file and send me a pull request.                       **
-**                                                                      **
-***********************************************************************-->
 
 [PHPUnit](https://github.com/sebastianbergmann/phpunit/) provides some great features to create [mock objects](http://en.wikipedia.org/wiki/Mock_object). The idea is that when you are testing code that depends on another class, you provide the object with a mock instance of that class, instead of a real object. That way, you are making sure that your test will only fail if the system under test is broken, and not if one of it’s dependencies is broken. You could simply write a mock class and instantiate it, but PHPUnit can generate them for you.
 
@@ -115,12 +108,3 @@ The whole point of this technique, is that we have now written BankAccount, with
 
 Later on, we probably build a RESTfulTwitter implements Twitter, which would post messages using the Twitter REST API. If we had build the Twitter implementation first, we’d probably would have been tempted to add all kinds of features that we thought we might need. Instead of that, we discovered what we actually needed. Our test proves that our code adheres to [YAGNI](http://en.wikipedia.org/wiki/You_ain't_gonna_need_it).
 
-
-## Comments
-
-<!-- To add a comment, copy this template: (don't worry about markup, I'll clean it up if need be)
-
-### [YOUR NAME](YOUR URL|TWITTER|...) - YYYY/MM/DD
-YOUR COMMENT TEXT HERE....
-
--->

@@ -4,14 +4,7 @@ slug: code-folder-structure
 date: 2011-10-22
 layout: post
 published: true
-filename: 2011-10-22-code-folder-structure.markdown
 ---
-<!-- *********************************************************************
-**                                                                      **
-** To add a comment, scroll to the bottom and use the comment template. **
-** Then save the file and send me a pull request.                       **
-**                                                                      **
-***********************************************************************-->
 
 
 All code bases I ever read or worked with, share a similar folder structure:
@@ -70,12 +63,3 @@ In other words: A BlogPost and a Comment know about their author. A BlogPost has
 
 Obviously the whole example is too simple, as examples usually are. The point is that, to keep code clean, it’s important to think hard about coupling between elements. A folder structure aides to delineate depedencies. Close proximity in the tree suggests closer coupling. Documentation can further help to explain the direction of the coupling. We may just as well decide that Comments do know about the BlogPost they belong too, but that should be a conscious decision.
 
-
-## Comments
-
-<!-- To add a comment, copy this template: (don't worry about markup, I'll clean it up if need be)
-
-### [YOUR NAME](YOUR URL|TWITTER|...) - YYYY/MM/DD
-YOUR COMMENT TEXT HERE....
-
--->
