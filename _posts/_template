@@ -1,6 +1,6 @@
 ---
 title:
-slug:
+slug: aaa-bbb-ccc
 date: yyyy-mm-dd
 layout: post
 published: true
@@ -9,12 +9,3 @@ published: true
 **tl;dr ABSTRACT HERE**
 
 CONTENT HERE
-
-## Comments
-
-<!-- To add a comment, copy this template: (don't worry about markup, I'll clean it up if need be)
-
-### [YOUR NAME](YOUR URL|TWITTER|...)  - YYYY/MM/DD
-YOUR COMMENT TEXT HERE....
-
--->
