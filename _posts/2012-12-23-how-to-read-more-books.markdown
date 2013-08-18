@@ -6,13 +6,13 @@ layout: post
 published: true
 ---
 
+<img style="float:right;margin-left: 10px" src="/img/posts/2012-12-23/reading_improves_your_view_of_the_world.jpg" alt="Reading improves your view of the world">
 
 "You can't learn everything from books", people say. It's nothing but an excuse not to read books. It's a straw man argument,
 because no-one has ever claimed that you can. Or, "knowledge from experience can't be taught in a book". Even though that's true,
 there are many people out there with years of experiences that you will never have. Some of them are very good at sharing at least
 some of that gained knowledge through writing. Books broaden your horizon, and deepen your insight.
 
-![Reading improves your view of the world](/img/posts/2012-12-23/reading_improves_your_view_of_the_world.jpg "Reading improves your view of the world")
 
 With that out of the way, here are some of the tips that help me to read more books.
 

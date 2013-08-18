@@ -19,6 +19,8 @@ almost inadvertently, a book on problem solving -- even though it claims that "p
 
 ### Quotes
 
+<img style="float:left;margin-right: 10px" src="/img/books/systemantics.jpg" alt="Systemantics - The Systems Bible">
+
 «In setting up a new System, tread softly. You may be disturbing another System that is actually working.»
 
 «The word "Solution" is only a fancy term for the Response of System A (ourselves) to System B (the Problem). And its a
