@@ -9,7 +9,8 @@ published: true
 **tl;dr Switch is a framework for change that aims to operate on the emotional side, the logical side, and the environment.**
 
 As I [wrote earlier](/2013/08/john-gall-systemantics-the-systems-bible/), I want to post some quotes and a mini-review of
-the books I read. "Switch" compares humans in change processes to Rider (our logical side), riding an Elephant (our emotional side)
+the books I read. "[Switch](http://www.amazon.com/Switch-Change-Things-When-Hard/dp/0385528752)" compares humans in
+change processes to Rider (our logical side), riding an Elephant (our emotional side)
 down a Path (the environment). By directing the Rider, motivating the Elephant, and shaping the Path, you can change yourself,
 a team, an organization, or even society. As with all frameworks, it's limited (which the authors admit upfront). However,
 as a consultant who's made it his professional ambition to help teams and organizations build better software, I definitely found
