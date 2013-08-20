@@ -38,7 +38,7 @@ people's behavior.) So the question is this: How can you make your change a matt
 consequences?»
 
 (I can recall a number of occasions where a manager attempted to bribe a team into delivering faster, at lower quality,
-even though the team was priding itself on it's craftsmanship.)
+even though the team was priding itself on its craftsmanship.)
 
 «If you want to change the culture of your organization, you've got to get the reformers together. (...) Counterintuitively,
 you've got to let your organization have an identity conflict. For a time, at least, you've got to permit
