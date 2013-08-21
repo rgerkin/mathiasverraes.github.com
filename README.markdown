@@ -1,12 +1,17 @@
-# This is the data for my blog
+# Verraes.net
 
-It is automatically transformed by [Jekyll](http://github.com/mojombo/jekyll) into a static site whenever I push this repository to GitHub.
+Renders my [blog](http://verraes.net) using [Jekyll](http://github.com/mojombo/jekyll)
 
 ## Usage
 
-https://github.com/mojombo/jekyll/wiki/install
+'''
+gem install github-pages
+'''
 
-```
+'''
+
 ./server.sh
 ```
+
+
 
