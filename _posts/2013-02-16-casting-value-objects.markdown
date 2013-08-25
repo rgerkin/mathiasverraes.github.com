@@ -6,7 +6,7 @@ layout: post
 published: true
 ---
 
-__tl;dr: Cast Value Objects to strings that can be parsed back into the Value Object.__
+{% include tldr.html text="Cast Value Objects to strings that can be parsed back into the Value Object." %}
 
 
 I'm a big fan of Value Objects, as they are very helpful in encapsulating behavior, and communicating intent. In fact, as a

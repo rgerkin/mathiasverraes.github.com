@@ -6,7 +6,7 @@ layout: post
 published: true
 ---
 
-**tl;dr; Avoid tight coupling between your forms and your Entities by using the Command pattern as an intermediate.**
+{% include tldr.html text="Avoid tight coupling between your forms and your Entities by using the Command pattern as an intermediate." %}
 
 I usually tell people to stay away from the Symfony2 Form component, or forms libraries in general. The problem is that
 all these libraries are designed in a very CRUD mindset. You've done all the work to keep your models, views, and controllers

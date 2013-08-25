@@ -6,8 +6,6 @@ layout: post
 published: true
 ---
 
-<p class="lead">
-tl;dr @TODO ABSTRACT HERE
-</p>
+{% include tldr.html text="@TODO ABSTRACT" %}
 
 @TODO CONTENT HERE
