@@ -3,27 +3,7 @@ layout: default
 title: Mathias Verraes
 ---
 <div id="wrapper">
-
-	<section id="home">
-		<h2 style="border:none">
-			<div class="about-left"> <img class="aboutpic" src="http://www.gravatar.com/avatar/3a7cb0c3c8d5864e2e72c49cafc3e4d5?s=150" alt="mypic">
-			</div>I'm Mathias Verraes.<br />
-			I build enterprise <br/>
-			<span class="red">web applications</span>.
-		</h2>
-	</section>
-    <br>
-    <section id="blog">
-        <div id="post">
-        <p>
-            I'm an independent consultant. I advise companies on how to build enterprise applications for complex business
-            domains. As a team leader, I help developers to use best practices. I specialize in curing large legacy
-            projects: writing tests for untestable code, refactoring to Domain Driven Design, and giving the
-            applications a second life.
-        </p>
-        </div>
-    </section>
-
+	{% include about.html %}
 	{% include blogposts.html %}
 </div>
 
