@@ -6,7 +6,9 @@ layout: post
 published: true
 ---
 
-**tl;dr Switch is a framework for change that aims to operate on the emotional side, the logical side, and the environment.**
+<p class="lead">
+tl;dr Switch is a framework for change that aims to operate on the emotional side, the logical side, and the environment.
+</p>
 
 <img style="float:left;margin-right: 10px" src="/img/books/switch.jpg" alt="Switch - How to Change Things When Change Is Hard">
 
@@ -22,7 +24,7 @@ things people are doing that are in fact working, we can imitate and multiply th
 
 ### Environment
 
-«What looks like a people problem is often a situation problem.»
+<blockquote><p>«What looks like a people problem is often a situation problem.»</p></blockquote>
 
 (Contrast this with Weinberg's «It's always a people problem.» I don't think the statements are mutually exclusive.)
 
