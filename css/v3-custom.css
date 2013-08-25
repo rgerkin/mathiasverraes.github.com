@@ -1,14 +1,10 @@
-body {
-    padding-top: 70px;
-}
+
 .container {
     max-width: 730px;
 }
 
 h1, h2, h3, .navbar {
     font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-    /*font-weight: 100;
-    letter-spacing: 1px;*/
 }
 
 h1 {
@@ -26,4 +22,3 @@ h1 {
 .red {
     color: #B02B2C;
 }
-
