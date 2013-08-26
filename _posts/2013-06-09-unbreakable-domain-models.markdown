@@ -6,4 +6,6 @@ layout: post
 published: true
 ---
 
+## Moved!
+
 This page has moved to [here](/talks/unbreakable-domain-models.html)
