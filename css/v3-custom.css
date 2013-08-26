@@ -22,3 +22,8 @@ h1 {
 .red {
     color: #B02B2C;
 }
+
+blockquote {
+    border-left: 5px solid #777;
+    background-color: #eee;
+}

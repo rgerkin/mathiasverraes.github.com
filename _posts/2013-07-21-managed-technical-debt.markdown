@@ -9,9 +9,10 @@ published: true
 {% include tldr.html text="We should make a distinction between Managed and Unmanaged Technical Debt." %}
 
 [Alberto Brandolini](https://twitter.com/mathiasverraes/status/326435664319111170) said at IDDD Belgium (quoting from memory):
-"We've always explained 'technical debt' badly to the business. If you have debt with a bank, you can talk to someone,
+
+<blockquote>We've always explained 'technical debt' badly to the business. If you have debt with a bank, you can talk to someone,
 negotiate, and agree on a payment plan. But technical debt is like debt with the mob: they come at night, pointing a gun
-to your head, and they want their money NOW."
+to your head, and they want their money NOW.</blockquote>
 
 [Greg Young](http://codebetter.com/gregyoung/2013/03/06/startups-and-tdd/) on the other hand, has talked on several occasions about how technical debt is not necessarily bad. Businesses
 take loans all the time. They are a powerful tool to make an investment now, and pay for it later. It's a fundamental
