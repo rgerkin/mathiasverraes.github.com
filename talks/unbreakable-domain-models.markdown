@@ -18,6 +18,7 @@ year: 2013
   - Reviews on [joind.in](http://joind.in/talk/view/8438)
   - Review by [Rowan Merewood](http://techportal.inviqa.com/2013/06/12/dpc13/)
   - Review by [Richard Tuin](http://www.enrise.com/2013/06/a-review-of-the-dutch-php-conference-2013/)
+  - Review by [Ray Burgemeestre](http://blog.cppse.nl/dutch-php-conference-2013)
 - [Dataflow Community Evening](http://www.dataflow.be/nl/eerste-community-gent) in Ghent, Belgium, May 8, 2013
 
 ### Slides
