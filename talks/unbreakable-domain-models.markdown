@@ -6,6 +6,12 @@ year: 2013
 
 ### Events
 
+#### Upcoming
+
+- [PHPNW](http://conference.phpnw.org.uk/phpnw13/schedule/mathias-verraes/) in Manchester, UK, October 4-5, 2013
+
+#### Past
+
 - [FrOSCon](http://programm.froscon.org/2013/events/1243.html) in Sankt-Augustin, Germany, August 24-25, 2013
   - Reviews on [joind.in](http://joind.in/talk/view/9020)
 - [Dutch PHP Conference](http://www.phpconference.nl/talks#mathias-verraes-unbreakable-domain-models) in Amsterdam, Netherlands, June 6-8, 2013
