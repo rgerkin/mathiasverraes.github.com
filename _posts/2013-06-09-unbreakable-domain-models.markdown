@@ -8,4 +8,4 @@ published: true
 
 ## Moved!
 
-This page has moved to [here](/talks/unbreakable-domain-models.html)
+This page has moved to [/talks/unbreakable-domain-models.html](/talks/unbreakable-domain-models.html)
