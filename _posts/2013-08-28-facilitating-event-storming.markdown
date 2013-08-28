@@ -26,7 +26,7 @@ excited, they want to do it again with their founders. We also did a bit of cont
 their parent company, but time ran out.
 
 
-### Notes
+## Notes
 
 I think there are three main reasons for Model Storming:
 
