@@ -1,22 +1,13 @@
 ---
-layout: talk
-title: DDDBE Modellathon
-year: 2013
+title: The DDDBE Modellathon
+slug: dddbe-modellathon
+date: 2013-09-05
+layout: post
+published: true
 ---
 
-### Events
+{% include tldr.html text="On September 3, 2013, I facilitated the Modellathon for the freshly minted Belgian Domain-Driven Design community. It's like a hackathon, but we built models." %}
 
-#### Past
-
-- [@DDDBE](http://domaindriven.be) Modellathon in Gent, Belgium, September 3, 2013
-  - [Belgian Domain-Driven Design community](http://domaindriven.be) official site
-  - [Writeup by Tom Janssens](http://tojans.me/blog/2013/09/04/the-very-first-dddbe-event-the-modellathon/)
-  - [Photo's by Stijn Volders](http://www.flickr.com/photos/91274760@N08/sets/72157635393106480/)
-
-### Slides
-
-<script async class="speakerdeck-embed" data-id="105cfa00f86b0130e851227600bb7d26" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
-[See the slides on Speakerdeck](https://speakerdeck.com/mathiasverraes/dddbe-modellathon-2013)
 
 ### Goal
 
@@ -27,6 +18,11 @@ value. For more experienced attendees, it's an opportunity to exercise their mod
 
 By collaborating with people, and by learning from the models of the other teams, the attendees get a glimpse of the myriad
  of techniques that exist (often not documented anywhere) to explore, grasp, and visualize, their understanding of the domain.
+
+### Slides
+
+<script async class="speakerdeck-embed" data-id="105cfa00f86b0130e851227600bb7d26" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+[See the slides on Speakerdeck](https://speakerdeck.com/mathiasverraes/dddbe-modellathon-2013)
 
 ### What we did
 
@@ -97,4 +93,11 @@ It was a miracle that we had so much attendees for our brand new [Belgian Domain
 and that all these people were prepared to run this experiment with us. In fact, I don't think anything like a modellathon
 was ever attempted anywhere else. Let me know if you do.
 
-In any case, I can highly recommend it. And, incidentally, I'd love to come facilitate it!
+In any case, I can highly recommend running a modellathon of your own. And, incidentally, I'd love to come facilitate it :-)
+
+### More
+
+- Belgian Domain-Driven Design community [domaindriven.be](http://domaindriven.be)
+- [@DDDBE](http://twitter.com/DDDBE) on Twitter
+- [Writeup by Tom Janssens](http://tojans.me/blog/2013/09/04/the-very-first-dddbe-event-the-modellathon/)
+- [Photo's by Stijn Volders](http://www.flickr.com/photos/91274760@N08/sets/72157635393106480/)
