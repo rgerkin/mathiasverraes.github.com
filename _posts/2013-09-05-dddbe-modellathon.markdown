@@ -61,7 +61,7 @@ contributed their insights.
 
 In attempt to distribute people of different levels evenly across the teams, I asked who was an experienced modeler. No reaction.
  (Belgians especially can be shy in this regard.)
-Somebody (I think it was Jef) then asked "who had previously screwed up a model". Some people raised their hands, so that
+<del>Somebody (I think it was Jef)</del> Tom then asked "who had previously screwed up a model". Some people raised their hands, so that
 proved a much more effective way to find the attendees with modeling experience!
 
 #### Struggling
