@@ -26,6 +26,8 @@ By collaborating with people, and by learning from the models of the other teams
 
 ### What we did
 
+<img style="float:right;margin-left: 10px" src="/img/posts/2013-09-05-modellathon/mathias_verraes_at_dddbe.jpg" alt="Mathias at DDDBE">
+
 We formed teams of four people. Each team was provided with plenty of [paper](http://www.ikea.com/be/nl/catalog/products/20152281/),
 markers, and stickies. Stijn and me played the role of domain experts. We gave a short introduction about "The United Schools of Kazachstan".
 This domain was obviously made up, but most of what we talked about, came from a real project we are working on. We gave the people a
@@ -41,6 +43,8 @@ now tried to give guidance on techniques, and give the teams some pointers. For 
 [Event Storming](http://verraes.net/2013/08/facilitating-event-storming/). Another team had already produced a very detailed
 and complete model, so I told them that if this were a real application, the teachers would have to spend too much time entering
 data, and too little time actually teaching. This forced the team to re-evaluate some of their assumptions.
+
+<img style="float:left;margin-right: 10px" src="/img/posts/2013-09-05-modellathon/presenting_a_model_at_dddbe.jpg" alt="Presenting a model at DDDBE">
 
 After each round, a couple of teams presented their progress. Some had UML-like drawings, others had mostly stickies with words, some had
 drawn UI mockups as a starting point. It was quite wonderful to see how distinct each team's model was, despite the short time frame.
@@ -67,6 +71,8 @@ struggling with a problem is a really good way to learn. It triggers your instin
 then shows you a new technique, you immediately recognize why it's better. Perhaps, a good approach would be to have the teams
 try it for themselves during one or two rounds, and then have a short presentation on one or two techniques they can try.
 You'd probably need more time, 3-4 hours at least.
+
+<img style="float:right;margin-left: 10px" src="/img/posts/2013-09-05-modellathon/tom_janssens_at_dddbe.jpg" alt="Presenting a model at DDDBE">
 
 #### Be very attentive
 
