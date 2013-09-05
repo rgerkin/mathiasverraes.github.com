@@ -30,8 +30,8 @@ By collaborating with people, and by learning from the models of the other teams
 
 We formed teams of four people. Each team was provided with plenty of [paper](http://www.ikea.com/be/nl/catalog/products/20152281/),
 markers, and stickies. Stijn and me played the role of domain experts. We gave a short introduction about "The United Schools of Kazachstan".
-This domain was obviously made up, but most of what we talked about, came from a real project we are working on. We gave the people a
-paper report card for a Kazach pupil, and told them we wanted a better system for making the reports. Along the way we introduced
+This domain was obviously made up, but most of what we talked about, comes from a real project we are working on. We gave the people a
+paper report card for [a Kazach pupil](https://twitter.com/DDD_Borat), and told them we wanted a better system for making the reports. Along the way we introduced
 more complexity: the different ways pupils can be evaluated, the laws and governmental regulations, the importance of the progress a pupil
  makes, and the confidentiality of the pupils.
 
