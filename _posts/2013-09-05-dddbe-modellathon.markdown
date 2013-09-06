@@ -106,4 +106,5 @@ In any case, I can highly recommend running a modellathon of your own. And, inci
 - Belgian Domain-Driven Design community [domaindriven.be](http://domaindriven.be)
 - [@DDDBE](http://twitter.com/DDDBE) on Twitter
 - [Writeup by Tom Janssens](http://tojans.me/blog/2013/09/04/the-very-first-dddbe-event-the-modellathon/)
+- [Writeup by Jef Claes](http://www.jefclaes.be/2013/09/the-first-dddbe-modellathon.html)
 - [Photo's by Stijn Volders](http://www.flickr.com/photos/91274760@N08/sets/72157635393106480/)
