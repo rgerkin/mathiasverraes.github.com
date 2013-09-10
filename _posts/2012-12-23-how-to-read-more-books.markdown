@@ -67,6 +67,26 @@ Keep track of what you've read, on sites like [Kindle Reading List](https://kind
  You can share your list, follow others, turn it into a game. It's very rewarding to watch your reading list grow, realizing that all that
  knowledge is now in your head as well and makes you better at what you do.
 
+(Update September 10, 2013: three more tips:)
+
+### Skip to a better book
+
+[Nassim N. Taleb](http://verraes.net/2013/08/antifragile-nassim-nicholas-taleb/) spent years reading 30-60 hours a week:
+
+<blockquote>"The minute I was bored with a book or a subject I moved to another one, instead of giving up on reading altogether (...)
+The trick is to be bored with a specific book, rather than with the act of reading."</blockquote>
+
+### Start easy
+
+If you have a backlog of books you want to read, you can start with an easy or short one and build your way up.
+A finished book is a small victory that boosts your confidence, and prepares you for tougher tomes.
+
+### Listen to audiobooks
+
+I'd never given audiobooks much thought, but the last few months I've been driving a lot, so I wanted to spend the time well.
+I finished my first two audiobooks -- easy and short ones to begin with. I find that I'm more relaxed and focused when driving with
+ the gentle voice of a good narrator, than with blaring radio.
+
 What are your reading tips?
 
 ## Comments
