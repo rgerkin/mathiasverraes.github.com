@@ -41,8 +41,8 @@ news. Do you really need a newspaper anymore?
 
 Or get two, or three. They're cheap, small, and light. They carry thousands of books. They're a pleasure to read, because
 they don't blast bright light at you like iPads, monitors, and TV's. Rid yourself of the romantic idea that books must
- be touchable paper things that you can sniff. They're just dead trees collecting dust in your living room, and you'll be
- really sorry when you move to a new house.
+ be touchable, sniffable, paper objects. They're just dead trees collecting dust in your living room, and you'll be
+ really sorry when you move to a new house and have to carry them down four flights of stairs. The content is what matters.
 
 ### Read everywhere
 
