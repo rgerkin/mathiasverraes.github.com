@@ -32,6 +32,9 @@ and which parts are simply not elegant. And most importantly: when I introduce t
 it, and I refactor as soon as I feel it's needed. I add comments in the code suggesting how to change it, and often I
 hang a sticky note in the backlog. Whenever new code is affected by earlier debt, I bump the priority of the backlog item.
 
+<img style="float:left;margin-right: 10px" src="/img/posts/2013-07-21-managed-technical-debt/map-of-technical-debt.jpg" alt="Mapped Technical Debt (bottom)">
+
+
 ### Team discipline
 
 When opinions are at odds, like in the quotes above, there's often a problem in the language. There's one term, and two
