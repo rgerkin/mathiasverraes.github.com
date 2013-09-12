@@ -58,7 +58,7 @@ For Unmanaged Technical Debt on the other hand, most of the opposite conditions 
 - The team is unaware that a newly introduced solution is not optimal,
 - or the team is aware, but does not understand what an optimal solution would be or how to achieve it.
 
-#### How we manage it
+### How we manage it
 
 (Update September 12, 2013)
 
