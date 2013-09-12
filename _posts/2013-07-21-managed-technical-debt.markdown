@@ -58,3 +58,15 @@ For Unmanaged Technical Debt on the other hand, most of the opposite conditions 
 - The team is unaware that a newly introduced solution is not optimal,
 - or the team is aware, but does not understand what an optimal solution would be or how to achieve it.
 
+#### How we manage it
+
+(Update September 12, 2013)
+
+The photo above shows a project's the story map, and the bottom part is the map of technical debt, in columns per categories
+(blue stickies). The green stickies are prioritized, and the priorities regularly change: whenever we find something
+makes us slower, they move up, or move to the kanban board to be addressed in the sprint. We informally use the "three
+strikes and you refactor" rule of thumb, but mostly it's gut feeling, experience, and discussion that help us decide
+whether something needs fixing -- for example when we believe that future stories will be affected.
+
+Visualizing the story map and the technical debt, is incidentally a great way to relieve stress: sure, there's a lot of
+ work ahead, but it never feels unmanageable.
