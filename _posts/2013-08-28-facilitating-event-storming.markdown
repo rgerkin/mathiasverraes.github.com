@@ -18,7 +18,7 @@ boundaries for aggregates, bounded contexts and subdomains. It's developed by [A
 I facilitated an Event Storming session with the team of Qandidate.com in Rotterdam. I've read an early draft of Alberto's
 paper on Event Storming, that inspired most of what I did. It was my first time doing this as a facilitator, so I'd thought
 I'd share my notes. It's just the raw material -- I was going to process them into something more
-readable first, but [Jef Claes](http://www.jefclaes.be/) convinced me to just post them as is. So forgive if they are vague; I promise I will blog about
+readable first, but [Jef Claes](http://www.jefclaes.be/) convinced me to just post them as is. So forgive me if they are vague; I promise I will blog about
 Event Storming more later.
 
 Despite my rookie mistakes (too much intervention, then too little) the whole thing went very well. The team was very
