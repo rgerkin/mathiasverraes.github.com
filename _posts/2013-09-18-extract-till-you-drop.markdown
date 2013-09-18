@@ -24,6 +24,13 @@ to record more videos of refactoring techniques.
 <iframe width="420" height="315" src="//www.youtube.com/embed/S9pKJxOPmWM" frameborder="0" allowfullscreen></iframe>
 [Watch video on YouTube](https://www.youtube.com/watch?v=S9pKJxOPmWM)
 
+The title refers to a quote from [Robert C. Martin](https://sites.google.com/site/unclebobconsultingllc/one-thing-extract-till-you-drop) about applying Extract Method and other refactors until every element in your
+  system has just one responsibility:
+
+<blockquote>Perhaps you think this is taking things too far. I used to think so too. But after programming for over 40+
+years, I’m beginning to come to the conclusion that this level of extraction is not taking things too far at all. In fact,
+to me, it looks just about right. So, my advice: Extract till you just can’t extract any more. Extract till you drop.</blockquote>
+
 ### Abstract
 
 We’ve all seen them: applications out of control. Under the pressure of deadlines and endless change requests, with the weight of years of legacy, the code has become unmaintainable. Adding features is a slow hit and miss process. You know something needs to be done, but nobody knows how. To change the code safely, you need tests, but to make it testable, you need to change it. Rebuilding the system from scratch is not an option.
