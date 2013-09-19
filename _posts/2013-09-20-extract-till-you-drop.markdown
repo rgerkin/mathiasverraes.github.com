@@ -1,7 +1,7 @@
 ---
 title: Extract Till You Drop
 slug: extract-till-you-drop
-date: 2013-09-18
+date: 2013-09-20
 layout: post
 published: true
 ---
