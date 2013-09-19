@@ -17,9 +17,9 @@ published: true
 
 ### Screencast
 
-There are no slides for this presentation, it's all live demoing. I prerecorded a screencast. You'll notice I haven't
-managed to cram in everything I hoped to show, when I wrote the abstract. If plenty of people are interested, I'm happy
-to record more videos of refactoring techniques.
+There are no slides for this presentation, it's all live demoing. [The code is on GitHub](https://github.com/mathiasverraes/extract-till-you-drop).
+ I prerecorded a screencast. You'll notice I haven't managed to cram in everything I hoped to show, when I wrote the abstract.
+ If plenty of people are interested, I'll record more videos of refactoring techniques.
 
 <iframe width="420" height="315" src="//www.youtube.com/embed/S9pKJxOPmWM" frameborder="0" allowfullscreen></iframe>
 [Watch video on YouTube](https://www.youtube.com/watch?v=S9pKJxOPmWM)
