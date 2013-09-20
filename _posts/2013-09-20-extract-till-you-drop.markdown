@@ -31,6 +31,10 @@ The title refers to a quote from [Robert C. Martin](https://sites.google.com/sit
 years, I’m beginning to come to the conclusion that this level of extraction is not taking things too far at all. In fact,
 to me, it looks just about right. So, my advice: Extract till you just can’t extract any more. Extract till you drop.</blockquote>
 
+I owe a lot to Sandro Mancuso, who did a similar, much more advanced presentation in Java, which greatly inspired me to try this in PHP.
+Many of the ideas here are <strike>stolen</strike> borrowed from him.
+
+
 ### Abstract
 
 We’ve all seen them: applications out of control. Under the pressure of deadlines and endless change requests, with the weight of years of legacy, the code has become unmaintainable. Adding features is a slow hit and miss process. You know something needs to be done, but nobody knows how. To change the code safely, you need tests, but to make it testable, you need to change it. Rebuilding the system from scratch is not an option.
