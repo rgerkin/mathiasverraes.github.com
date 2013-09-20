@@ -42,3 +42,6 @@ We’ve all seen them: applications out of control. Under the pressure of deadli
 With the right tools, techniques, and mindset, any codebase can be brought under test, and be refactored towards a better architecture. All without affecting the behavior of the system, and allowing the business to continue.
 
 This presentation is not for the weak of heart. We’ll skip the theory and dive straight into the spaghetti code. Dependencies will be broken; designs will be messed up before they get better; fat controllers will mercilessly be put on a diet. It’s live coding, and it may fail. But it will change how you approach legacy code forever.
+
+<script async class="speakerdeck-embed" data-id="3ce44050041f0131954556f7ac4f018a" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
