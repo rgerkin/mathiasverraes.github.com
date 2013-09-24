@@ -108,3 +108,4 @@ The whole point of this technique, is that we have now written BankAccount, with
 
 Later on, we probably build a RESTfulTwitter implements Twitter, which would post messages using the Twitter REST API. If we had build the Twitter implementation first, we’d probably would have been tempted to add all kinds of features that we thought we might need. Instead of that, we discovered what we actually needed. Our test proves that our code adheres to [YAGNI](http://en.wikipedia.org/wiki/You_ain't_gonna_need_it).
 
+Read next: [Sensible Interfaces](/2013/09/sensible-interfaces/) - September 24, 2013

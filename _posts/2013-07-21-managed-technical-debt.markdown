@@ -70,3 +70,5 @@ whether something needs fixing -- for example when we believe that future storie
 
 Visualizing the story map and the technical debt, is incidentally a great way to relieve stress: sure, there's a lot of
  work ahead, but it never feels unmanageable.
+
+Read next: [Beautiful Code](http://verraes.net/2011/04/beautiful-code/) - April 5, 2011

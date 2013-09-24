@@ -56,12 +56,4 @@ What is required is not a large System, but a *different approach*. Trying to de
 System will somehow solve the Problem, rather than simply solving the Problem in the first place, is to present oneself
 with two problems in place of one.</blockquote>
 
-
-## Comments
-
-<!-- To add a comment, copy this template: (don't worry about markup, I'll clean it up if need be)
-
-### [YOUR NAME](YOUR URL|TWITTER|...)  - YYYY/MM/DD
-YOUR COMMENT TEXT HERE....
-
--->
+Read next: [Antifragile - Things That Gain from Disorder](/2013/08/antifragile-nassim-nicholas-taleb/) - August 29, 2013

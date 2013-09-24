@@ -51,3 +51,5 @@ Facilitator tips:
 - Hang red stickies with exclamation marks, question marks, or other notes, anywhere you feel there's an issue.
 - At the end, make a photo. Then tell them to throw the model away, and to do it over the next day. If possible in the presence of other stakeholders.
 - I personally prefer sentence-style event names ("A product was added to a basket" vs "Product added to basket"). I believe this makes the business people feel more comfortable.
+
+Read next: [The DDDBE Modellathon](/2013/09/dddbe-modellathon/) - September 5, 2013

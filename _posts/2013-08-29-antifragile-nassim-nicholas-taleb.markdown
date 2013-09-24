@@ -110,6 +110,6 @@ really defined—another reason to ignore newspapers, with their constant supply
 <blockquote>This is the central illusion in life: that randomness is risky, that it is a bad thing—and that eliminating
 randomness is done by eliminating randomness.</blockquote>
 
-
+Read next: [Systemantics - The Systems Bible](/2013/08/john-gall-systemantics-the-systems-bible/) - August 10, 2013
 
 

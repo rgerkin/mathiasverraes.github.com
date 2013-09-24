@@ -165,4 +165,4 @@ I'm sort of undecided about the `Aware` suffix. I don't think it's a problem per
 and should never have been in Symfony. But that is a Dependency Injection anti-pattern, not an interface naming problem. Thoughts?
 
 
-Read next: [Interface discovery with PHPUnit’s Mock objects](/2011/03/interface-discovery-with-phpunit-mock-objects/) March 21, 2011
+Read next: [Interface discovery with PHPUnit’s Mock objects](/2011/03/interface-discovery-with-phpunit-mock-objects/) - March 21, 2011

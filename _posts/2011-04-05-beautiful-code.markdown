@@ -15,3 +15,5 @@ And even if the code isn’t there yet, just having the opportunity to improve i
 A last-minute change request from a customer is no problem for beautiful code. We welcome it as a chance to prove that the painstaking refactoring was worth it. We’re thrilled at how ridiculously easy it has become to respond to change.
 
 The world is littered with garbage. So let’s pick up the trash in our own neighbourhood. Leave every piece of code behind a little cleaner than you found it. Beautiful code does make a difference.
+
+Read next: [Managed Technical Debt](http://verraes.net/2013/07/managed-technical-debt/) - July 21, 2013
