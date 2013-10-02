@@ -12,6 +12,8 @@ published: true
 #### Upcoming
 
 - [PHPNW](http://conference.phpnw.org.uk/phpnw13/schedule/mathias-verraes/) in Manchester, UK, October 4-5, 2013
+  - Reviews on [joind.in](https://joind.in/9312)
+
 
 #### Past
 
