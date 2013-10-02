@@ -10,7 +10,7 @@ published: true
 
 ### Events
 
-#### Upcoming
+#### Past
 
 - [Symfony Live](http://london2013.live.symfony.com/speakers.html#mathias) in London, UK, September 19-20, 2013
   - Reviews on [joind.in](https://joind.in/talk/view/9334)
