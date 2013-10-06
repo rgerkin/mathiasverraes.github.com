@@ -6,7 +6,7 @@ layout: post
 published: true
 ---
 
-{% include tldr.html text="Use verbs in some of your class names. There will be no additional translation in your brain that converts to code. The sentence _is_ the code." %}
+{% include tldr.html text="Use a verb to build a sentence. There will be no translation to code in your brain. The sentence _is_ the code." %}
 
 
 When you first learned Object Oriented Programming, somebody probably told you that objects map to things. And that still holds true
@@ -43,6 +43,7 @@ There's no ambiguity about what any of these objects represents. And you can use
 `$auditLog->recordThat(new EnemyWasDefeated($onDate));` Imagine the `new` keyword isn't there, and what you end up with is a nice
 sentence, saying exactly what it does: the audit log records that the enemy was defeated on a certain date.
 
+
 ## Specifications
 
 The Specification pattern is a way to model business rules as individual objects -- I talk about this in
@@ -75,6 +76,7 @@ message string will usually tell you more, and it's all very technical anyway. B
  once more, in the language of the business: `OrderShipmentHasFailed`, `BackAccountWasOverdrawn`. I don't generalize them
  either: I have an individual exception class for each specific occasion.
 
+
 ## Interfaces
 
 Interfaces are not classes, but close enough for inclusion. I go on about them in [Sensible Interfaces](/2013/09/sensible-interfaces/),
@@ -96,18 +98,10 @@ say "This domain command has permissions". There is no additional translation in
 The sentence _is_ the code.
 
 
+### Read more
 
+- [Sensible Interfaces](/2013/09/sensible-interfaces/)
+- [Execution in the Kingdom of Nouns](http://steve-yegge.blogspot.co.uk/2006/03/execution-in-kingdom-of-nouns.html)
+- [Unbreakable Domain Models](/2013/06/unbreakable-domain-models/)
+- [Class names with verbs enforce the Single Responsibility Principle](http://schneide.wordpress.com/2012/10/01/class-names-with-verbs-enforce-the-single-responsibility-principle-srp/)
 
-
-
-
-Exceptions?
-
-
-
-
-----
-
-
-Class names with verbs enforce the Single Responsibility Principle (SRP) | Schneide Blog
-http://schneide.wordpress.com/2012/10/01/class-names-with-verbs-enforce-the-single-responsibility-principle-srp/
