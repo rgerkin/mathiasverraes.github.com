@@ -168,7 +168,7 @@ $stringVersion = (string) $aDateRange;
 $this->assertEquals('2013-01-01 - 2013-02-07', $stringVersion);
 
 $parsedDateRange = DateRange::parse($stringVersion);
-$this->assertEquals($aDateRange, $parsedVersion);
+$this->assertEquals($aDateRange, $parsedDateRange);
 
 {% endhighlight %}
 
