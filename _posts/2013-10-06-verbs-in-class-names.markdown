@@ -104,5 +104,4 @@ If you have more types of classes where you use verbs, let me know!
 - [Sensible Interfaces](/2013/09/sensible-interfaces/)
 - [Execution in the Kingdom of Nouns](http://steve-yegge.blogspot.co.uk/2006/03/execution-in-kingdom-of-nouns.html)
 - [Unbreakable Domain Models](/2013/06/unbreakable-domain-models/)
-- [Class names with verbs enforce the Single Responsibility Principle](http://schneide.wordpress.com/2012/10/01/class-names-with-verbs-enforce-the-single-responsibility-principle-srp/)
 
