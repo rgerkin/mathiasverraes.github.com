@@ -97,6 +97,7 @@ say "This domain command has permissions". There is no additional translation in
 
 The sentence _is_ the code.
 
+If you have more types of classes where you use verbs, let me know!
 
 ### Read more
 
