@@ -13,7 +13,8 @@ published: true
 #### Past
 
 - [Symfony Live](http://london2013.live.symfony.com/speakers.html#mathias) in London, UK, September 19-20, 2013
-  - Mnetioned by [Carol Carini](http://www.infinity-tracking.com/blog/2013/09/infinity-at-symfony-live-london-2013/)
+  - The Tokyo Symfony user group turned my video into [a mini workshop](http://phpmentors.jp/post/63422732564/symfony-meetup-tokyo)
+  - Mentioned by [Carol Carini](http://www.infinity-tracking.com/blog/2013/09/infinity-at-symfony-live-london-2013/)
   - Reviews on [joind.in](https://joind.in/talk/view/9334)
 
 ### Screencast
