@@ -14,14 +14,16 @@ published: true
 
 
 - [PHPNW](http://conference.phpnw.org.uk/phpnw13/schedule/mathias-verraes/) in Manchester, UK, October 4-5, 2013
+  - Review by [Jerome Gill](http://www.boxuk.com/php-north-west-2013)
+  - Review by [Martin Bean](http://martinbean.co.uk/blog/2013/10/09/php-north-west-2013-conference/)
   - Reviews on [joind.in](https://joind.in/9312)
 - [FrOSCon](http://programm.froscon.org/2013/events/1243.html) in Sankt-Augustin, Germany, August 24-25, 2013
   - Reviews on [joind.in](http://joind.in/talk/view/9020)
 - [Dutch PHP Conference](http://www.phpconference.nl/talks#mathias-verraes-unbreakable-domain-models) in Amsterdam, Netherlands, June 6-8, 2013
-  - Reviews on [joind.in](http://joind.in/talk/view/8438)
   - Review by [Rowan Merewood](http://techportal.inviqa.com/2013/06/12/dpc13/)
   - Review by [Richard Tuin](http://www.enrise.com/2013/06/a-review-of-the-dutch-php-conference-2013/)
   - Review by [Ray Burgemeestre](http://blog.cppse.nl/dutch-php-conference-2013)
+  - Reviews on [joind.in](http://joind.in/talk/view/8438)
 - [Dataflow Community Evening](http://www.dataflow.be/nl/eerste-community-gent) in Ghent, Belgium, May 8, 2013
 
 ### Slides
