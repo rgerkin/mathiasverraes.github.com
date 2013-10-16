@@ -10,6 +10,10 @@ published: true
 ### Events
 
 
+#### Future
+
+- [Confoo](http://confoo.ca/en/2014/session/unbreakable-domain-models) in Montreal, Canada, February 24-28, 2014
+
 #### Past
 
 

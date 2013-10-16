@@ -10,6 +10,10 @@ published: true
 
 ### Events
 
+#### Future
+
+- [Confoo](http://confoo.ca/en/2014/session/extract-till-you-drop) in Montreal, Canada, February 24-28, 2014
+
 #### Past
 
 - [Symfony Live](http://london2013.live.symfony.com/speakers.html#mathias) in London, UK, September 19-20, 2013
