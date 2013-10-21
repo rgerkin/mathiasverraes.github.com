@@ -48,3 +48,4 @@ These patterns help us evolve from structural data models, to rich behavioral mo
 
 The presentation is a fast paced introduction to some patterns and ideas that will make your Domain Model expressive, unbreakable, and beautiful.
 
+Check out [Elephant in the Room #002: The Heart and Soul of OOP](http://elephantintheroom.io/blog/2013/10/episode-2-heart-and-soul-of-oop/) for more info about Value Objects.

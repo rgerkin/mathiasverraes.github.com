@@ -198,4 +198,4 @@ that's something we'll cover in a future blog post.
 Related posts:
 
  - [Representing Money in PHP, Fowler-style](/2011/04/fowler-money-pattern-in-php/)
-
+ - Check out [Elephant in the Room #002: The Heart and Soul of OOP](http://elephantintheroom.io/blog/2013/10/episode-2-heart-and-soul-of-oop/) for more info about Value Objects.
