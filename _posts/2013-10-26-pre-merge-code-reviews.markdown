@@ -90,7 +90,7 @@ to the whiteboard with a couple of team members and draw out a solution everybod
 I'm assuming in this post that you use GitHub, but there are other solutions, such as ReviewBoard, BarKeep, Phabricator,
 and Gerrit. I did a little bit of research last year, and felt that GitHub was the best tool, but I have no hands-on
 experience with the others. YMMV. The important factor for me is that you can review stories or branches as a whole,
-and comment inline.
+and comment inline. (Update: @tvlooy suggested GitLab.)
 
 
 ## Pitfalls and anti-patterns
