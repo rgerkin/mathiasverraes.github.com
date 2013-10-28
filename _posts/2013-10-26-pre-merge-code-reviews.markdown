@@ -112,7 +112,8 @@ people from cheating. But if you keep having a long term Gatekeeper, you have se
 - **Total Lockdown**<br>
 One step further than having a Gatekeeper, is taking away everybody's permissions to touch the main repository, and forcing
 them to use their own forks and send pull requests from there. It an be a good measure if the situation is really problematic, but it's
- a terrible downer for morale. Deserved or not, people will feel distrusted.
+ a terrible downer for morale. Deserved or not, people will feel distrusted. (Update: To clarify, it's not a problem if they never
+  had pull permissions from the beginning.)
 
 - **The Apologists**<br>
 "We don't have time for code reviews." Or: "Code reviews do not apply in this project." As with all discussions about
