@@ -135,3 +135,7 @@ Focus on the important issues: Are the tests sufficiently conclusive? Is the nam
 Will we still understand the code 12 months from now? Is it refactorable? ...
 
 As usual, I will keep adding to this post as I find more patterns. Got tips?
+
+Update: Apparently Phil Haack [blogged about code reviews](http://haacked.com/archive/2013/10/28/code-review-like-you-mean-it.aspx)
+almost at the exact same time. He has some great tips like keeping a checklist, focusing on the code and
+not the author, and stepping through the code. Worth reading!
