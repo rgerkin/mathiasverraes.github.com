@@ -6,8 +6,13 @@ layout: post
 published: true
 ---
 
-{% include tldr.html text="On September 3, 2013, I facilitated the Modellathon for the freshly minted Belgian Domain-Driven Design community. It's like a hackathon, but we built models." %}
 
+### Events
+
+#### Past
+
+- [DDD Paris Modellathon](http://www.meetup.com/DDD-Paris/events/142503812/) - October 29, 2013
+- DDD Belgium Modellathon in Ghent, Belgium, September 3, 2013
 
 ### Goal
 
@@ -105,8 +110,4 @@ In any case, I can highly recommend running a modellathon of your own. And, inci
 
 - Belgian Domain-Driven Design community [domaindriven.be](http://domaindriven.be)
 - [@DDDBE](http://twitter.com/DDDBE) on Twitter
-- [Writeup by Tom Janssens](http://tojans.me/blog/2013/09/04/the-very-first-dddbe-event-the-modellathon/)
-- [Writeup by Jef Claes](http://www.jefclaes.be/2013/09/the-first-dddbe-modellathon.html)
-- [Photo's by Stijn Volders](http://www.flickr.com/photos/91274760@N08/sets/72157635393106480/)
-
-Read next: [Facilitating Event Storming](/2013/08/facilitating-event-storming/) - August 28, 2013
+- Read next: [Facilitating Event Storming](/2013/08/facilitating-event-storming/) - August 28, 2013
