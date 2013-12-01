@@ -15,5 +15,7 @@ and offered me the luxury to choose any SE topic I wanted, I just had to do it.
 
 <script async class="speakerdeck-embed" data-id="9954fc103bd40131db9c2eaec66c710f" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
+[See the slides on Speakerdeck](https://speakerdeck.com/mathiasverraes/fighting-bottlenecks-with-cqrs)
+
 Volker gave me a tour of the ResearchGate office. They're all about sharing scientific research. It's a fast growing
 startup, with an awesome culture, and [they're hiring](http://www.researchgate.net/careers/), so check them out.
