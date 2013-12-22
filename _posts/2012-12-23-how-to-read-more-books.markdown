@@ -107,7 +107,7 @@ reactivate it in your brain.
 ### Make room and make options
 
 [Jurgen Appelo](http://www.noop.nl/2013/12/dont-make-goals-make-room-and-make-options.html) recommends not to set a target
-amount of books to read. Targets lead to sub-optimization. And how would you know what amount is 'just right'? Focus on removing
+amount of books to read. Targets lead to sub-optimisation. And how would you know what amount is 'just right'? Focus on removing
 waste (he cites watching TV and drinking in bars), and on making options (have a backlog and always bring reading material).
 
 
