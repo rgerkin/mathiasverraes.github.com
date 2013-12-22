@@ -29,6 +29,10 @@ but only watch things that you consciously choose to watch.
 - Don't zap. The ultimate time sink hole.
 - Don't watch the news. It's always the same. The little information you can get from a 22 minute news program, can be read online in 5 minutes.
 
+(Update April 26, 2013:)
+According to this [this article](http://www.guardian.co.uk/media/2013/apr/12/news-is-bad-rolf-dobelli), news is not just a
+waste of time, it is in fact really bad for you. Giving up reading news will make you happier.
+
 Which brings me to:
 
 ### Stop reading newspapers
@@ -87,13 +91,24 @@ I'd never given audiobooks much thought, but the last few months I've been drivi
 I finished my first two audiobooks -- easy and short ones to begin with. I find that I'm more relaxed and focused when driving with
  the gentle voice of a good narrator, than with blaring radio.
 
-What are your reading tips?
+(Update December 22, 2013: two more tips:)
 
-## Comments
+### Read it before you need it
 
-### [Mathias Verraes](http://twitter.com/mathiasverraes) - 2013/26/04
+In an ideal world, you'd read (technical) books just in time, precisely before you need the information. But you can't plan learning like that.
+You don't know how much time you'll need to read it, let alone to have it sink in. When you need information to finish a task
+you're working on, a book is often not the right choice.
 
-According to this [this article](http://www.guardian.co.uk/media/2013/apr/12/news-is-bad-rolf-dobelli), news is not just a
-waste of time, it is in fact really bad for you. Giving up reading news will make you happier.
+A better approach is to read a book long before you might need it. Learning takes time, so giving your brain ample time to process the new
+ideas, will give you a much better understanding. When the time comes to use the knowledge, a quick refresher will be all you need to
+reactivate it in your brain.
 
 
+### Make room and make options
+
+[Jurgen Appelo](http://www.noop.nl/2013/12/dont-make-goals-make-room-and-make-options.html) recommends not to set a target
+amount of books to read. Targets lead to sub-optimization. And how would you know what amount is 'just right'? Focus on removing
+waste (he cites watching TV and drinking in bars), and on making options (have a backlog and always bring reading material).
+
+
+**What are your reading tips?**
