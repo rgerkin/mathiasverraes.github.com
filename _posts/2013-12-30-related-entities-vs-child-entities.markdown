@@ -275,3 +275,8 @@ It should be clear now that Project and Task are highly cohesive, and have stron
 
 As is always the problem with examples, is that the one I used here is too simple and not production-ready. Consider it pseudo-code, to illustrate the concept, rather than a set of rules of how to model a domain. If nothing else, I hope it helps you to model more explicitly.
 
+## Read more
+
+- [CRUD is an anti-pattern](/2013/04/crud-is-an-anti-pattern/)
+- [Value Objects and User Interfaces](http://verraes.net/2013/11/value-objects-and-user-interfaces/) (and especially the comments)
+- Elephant in the Room podcast, [Episode #002 on Value Objects](http://elephantintheroom.io/blog/2013/10/episode-2-heart-and-soul-of-oop/)

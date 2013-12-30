@@ -113,10 +113,10 @@ your solution, as opposed to allowing your logical solution to be defined by the
 experiment, fail, try again, learn!
 
 
-More:
+## Read More
 
 - Elephant in the Room podcast, [Episode #002 on Value Objects](http://elephantintheroom.io/blog/2013/10/episode-2-heart-and-soul-of-oop/)
 - [Accidental Entities - You don't need that identity](http://www.jefclaes.be/2013/05/accidental-entities-you-dont-need-that.html) by [@JefClaes](http://twitter.com/JefClaes)
 - [Accidental Entities - What about the UI?](http://www.jefclaes.be/2013/05/accidental-entities-you-dont-need-that.html) by [@JefClaes](http://twitter.com/JefClaes)
-
+- [Related Entities vs Child Entities](/2013/12/related-entities-vs-child-entities/)
 
