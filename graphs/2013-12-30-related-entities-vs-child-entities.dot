@@ -1,0 +1,19 @@
+digraph g {
+
+    node [ shape = record, fillcolor="white", style="filled" ];
+
+
+    subgraph cluster_0 {
+        bgcolor="Lavender"
+        Project [label="{ Project | projectId\n title\n tasks[]\n assignee}"]
+        Task [label="{ Task | taskId\n description}"]
+    }
+
+    subgraph cluster_1 {
+        bgcolor="palegreen"
+        User [label="{ User | userId\n name}"]
+    }
+
+    Project -> Task [label="has", constraint=false]
+    Project -> User [label=" is assigned to"]
+}
