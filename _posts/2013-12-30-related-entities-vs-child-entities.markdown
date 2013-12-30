@@ -12,9 +12,11 @@ published: true
 
 ## Entity
 
-An Entity is an object in our Domain Model with an identity and a lifecycle. "Lifecycle" means that it is created, possibly changes over time, and eventually can cease to exist. Throughout this lifecycle, we need some way to identify this object, especially when our system talks to other systems about this Entity.
+<img style="float:right;margin-left: 10px" src="/img/posts/2013-12-30-related-entities-vs-child-entities/marshfrog_illus_cropped.jpg" alt="Frog lifecycle">
 
-Imagine a simple project management application. When we start a new Project, we give it a name, a due date, and a 'started' status. We assign an identifier to the Project. Later, at different times, we rename the Project, change the due date, and, at a certain point, and change the status to 'ended'. After a while, we delete the Project from the system. Because we need to work with this Project at different times in it's lifecycle, we need to persist it to something more trustworthy than memory. We use a database for this, and every time we want to access the Project, we use it's identifier to talk to the database. Our system is not an island: we publish a list of Projects to client systems, and these clients can query our system for the current state of a Project, also by using the identifier.
+An **Entity is an object in our Domain Model with an identity and a lifecycle**. "Lifecycle" means that it is created, possibly changes over time, and eventually can cease to exist. Throughout this lifecycle, we need some way to identify this object, especially when our system talks to other systems about this Entity.
+
+Imagine a simple project management application. When we start a new Project, we give it a name, a due date, and a 'started' status. We assign an identifier to the Project. Later, at different times, we rename the Project, change the due date, and, at a certain point, and change the status to 'ended'. After a while, we delete the Project from the system. Because we need to work with this Project at different times in its lifecycle, we need to persist it to something more trustworthy than memory. We use a database for this, and every time we want to access the Project, we use its identifier to talk to the database. Our system is not an island: we publish a list of Projects to client systems, and these clients can query our system for the current state of a Project, also by using the identifier.
 
 
 ## Entity relationships
@@ -24,11 +26,11 @@ Two entities, of the same or of different types, can have a relation. In our exa
 
 ## Child Entities
 
-Sometimes, an Entity's lifecycle is entirely dependent on another Entity. We call this a Child Entity. It's a strong relationship: the Child Entity has only meaning in the context of its parent, and cannot exist outside of it. If the Parent Entity ceases to exist, the Child Entity is deleted as well. Ideally, all operations on the child are handled by the parent, even it's creation.
+Sometimes, an **Entity's lifecycle is entirely dependent on another Entity. We call this a Child Entity**. It's a strong relationship: the Child Entity has only meaning in the context of its parent, and cannot exist outside of it. If the Parent Entity ceases to exist, the Child Entity is deleted as well. Ideally, all operations on the child are handled by the parent, even its creation.
 
-In our example, our Project has Tasks. A Task is part of one Project, and one Project alone. The Task can't be created independently of the Project, it can't exist outside of it, and when the Project is deleted, its Tasks are deleted. Tasks have a `completed` boolean flag. Clearly a Task has a lifecycle: it gets created, at a certain point it is completed, and it can be removed. This lifecycle only exists in the context of Project.
+In our example, our Project has Tasks. A Task is part of one Project, and one Project alone. The Task can't be created independently of the Project, it can't exist outside of it, and when the Project is deleted, its Tasks are deleted. Tasks have a 'completed' boolean flag. Clearly a Task has a lifecycle: it gets created, at a certain point it is completed, and it can be removed. This lifecycle only exists in the context of Project.
 
-Why is all of this important? Modeling is the art of making the implicit explicit. By making the difference between related Entities and Child Entities explicit,we open up the possibility to treat them differently, make different design decisions, and optimize differently. It's going to affect how we encapsulate behaviors, how we build repositories, REST APIs, and database schemas. It determines the boundaries of our models, which in turn determines the opportunities for partitioning our system. Thinking hard about this difference, is going to help us decide what to couple, and what to decouple.
+Why is all of this important? **Modelling is the art of making the implicit explicit**. By making the difference between related Entities and Child Entities explicit,we open up the possibility to treat them differently, make different design decisions, and optimise differently. It's going to affect how we encapsulate behaviours, how we build repositories, REST APIs, and database schemas. It determines the boundaries of our models, which in turn determines the opportunities for partitioning our system. **Thinking hard about this difference, is going to help us decide what to couple, and what to decouple**.
 
 ## Coding the example
 
@@ -77,7 +79,7 @@ final class Project
 }
 {% endhighlight %}
 
-In this code, Task is effectively a Value Object. That could definetely work, but in remember that we want to track whether a Task is completed. A Task that is completed, is still the same Task, even though one of its properties changed. It's identity remains, independent of its values. That makes it an Entity.
+In this code, Task is effectively a Value Object. That could definitely work, but in remember that we want to track whether a Task is completed. A Task that is completed, is still the same Task, even though one of its properties changed. Its identity remains, independent of its values. That makes it an Entity.
 
 Why is `Project#addTask()` taking only a description, and not a Task instance? Tasks are an essential part of a Project. We want our Project Parent Entity to be in control of the lifecycle of Task. That means we don't want other code to start making Task objects. In PHP, there's no concept of 'friend classes', so we can't really prevent anyone from making Task instances -- [except by the power of code reviews](/2013/10/pre-merge-code-reviews/) :-)
 
@@ -160,7 +162,7 @@ final class Project
 }
 {% endhighlight %}
 
-As you can see, Task is still entirely private to Project. Only Project knows how to complete a Task. If for some reason, the underlying code changes completely, the API of Project will remain intact. Hopefully, this illustrates how the Child Entity pattern fits nicely with object oriented ideas of information hiding and encapsulation. Imagine that every object only has access to a very limited set of information, a limited set of operations on a limited set of collaborators. Writing spaghetti code would be impossible. We can't protect our code to that extent, but having a mental model of this, is definitely going to help you reason about your system.
+As you can see, Task is still entirely private to Project. Only Project knows how to complete a Task. If for some reason, the underlying code changes completely, the API of Project will remain intact. Hopefully, this illustrates how **the Child Entity pattern fits nicely with object oriented ideas of information hiding and encapsulation**. Imagine that every object only has access to a very limited set of information, a limited set of operations on a limited set of collaborators. Writing spaghetti code would be impossible. We can't protect our code to that extent, but having a mental model of this, is definitely going to help you reason about your system.
 
 Another benefit of all this encapsulation, is that Project can guard invariants for its set of Tasks. One such invariant could be a business rule stating that "Tasks can only be completed if the Project has at least five Tasks." This business rule should not be guarded inside Task, but Project is a natural fit for it.
 
@@ -209,12 +211,13 @@ But again, in the real world, we might run into issues. We may need reports acro
 
 ## Passing references
 
-To render a Project with its Tasks, we'll need to access Tasks in the view, so we need Project to expose a `getTasks()` method. The idea here is that what you get from this method, is a **passing reference** to Tasks. You are allowed to use it, but your use is temporary. Your client code is supposed to forget about the Task object, and always refer back to Project if it needs it again.
+To render a Project with its Tasks, we'll need to access Tasks in the view, so we need Project to expose a getTasks() method. The idea here is that what you get from this method, is a **passing reference** to Tasks. You are allowed to use it, but your use is temporary. Your client code is supposed to forget about the Task object, and always refer back to Project if it needs it again.
 
 ## Coupling
 
 To wrap it up, have a look at the graph below.
 
+<!-- Source of this svg is in /graphs/2013-12-30-related-entities-vs-child-entities.dot -->
 
 <svg width="255pt" height="264pt"
  viewBox="0.00 0.00 254.94 264.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
