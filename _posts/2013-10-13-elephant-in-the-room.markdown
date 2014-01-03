@@ -15,3 +15,6 @@ I only started listening to podcasts quite recently, but it's actually a much ni
 As a friend told me: they are like blog posts you can listen to while driving.
 
 So check out our podcast and let us know in the comments over at [ElephantInTheRoom.io](http://elephantintheroom.io) what you think.
+
+<img src="/img/posts/2013-10-13-elephant-in-the-room/elephantintheoffice.jpg">
+
