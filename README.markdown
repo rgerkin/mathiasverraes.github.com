@@ -4,14 +4,14 @@ Renders my [blog](http://verraes.net) using [Jekyll](http://github.com/mojombo/j
 
 ## Usage
 
-'''
+```
 gem install github-pages
-'''
+```
 
-'''
-
+```
 ./server.sh
 ```
+
 
 
 
