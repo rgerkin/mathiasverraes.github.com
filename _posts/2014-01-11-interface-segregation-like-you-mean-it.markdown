@@ -8,6 +8,8 @@ published: true
 
 {% include tldr.html text="@TODO ABSTRACT" %}
 
+<img style="float:right;margin-left: 10px" src="/img/posts/2014-01-11-interface-segregation-like-you-mean-it/vormenstoof.jpg" alt="The iron Dobbin is one creepy looking vehicle">
+
 
 One of the qualities of good design, is that it reduces the cognitive load required to operate it. Complexity can be measured as the number of concepts you need to understand and keep in memory *at the same time*. Compare the microwave oven I have (lots of menus, buttons, cryptic icons, and programs I don't use) with the microwave oven I wish I had (a start and a stop button, a dial, and a time display).
 
