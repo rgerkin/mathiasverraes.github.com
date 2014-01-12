@@ -6,7 +6,7 @@ layout: post
 published: true
 ---
 
-{% include tldr.html text="@TODO ABSTRACT" %}
+{% include tldr.html text="A richer toolbox of naming strategies, induces better interface segregation." %}
 
 <img style="float:right;margin-left: 10px" src="/img/posts/2014-01-11-interface-segregation-like-you-mean-it/vormenstoof.jpg" alt="The iron Dobbin is one creepy looking vehicle">
 
