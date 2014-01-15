@@ -11,10 +11,10 @@ published: true
 
 Context Mapping, first described by Eric Evans in Domain-Driven Design, is lightweight method of drawing out the relations between systems, and parts of systems. It's not technical per se. It exposes the politics of the organisations and the teams building the systems. As you start mapping, every edge that connects two systems, defines an upstream, and a downstream point; the latter system being the one that is affected by changes in the former. Or, to put it more graphically: if the upstream people piss in the river, the downstream people are drinking it. Pardon my French. In the book, Eric defines a number of patterns, that characterise those relations: Anticorruption Layer, Custom/Supplier, Open Host Service, Published Language, Shared Kernel, etc.
 
-Mind that it's not about the direction of the data. You might be sending data to another system, but still be downstream, because they decide what that data should look like. Eric, and [many others](http://martinfowler.com/bliki/BoundedContext.html), have explained it better than I could, so I won't go into detail.
+Mind that it's not about the direction of the data. You might be sending data to another system, but still be downstream, because they decide what that data should look like. Eric, and [Alberto Brandolini](https://twitter.com/ziobrando/status/423531883893252096), have [explained it better](http://www.infoq.com/articles/ddd-contextmapping) than I could, so I won't go into detail.
 
 
-Today [Alberto Brandolini](https://twitter.com/ziobrando/status/423531883893252096) explained his idea about Bandwidth. For me, that ties the whole of Context Mapping together. I will try to do it justice here.
+In the workshop today, and over dinner, [Alberto Brandolini](https://twitter.com/ziobrando/status/423531883893252096) explained his recent idea about Bandwidth. For me, that ties the whole of Context Mapping together. I will try to do it justice here.
 
 <img src="/img/posts/2014-01-15-bandwidth-and-context-mapping/the-deepest-explanation-of-ddd.png" alt="I think today I gave the deepest explanation ever of Context Mapping ...and I feel good!">
 
