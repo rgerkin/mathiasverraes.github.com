@@ -29,10 +29,9 @@ When you draw a Context Map, you visualize the different Bounded Contexts of the
 
 You can not answer this from just looking at the Context Map. Some missing concept is hiding in the whitespace. The patterns describe the character of the communication, but not how much communication is going on between the two teams. Alberto names this quantity the Bandwidth.
 
+<img src="/img/posts/2014-01-15-bandwidth-and-context-mapping/context-map-bandwidth.jpg" alt="Context Map with Bandwidth">
+
 Bandwidth will affect you a lot. If the upstream team is in a different country, and you only have one monthly call with them, the Bandwidth is low. If they are in the office next door, and you have lunch with them daily, your Bandwidth is going to be higher. Even though in my example, you are mostly Conformist, you still have a chance of altering the relation slightly, perhaps pushing it more in the direction of a Customer/Supplier pattern. The Bandwidth allows more communication, more opportunity for shared understanding, more opportunity for having at least some say in the service they provide. Many things affect this Bandwidth: physical availability, and online communications, as in my example. But also things like seniority: people who have been in the organisation a long time, are usually the ones setting the rules. Sometimes it will be determined by which system is more essential to the business, although, in some case, a less important system might still call the shots. If one system is legacy, it might be upstream, simply because it is too hard to change. Or perhaps the upstream team simply has too much ego to want to empathise with other teams.
 
 Making this Bandwidth explicit, by drawing fatter and thinner edges, help you make more informed decisions. Low Bandwidth means higher risk for projects that depend on communications between Bounded Contexts. With Bandwidth, the Context Map is more complete: it now shows the structure, the character of the relations, and the quantity of the communications.
 
-
-
-@TODO add drawing of context map with bandwidth
