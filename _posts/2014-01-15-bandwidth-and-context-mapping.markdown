@@ -36,5 +36,5 @@ Bandwidth will affect you a lot. If the upstream team is in a different country,
 Making this Bandwidth explicit, by drawing fatter and thinner edges, helps you make more informed decisions. Low Bandwidth means higher risk for projects that depend on communications between Bounded Contexts. With Bandwidth, the Context Map is more complete: it now shows the structure, the character of the relations, and the quantity of the communications.
 
 **Update 2014-01-16**
-I missed a small nuance. It's not about the amount of communication going on per se, but rather about the *potential* for communication.
+I missed a small nuance. It's not about the amount of communication going on per se, but rather about the *potential*, or the *capacity*, for communication.
 
