@@ -14,6 +14,7 @@ published: true
 
 - [PHP Benelux](http://conference.phpbenelux.eu/2014/) in Antwerp, Belgium, January 24-25, 2014
 - [Confoo](http://confoo.ca/en/2014/session/extract-till-you-drop) in Montreal, Canada, February 24-28, 2014
+- Your company or event? [Contact me](http://verraes.net/#contact)
 
 #### Past
 
