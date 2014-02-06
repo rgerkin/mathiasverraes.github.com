@@ -17,6 +17,7 @@ published: true
 
 - [PHP Benelux](http://conference.phpbenelux.eu/2014/sessions/#model-storming-workshop) in Antwerp, Belgium, January 24, 2014
     - [Joind.in reviews](https://joind.in/talk/view/10281)
+    - Review by [Carl Vuorinen](http://cvuorinen.net/2014/01/cqrs-or-did-you-mean-bumper-cars-my-phpbenelux-2014-experience/)
 - Dry-run at [Marlon](http://marlon.be) in Ghent, Belgium, January 19, 2014
 
 
