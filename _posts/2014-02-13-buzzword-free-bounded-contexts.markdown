@@ -35,7 +35,7 @@ Now imagine that instead of one team, building one application and one model, we
 
 Whether the three teams will easily reach agreement on those integration contracts, is [a whole different discussion](/2014/01/bandwidth-and-context-mapping/). But apart from that, it's great not to share your database, or any other infrastructure. It gives you freedom. There is no complication from trying to put all the things in one model.
 
-So why do we make it so hard on ourselves when we are just one team? We can borrow the benefits of having multiple teams (clarity, clean separation), without the downsides (communication overhead). That's essentially what Bounded Contexts are about:
+So why do we make it so hard on ourselves when we are just one team? We can borrow the benefits of having multiple teams (clarity, clean separation), without the downside (communication overhead). That's essentially what Bounded Contexts are about:
 
 - Split up your system according to natural divisions in the domain, such as departments, userbases, lifecycles, goals, ...
 - Make the contexts explicit. ("A Product in the context of Shipping is ...")
