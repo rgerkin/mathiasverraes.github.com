@@ -6,7 +6,7 @@ layout: post
 published: true
 ---
 
-{% include tldr.html text="My recent attempt at explaining Bounded Contexts at @DDDBE, was too heavy on terminology. Rinse, adjust, repeat." %}
+{% include tldr.html text="My recent attempt at explaining Bounded Contexts at @DDDBE, was criticised for being too heavy on terminology. Rinse, adjust, repeat." %}
 
 
 Context is everywhere. The human brain interprets context immediately, without effort. Try this:
