@@ -15,3 +15,5 @@ Yesterday, we did a DDD Basics session with the <a href="http://domaindriven.be"
 - <a href="http://twitter.com/mathiasverraes">myself</a> (Bounded Contexts and Modelling).
 
 <script async class="speakerdeck-embed" data-id="5a1a8f7075ed0131f0be026a5a2b7ed1" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
+[Watch the slides on Speakerdeck](https://speakerdeck.com/mathiasverraes/ddd-basics-bounded-contexts-modelling)
