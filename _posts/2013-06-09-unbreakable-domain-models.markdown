@@ -12,7 +12,6 @@ published: true
 
 #### Future
 
-- [PHP UK Conference](http://phpconference.co.uk/) in London, UK, February 21-22, 2014
 - [Confoo](http://confoo.ca/en/2014/session/unbreakable-domain-models) in Montreal, Canada, February 24-28, 2014
 - Your company or event? [Contact me](http://verraes.net/#contact)
 
