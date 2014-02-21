@@ -6,6 +6,11 @@ layout: post
 published: true
 ---
 
+### Slides
+
+<script async class="speakerdeck-embed" data-id="838642907d6c0131238f2adccd741a3a" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+[See the slides on Speakerdeck](https://speakerdeck.com/mathiasverraes/unbreakable-domain-models-phpuk-2014-london#)
+
 
 ### Events
 
@@ -31,11 +36,6 @@ published: true
   - Review by [Ray Burgemeestre](http://blog.cppse.nl/dutch-php-conference-2013)
   - Reviews on [joind.in](http://joind.in/talk/view/8438)
 - [Dataflow Community Evening](http://www.dataflow.be/nl/eerste-community-gent) in Ghent, Belgium, May 8, 2013
-
-### Slides
-
-<script async class="speakerdeck-embed" data-id="838642907d6c0131238f2adccd741a3a" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
-[See the slides on Speakerdeck](https://speakerdeck.com/mathiasverraes/unbreakable-domain-models-phpuk-2014-london#)
 
 ### Abstract
 
