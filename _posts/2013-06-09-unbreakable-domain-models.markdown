@@ -17,11 +17,12 @@ published: true
 
 #### Future
 
-- [Confoo](http://confoo.ca/en/2014/session/unbreakable-domain-models) in Montreal, Canada, February 24-28, 2014
 - Your company or event? [Contact me](http://verraes.net/#contact)
 
 #### Past
 
+- [Confoo](http://confoo.ca/en/2014/session/unbreakable-domain-models) in Montreal, Canada, February 24-28, 2014
+  - [Feedback collected by the organizers](/img/posts/2013-06-09-unbreakable-domain-models/UnbreakableDomainModels-Confoo14-feedback.pdf)
 - PHPUK in London, UK, Februari 21-22, 2014
   - Reviews on [joind.in](http://joind.in/talk/view/10690)
 - [PHPNW](http://conference.phpnw.org.uk/phpnw13/schedule/mathias-verraes/) in Manchester, UK, October 4-5, 2013
