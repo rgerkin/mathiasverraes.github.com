@@ -22,5 +22,6 @@ In the past year, I've had the pleasure of building and shipping two event sourc
 
 - [PHPNE 2014](http://conference.phpne.org.uk/) in Newcastle-Upon-Thyne, UK, March 18, 2014
   - [Joind.in reviews](http://joind.in/talk/view/10911)
+- Dutch PHP Conference 2014 in Amsterdam, Netherlands, June, 2014
 - Your company or event? [Contact me](http://verraes.net/#contact)
 
