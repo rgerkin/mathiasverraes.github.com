@@ -80,6 +80,8 @@ Here's a sample of some of the things we experimented with, to give you some ide
 
 - Stories evolved from vague, widely scoped features, to very specific, atomic descriptions of the smallest idea that provides business value. Because they are small, unnecessary ones can easily be identified and dropped. They can be tested and agreed upon in isolation. Different stories can be worked on in parallel. The predictability of the flow is a lot better. They come with a list of acceptance criteria that we copy into the Github pull request, so we can check off the ones we've implemented.
 
+- @TODO moving expedite lane up
+
 ## Exposing invisible problems
 
 I could go on for a bit, but I hope I made the point clear. According to the Toyota Way, any process, no matter how good you think it is, has waste. The waste is usually not obvious, because if it was, it would have been improved already. Many experiments are not focused on solving a known problem, but on trying things to expose unknown problems. Make sure they are small, low cost, low risk. The benefit may be anywhere between zero and enormous. You won't know in advance, so opinions have little value. You are the scientist of your own culture.
