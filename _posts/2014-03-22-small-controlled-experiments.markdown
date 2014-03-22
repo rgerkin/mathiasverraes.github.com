@@ -8,9 +8,11 @@ published: true
 
 {% include tldr.html text="How we made continuous improvement truly continuous, using stickies, a timeline, and few minutes each day." %}
 
-You're in a meeting. Maybe it's a daily stand-up meeting, or an agile retrospective. Somebody has an idea. A heated debate follows. Everybody is stating opinions, trying to convince the others, explaining why their idea is going to work, and the alternative is stupid. Because everybody is focused on making their point, nobody is actually listening to the others. Eventually the decision is either postponed, or the person with the highest salary makes the final decision, or the one who pushes the hardest. The decision is final, and it may or may not be actually get implemented. And if it is, it is never properly evaluated, or adapted. I humbly admit to being guilty of having done all of these. And it's all such a terrible waste.
+You're in a meeting. Maybe it's a daily stand-up meeting, or an agile retrospective. Somebody has an idea. A heated debate follows. Everybody is stating opinions, trying to convince the others, explaining why their idea is going to work, and the alternative is stupid. Because everybody is focused on making their point, nobody is actually listening to the others. Eventually the decision is either postponed, or the person with the highest salary makes the final decision, or the one who pushes the hardest. The decision is final, and it may or may not be actually get implemented. And if it is, it is never properly evaluated, or adapted.
 
-The cure is to set up small controlled experiments.
+I humbly admit to being guilty of having done all of these. And it's all such a terrible waste.
+
+The cure is to set up **small controlled experiments**.
 
 <img style="float:left;margin-right: 10px" src="/img/posts/2014-03-22-small-controlled-experiments/chemistry-show.jpg" alt="experiment">
 
@@ -19,39 +21,49 @@ The cure is to set up small controlled experiments.
 
 I used to think that simply trying to do a good job, was sufficient to incrementally improve the way you do things in your organisation, your process, your culture. Having worked closely with [@VincentVanderh](http://twitter.com/VincentVanderh) for a year, I've learned to appreciate that, even when you think you're doing just fine and you work with the greatest people, a relentless focus on making small improvements every day, is going to pay off massively.
 
-The basic principle is to identify problems, find the simplest thing you could try to improve it, try it for a short time, and evaluate. After that, you either implement the change permanently, dismiss it, or try a new cycle. The idea is of course not new. Deming calls it the PDCA-cycle (Plan-Do-Check-Act). The Japanese, spearheaded by Toyota, have made Kaizen, meaning "change for the best", a central part of business culture.
+The basic principle is to identify problems, find the simplest thing you could try to improve it, try it for a short time, and evaluate. After that, you either implement the change permanently, dismiss it, or try a new cycle. The idea is of course not new. Deming calls it the *PDCA-cycle (Plan-Do-Check-Act)*. The Japanese, spearheaded by Toyota, have made *Kaizen*, meaning "change for the best", a central part of business culture.
 
 Our first attempts were clumsy at best. We had improved a lot since the start of the project, so we felt we didn't need a formal process. We didn't identify major problems, let alone major solutions. We were ready to dismiss the whole idea of PDCA as just another management buzzword.
 
-We were partly right. The process was too formal for our context, and the last thing you want to do is burden knowledge workers in a tight schedule with more processes to worry about. More importantly, we focused on finding major, critical problems, and grand, all-encompassing solutions. And that only works in the movies. We did keep trying however. We came up with experiments, wrote them on a sticky, put them in a corner of the whiteboard marked PDCA, and started doing them. Well, sometimes. More often than not, the stickies hung there for a while, until someone would feel they were pointless, and they were thrown out. Some ideas did get implemented -- after all we had been improving somewhat steadily before we had a name for it -- but it was all rather vague and unpredictable.
+We were partly right. The process was too formal for our context, and the last thing you want to do is burden knowledge workers in a tight schedule with more processes to worry about. More importantly, we were trying too hard: we focused on finding major, critical problems, and grand, all-encompassing solutions. And that only works in the movies. We did keep trying however. We came up with experiments, wrote them on a sticky, put them in a corner of the whiteboard, and started doing them. Well, sometimes. More often than not, the stickies hung there for a while, until someone would feel they were pointless, and they were thrown out. Some ideas did get implemented -- after all we had been improving somewhat steadily before we had a name for it -- but it was all rather vague and unpredictable.
 
 ## Make it lightweight
 
 Some changes had to be made. The biweekly retrospectives made the improvement process too slow. By this time, we had pretty much gotten rid of Scrum(ish) sprints, in favour of a more continuous Kanban-flow. Saving up all the improvement ideas and discussion for the retrospective, started feeling like a remnant from the biweekly sprint cadence, something that did no longer fit in our flow. So we needed the benefits of evaluating our process, without the slowness of retrospectives.
 
-We made the following improvements:
+We changed the rules of the experiments:
 
 - You can write down any idea for an experiment on a sticky and put it in the drop zone of the Kanban board.
+
 - It will be discussed at the stand-up meeting, the following morning.
+
 - The discussion is kept as short as possible. You're not asking if it will work -- the point is that the experiment will prove if the idea works. You're answering the questions: "Will we try this? For how long? Can we do it in a cheaper, lower effort way, that doesn't affect our velocity?"
+
 - The sticky is posted on a timeline, usually about 10-14 days in the future.
+
 - Every day during stand-up, we check whichever stickies are on today's slot on the timeline.
+
 - The experiment is evaluated, we discuss positive or negative side-effects, and decide on making the change permanent or trying more experiments.
 
 A number of things turned out to be critical here:
 
-- It works best if the experiment take as little effort as possible. Most of them do not take any time at all, as they only made a small change to something we were already doing. Others take a minute a day, or even a  minute a week. The "small" in "small controlled experiment".
-- Sometimes one person is assigned to an experiment, but usually it's for the whole team.
-- When starting an experiment, make sure everybody understands that the experiment is limited in time, and that they will be heard and allowed veto when evaluating it. This is especially important with more introvert team members, especially if you have one or two loudmouths like yours truly.
-- Make sure the experiments are for everybody. I tended to focus on improving conditions for the developers, but of course, testers, analyst, the project manager, ... should all benefit.
-- Deciding, and visualising exactly when the evaluation will happen, is probably the best thing we did. It gives a sense of urgency and deadline to the experiment, preventing it from slowly fading into oblivion. That's the "controlled" in "small controlled experiment".
-- We'd usually have a couple of experiments running at any given time.
+1. It works best if the experiment takes as little effort as possible. Most of them do not take any time at all, as they only made a small change to something we were already doing. Others take a minute a day, or even a  minute a week. The **"small"** in "small controlled experiment".
+
+2. Sometimes one person is assigned to an experiment, but usually it's **for the whole team**.
+
+3. When starting an experiment, make sure everybody understands that the experiment is **limited in time**, and that they **will be heard** and allowed veto when evaluating it. This is especially important with more **introvert team members**, especially if you have one or two loudmouths like yours truly.
+
+4. Make sure the experiments are **for everybody**. I tended to focus on improving conditions for the developers, but of course, testers, analyst, the project manager, ... should all benefit.
+
+5. Deciding, and **visualising exactly when the evaluation will happen**, is probably the best thing we did. It gives a sense of urgency and deadline to the experiment, preventing it from slowly fading into oblivion. That's the **"controlled"** in "small controlled experiment".
+
+6. We'd usually have a couple of experiments running **simultaneously** at any given time.
 
 Here's a sample of some of the things we experimented with, to give you some ideas. Some happened before we tried PDCA or Kaizen, before we settled on the small controlled experiments above, but making it a core part of our standup has greatly increased the rate of improvement.
 
 ## Hacking our productivity
 
-- When a story was estimated as a big one, say an 8-pointer, more time would be spent on it to refactor it. When it was a 3-pointer, fewer time was spent. I'm all for refactoring, but not everything requires the same level of perfection. We wanted the quality of a story to depend on value, not on the original estimate. In the experiment, we moved the estimated number from the front of the sticky, to the back. Because of this, the developers could no longer see the estimation, so they were no longer influenced by it. We made the experiment permanent.
+- When a story was estimated as a big one, say an 8-pointer, more time would be spent on it to refactor it. When it was a 3-pointer, fewer time was spent. I'm all for [refactoring](/2013/09/extract-till-you-drop/), but not everything requires the [same level of perfection](/2013/07/managed-technical-debt/). We wanted the quality of a story to depend on value, not on the original estimate. In the experiment, we moved the estimated number from the front of the sticky, to the back. Because of this, the developers could no longer see the estimation, so they were no longer influenced by it. We made the experiment permanent.
 
 - We noticed how at the end of a two-week sprint, the pace would speed up to reach the sprint target, but as soon as it was reached, the tempo slowed down. The fact that the last day was a Friday, didn't help either. Kanban came to rescue here: We stopped setting sprint targets, set strict work-in-progress limits, and made sure we had a pull-based system. (More on Kanban in a future post.)
 
