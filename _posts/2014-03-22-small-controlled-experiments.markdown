@@ -1,7 +1,7 @@
 ---
 title: Small Controlled Experiments
 slug: small-controlled-experiments.markdown
-date: 2014-03-19
+date: 2014-03-22
 layout: post
 published: true
 ---
@@ -12,9 +12,12 @@ You're in a meeting. Maybe it's a daily stand-up meeting, or an agile retrospect
 
 The cure is to set up small controlled experiments.
 
+<img style="float:left;margin-right: 10px" src="/img/posts/2014-03-22-small-controlled-experiments/chemistry-show.jpg" alt="experiment">
+
+
 ## Continuous Improvement
 
-I used to think that simply trying to do a good job, was sufficient to incrementally improve the way you do things in your organization, your process, your culture. Having worked closely with @TODO VINCENT for a year, I've learned to appreciate that, even when you think you're doing just fine and you work with the greatest people, a relentless focus on making small improvements every day, is going to pay off massively.
+I used to think that simply trying to do a good job, was sufficient to incrementally improve the way you do things in your organization, your process, your culture. Having worked closely with [@VincentVanderh](http://twitter.com/VincentVanderh) for a year, I've learned to appreciate that, even when you think you're doing just fine and you work with the greatest people, a relentless focus on making small improvements every day, is going to pay off massively.
 
 The basic principle is to identify problems, find the simplest thing you could try to improve it, try it for a short time, and evaluate. After that, you either implement the change permanently, dismiss it, or try a new cycle. The idea is of course not new. Deming calls it the PDCA-cycle (Plan-Do-Check-Act). The Japanese, spearheaded by Toyota, have made Kaizen, meaning "change for the best", a central part of business culture.
 
@@ -50,7 +53,7 @@ Here's a sample of some of the things we experimented with, to give you some ide
 
 - When a story was estimated as a big one, say an 8-pointer, more time would be spent on it to refactor it. When it was a 3-pointer, fewer time was spent. I'm all for refactoring, but not everything requires the same level of perfection. We wanted the quality of a story to depend on value, not on the original estimate. In the experiment, we moved the estimated number from the front of the sticky, to the back. Because of this, the developers could no longer see the estimation, so they were no longer influenced by it. We made the experiment permanent.
 
-- The Wall of Technical Debt @TODO LINK started as an experiment. Cost: a bunch of stickies, and a few minutes. Gain: Having a complete map of everything in the system that needs improving, how to do it, and how important it is.
+- The [Wall of Technical Debt](http://verraes.net/2013/07/managed-technical-debt/) started as an experiment. Cost: a bunch of stickies, and a few minutes. Gain: Having a complete map of everything in the system that needs improving, how to do it, and how important it is.
 
 - To reduce technical debt, we've tried different approaches. We're now on a mix of having a limit of one technical debt ticket in progress at any time, but being allowed to pull a technical ticket if we judge it would be really beneficial to the functional story that we're working on.
 
@@ -58,7 +61,10 @@ Here's a sample of some of the things we experimented with, to give you some ide
 
 - The testers work for multiple teams. As our delivery of stories was very irregular, they couldn't predict when they would need time to test our stories. This caused stories to be blocked in testing, creating too much of a gap between development and testing. We experimented with the commitment to deliver exactly one story a day. This worked great for predictability for the testers, but the unwanted side-effects were that stories were being prioritized to reach this goal, along with other subtle ways to cheat the system. The experiment was stopped.
 
-- The Kanban board is regularly redrawn as we get more insight in our process. I think we are in the seventh iteration by now. @TODO photo I think it is beautiful :-) Many of the changes may seem minimal at first, but the accumulated effect is that this board is pure bliss to work with.
+- The Kanban board is regularly redrawn as we get more insight in our process. I think we are in the seventh iteration by now. I think it is beautiful :-) Many of the changes may seem minimal at first, but the accumulated effect is that this board is pure bliss to work with. One example is that the "expedite" swimming lane moved from an afterthought at the bottom of the board, to a prominent place at the top.
+
+<img style="float:left;margin-right: 10px" src="/img/posts/2014-03-22-small-controlled-experiments/kanbanboard-small.jpg" alt="Kanban board">
+
 
 - We fooled around with the idea from Core Protocols to make our emotions explicit during standup: "I'm glad-mad-sad-afraid that ...". We had no idea what we expected of this experiment, but we felt it was worth trying (it is, once again, dead cheap to try for few weeks). Current status: undecided. The PM will research it better and we'll try it again.
 
@@ -79,8 +85,6 @@ Here's a sample of some of the things we experimented with, to give you some ide
 - We've experimented with different ways of visualizing our metrics. It turns out that the best graphs are the ones that are extremely simple, and show you a key metric in a glance, without requiring you to understand how to interpret it first.
 
 - Stories evolved from vague, widely scoped features, to very specific, atomic descriptions of the smallest idea that provides business value. Because they are small, unnecessary ones can easily be identified and dropped. They can be tested and agreed upon in isolation. Different stories can be worked on in parallel. The predictability of the flow is a lot better. They come with a list of acceptance criteria that we copy into the Github pull request, so we can check off the ones we've implemented.
-
-- @TODO moving expedite lane up
 
 ## Exposing invisible problems
 
