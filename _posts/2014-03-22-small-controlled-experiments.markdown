@@ -118,7 +118,7 @@ I could go on for a bit, but I hope I made the point clear. According to the Toy
 
 As an aside:
 
-Humans favour courses of action that have a well-known, limited set of potential gains, with an unknown, unlimited potential cost. We ignore this cost because it is invisible. In "Thinking, Fast and Slow", Daniel Kahneman refers a lot to the brain's habit of ignoring the unseen, and calls this "What you see is all there is".
+Humans favour courses of action that have a well-known, limited set of potential gains, with an unknown, unlimited potential cost. We ignore this cost because it is invisible. In **"Thinking, Fast and Slow"**, Daniel Kahneman refers a lot to the brain's habit of ignoring the unseen, and calls this "What you see is all there is".
 
-The opposite is a course of action that has a well-known, limited potential cost, with an unknown, unlimited potential gain. In "Antifragile", borrowing from the finance world, Nicholas N. Taleb calls this "optionality". Keep this in mind: many many very small experiments with a very limited cost, will eventually produce totally unexpected outcomes.
+The opposite is a course of action that has a well-known, limited potential cost, with an unknown, unlimited potential gain. In "[Antifragile](/2013/08/antifragile-nassim-nicholas-taleb/)", borrowing from the finance world, Nicholas N. Taleb calls this "optionality". Keep this in mind: many many very small experiments with a very limited cost, will eventually produce totally unexpected outcomes.
 
