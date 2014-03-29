@@ -105,9 +105,12 @@ Here's a sample of some of the things we experimented with, to give you some ide
 
 - We moved from occasionally scheduled releases, to weekly releases, using feature branches. Deploying to production has gradually evolved into a non-event.
 
+- (Added March 29 2014) We start every story with pair programming. No matter how hard or easy you think it will be. After inital work has begun, you can decide to continue pairing, split the work, or finish it alone. The benefit here is of course that potential pitfalls are found earlier. There's less need for code reviews. The pairing partner can take over the story later if needed. Even without full-blown pair programming, starting a story in pair is one of those little magic tricks that create huge gains in productiveness and collaboration.
+
 ## Analysis
 
 - Stories evolved from vague, widely scoped features, to very specific, atomic descriptions of the smallest idea that provides business value. Because they are small, unnecessary ones can easily be identified and dropped. They can be tested and agreed upon in isolation. Different stories can be worked on in parallel. The predictability of the flow is a lot better. They come with a list of acceptance criteria that we copy into the Github pull request, so we can check off the ones we've implemented.
+
 
 ## Exposing invisible problems
 
