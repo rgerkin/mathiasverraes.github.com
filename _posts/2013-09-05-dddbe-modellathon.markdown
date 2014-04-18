@@ -110,4 +110,4 @@ In any case, I can highly recommend running a modellathon of your own. And, inci
 
 - Belgian Domain-Driven Design community [domaindriven.be](http://domaindriven.be)
 - [@DDDBE](http://twitter.com/DDDBE) on Twitter
-- Read next: [Facilitating Event Storming](/2013/08/facilitating-event-storming/) - August 28, 2013
+- Read next: [Facilitating Event Storming](/2013/08/facilitating-event-storming/)
