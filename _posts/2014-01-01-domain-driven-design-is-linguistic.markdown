@@ -18,6 +18,9 @@ This is what, to me, is so appealing in Domain-Driven Design. Software developme
 
 Or: Just because two behaviours lead to the same outcome, does not mean they are replaceable. In Domain-Driven modelling, state is a side effect of behaviour. State is only interesting as far as it has the potential to influence new behaviour. An Aggregate is not just an composition of objects that belong together to represent a certain state. An Aggregate manages behaviours that belong together, and keeps state only where they are relevant to those behaviours. Event Sourcing takes the idea to the its logical conclusion: We forget about persisting state altogether, and instead, we only persist the Domain Events that lead up to that state. We preserve the meaning, instead of the outcome. When we need the state, to make a decision, we replay the events and interpret them. The beauty of this, is that if we change our minds about how to interpret the behaviour, we are not stuck with the state the we decided to persist in the past.
 
+**Update May 11, 2014** I just had to add [this quote from Rinat Abullin](https://twitter.com/abdullin/status/465463982347026432): 
+
+<blockquote>Behavior is not data. To be more precise, data is often an approximation of observed behaviors under fixed circumstances.</blockquote>
 
 ## Read more
 
