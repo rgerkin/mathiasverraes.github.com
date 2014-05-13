@@ -1,12 +1,12 @@
 ---
-title: Final Classes
+title: "Final Classes: Open for Extension, Closed for Inheritance"
 slug: final-classes-in-php
 date: 2014-05-12
 layout: post
 published: true
 ---
 
-{% include tldr.html text="Open for extension, closed for inheritance" %}
+{% include tldr.html text="Composition, strategies, callbacks, plugins, event listeners, ... are all valid ways to extend without inheritance." %}
 
 
 I make all my classes final by default. I even configured the templates in my IDE prefix new classes with 'final'. I've often explained my reasoning to people. A blog post is in order!
