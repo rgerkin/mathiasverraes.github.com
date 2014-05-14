@@ -78,7 +78,7 @@ Pure functions are deterministic for the same inputs and outputs. Independent of
 
 ## Read More
 
-- If you like the circular representation of CQRS, I have a lot more of them in [Fighting Bottlenecks with CQRS](/2013/12/fighting-bottlenecks-with-cqrs/)
+- If you like the circular representation of CQRS, I have a lot more of them in my slides for [Fighting Bottlenecks with CQRS](/2013/12/fighting-bottlenecks-with-cqrs/)
 - [Domain-Driven Design is Linguistic](/2014/01/domain-driven-design-is-linguistic/)
 
 
