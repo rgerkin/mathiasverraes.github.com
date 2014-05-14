@@ -15,25 +15,26 @@ Command Query Responsibility Segregation is described by the Greg Young as "usin
 Even though CQRS can be used without Event Sourcing, this post assumes Domain Events all the way down. In a brainstorming session with [@stijnvnh](https://twitter.com/stijnvnh), we identified four (conceptual) functions.
 
 
-<img style="float:left;margin-right: 10px" src="/img/posts/2014-05-14-functional-foundation-for-cqrs/circle-diagram-small.png" alt="Functional Foundation for CQRS">
-
-
 
 ## Protection
 
 
-```f(history, command) -> events```
+```
+f(history, command) -> events
+(where history is the series of past events for a single Aggregate instance)
+```
 
 Commands and Domain Events are first class citizens of our model. Aggregates no longer expose state, but only events. Aggregates are at the core of the decision making process. They decide what the outcome of a Command is, and that outcome is expressed is Domain Events. The history of that particular Aggregate instance, influences the decision, so it must be injected. If you want to split the reconstitution of the Aggregate instance from the handling of the command, (for example because you want to keep infrastructural and model concerns separated), you can use currying:
 
 ```f(history)(command) -> events```
 
-'Protection' refers to the primary goal of the Aggregates: protecting its invariants, making sure that the user can not cause the system to go in an inconsistent or illegal state. When the invariants are violated, the operation should fail:
+'Protection' refers to the primary goal of the Aggregates: protecting its business rules, making sure that the user can not cause the system to go in an inconsistent or illegal state. When the invariants are violated, the operation should fail:
 
 ```f(history, command) -> either<exception|events>```
 
-(This part of FP is still a bit terra incognita for me though.)
+(The error handling part of FP is still a bit terra incognita for me though.)
 
+The exact same idea, can be expressed in BDD-style scenario's: Given this history, when this command is received, then these events should happen.
 
 ## Interpretation
 
@@ -45,7 +46,7 @@ Of course these interpretations are based in the domain. The beauty of the decou
 
 The projection can be expressed as a left fold:
 
-```f(events) -> foldLeft(f', events, initialState)```
+```f(events) -> foldLeft(apply, events, init)```
 
 
 ## Intention
@@ -66,10 +67,18 @@ It's the only function presented here that is not pure. Human users are influenc
 
 In some cases, a Process Manager can output events straight away. This makes sense when there are no invariants other than what the Process Manager can take care of on its own. But most of the time, you'll want a proper Command that can be refused by an Aggregate.
 
+<img style="float:left;margin-right: 10px" src="/img/posts/2014-05-14-functional-foundation-for-cqrs/circle-diagram-small.png" alt="Functional Foundation for CQRS">
+
+
+## Conclusion
+
+What is the point of all of this? Thinking about [how systems work](http://verraes.net/2013/08/john-gall-systemantics-the-systems-bible/), is one my hobbies. Having a good theoretical foundation, has often helped me when designing systems. I may not end up doing things according to the theory, but the theory forces me to think hard about what I'm doing.
+
+Pure functions are deterministic for the same inputs and outputs. Independent of shared mutable state, a pure function can isolated in a separate process, on a separate server, doin' his thang. See where this is going?
 
 ## Read More
 
-- [Fighting Bottlenecks with CQRS](/2013/12/fighting-bottlenecks-with-cqrs/)
+- If you like the circular representation of CQRS, I have a lot more of them in [Fighting Bottlenecks with CQRS](/2013/12/fighting-bottlenecks-with-cqrs/)
 - [Domain-Driven Design is Linguistic](/2014/01/domain-driven-design-is-linguistic/)
 
 
