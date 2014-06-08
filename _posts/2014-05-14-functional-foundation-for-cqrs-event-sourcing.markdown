@@ -76,6 +76,12 @@ What is the point of all of this? Thinking about [how systems work](http://verra
 
 Pure functions are deterministic for the same inputs and outputs. Independent of shared mutable state, a pure function can isolated in a separate process, on a separate server, doin' his thang. See where this is going?
 
+## Update June 8, 2014
+
+I wrote that user intention can not be represented as a pure function, but of course you simply need to pass in the state of the human, like this:
+
+```f(brain, state) -> command```
+
 ## Read More
 
 - If you like the circular representation of CQRS, I have a lot more of them in my slides for [Fighting Bottlenecks with CQRS](/2013/12/fighting-bottlenecks-with-cqrs/)
