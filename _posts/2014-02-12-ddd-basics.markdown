@@ -19,3 +19,7 @@ Update June 10, 2014: new & improved slides for the second edition of this sessi
 <script async class="speakerdeck-embed" data-id="a75cfd80d2e40131173366cd45aa8ef5" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
 [Watch the slides on Speakerdeck](https://speakerdeck.com/mathiasverraes/ddd-basics-bounded-contexts-modelling-kortrijk-edition)
+
+## Read more
+
+- [Buzzword-free Bounded Contexts](http://verraes.net/2014/02/buzzword-free-bounded-contexts/)
