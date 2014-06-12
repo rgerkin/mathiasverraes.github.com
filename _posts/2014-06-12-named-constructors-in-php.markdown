@@ -170,7 +170,7 @@ Notice anything? We're mixing no less than three languages:
 - `fromValues` is a sort of generic programming term;
 - and `fromMinutesSinceMidnight` is part of the domain language.
 
-Being a language geek and Domain-Driven Design afficionado, I can't let this pass. As Time is part of our domain, my preferred style is to find inspiration in the Ubiquitous Language. 
+Being a language geek and Domain-Driven Design aficionado, I can't let this pass. As Time is part of our domain, my preferred style is to find inspiration in the Ubiquitous Language. 
 
 - `fromString` => `fromTime` 
 - `fromValues` => `fromHoursAndMinutes`
