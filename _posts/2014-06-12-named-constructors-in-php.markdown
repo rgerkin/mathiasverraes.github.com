@@ -191,6 +191,11 @@ $customer = Customer::import($name);
 Granted, that's not always better. In the case of Time, I might stick to toString, because maybe at this level of detail in our code, we want to serve the programmer more than the domain. I might even provide both options. But at least, thanks to named constructors, we now *have* options.  
 
 
+## Read more
+
+- [Accessing private properties from other instances](/2011/03/accessing-private-properties-from-other-instances/)
+- [Casting Value Objects to String](http://localhost:4000/2013/02/casting-value-objects/)
+- [Final Classes: Open for Extension, Closed for Inheritance](/2014/05/final-classes-in-php/)
 
 
 
