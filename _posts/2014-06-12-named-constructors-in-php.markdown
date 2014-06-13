@@ -193,6 +193,7 @@ Granted, that's not always better. In the case of Time, I might stick to toStrin
 
 ## Read more
 
+- [When to Use Static Methods](/2014/06/when-to-use-static-methods-in-php/)
 - [Accessing private properties from other instances](/2011/03/accessing-private-properties-from-other-instances/)
 - [Casting Value Objects to String](/2013/02/casting-value-objects/)
 - [Final Classes: Open for Extension, Closed for Inheritance](/2014/05/final-classes-in-php/)
