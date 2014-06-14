@@ -65,6 +65,9 @@ body {
 	*/
 	background: rgba(27, 147, 199, 0.8)
 }
+.carousel-caption span a {
+    color: white;
+}
 .carousel-control span {
 	top: 50%;
 	margin-top: -10px;
@@ -492,4 +495,9 @@ button.close {
 	.alignleft {
 		width: 100%;
 	}
+}
+
+/* Mathias */
+.pastworkshop, .pastworkshop h4 a {
+    color: #aaa !important;
 }
