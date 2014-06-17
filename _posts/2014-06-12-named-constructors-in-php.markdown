@@ -184,8 +184,8 @@ This focus on the domain, gives you some great options:
 $customer = new Customer($name); 
 // We can't "new a customer" or "instantiate a customer" in real life.
 // Better:
-$customer = Customer::register($name);
-$customer = Customer::import($name);
+$customer = Customer::fromRegistration($name);
+$customer = Customer::fromImport($name);
 {% endhighlight %}
 
 Granted, that's not always better. In the case of Time, I might stick to toString, because maybe at this level of detail in our code, we want to serve the programmer more than the domain. I might even provide both options. But at least, thanks to named constructors, we now *have* options.  
