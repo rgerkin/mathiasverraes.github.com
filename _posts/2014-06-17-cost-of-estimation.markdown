@@ -11,6 +11,8 @@ published: true
 
 ## Ballpark Figures
 
+<img style="float:left;margin-right: 10px" src="/img/posts/2014-06-17-cost-of-estimation/78704029_3e0e8cf027_z.jpg" alt="Risk">
+
 When somebody asks you to estimate how long a feature or a project will take, you will estimate the **shortest possible time** in which you can complete it. Think about this. Observe your own thoughts while estimating, and you’ll know it’s true. Even if the request was done with the best of intentions, the implicit assumption is not “how long will it take to build it right” but “how fast can you build it”.
 
 If you have been burned by this, you move on to phase 2: padding your estimation. You do it secretly, and you feel like a cheat for doing it. For some reason, it’s **a taboo to estimate the time to do it right, as opposed to doing it fast**.
@@ -31,7 +33,6 @@ And it’s messy: there are many possible solutions, all with different strength
 
 ## The Cost of Estimation
 
-<img style="float:left;margin-right: 10px" src="/img/posts/2014-06-17-cost-of-estimation/78704029_3e0e8cf027_z.jpg" alt="Risk">
 
 Time and creativity are enemies. You can’t solve problems faster. You can’t [think faster](http://amzn.to/1iDPNQY). There’s some wonderful chemistry going on in your brain when you think, and you can’t just speed that up by pushing harder.
 
