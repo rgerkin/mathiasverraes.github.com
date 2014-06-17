@@ -8,10 +8,11 @@ published: true
 
 {% include tldr.html text="Three day workshop for developers. August 20-22, 2014, in Ghent, Belgium." %}
 
+<a href="/workshops" role="button" class="btn btn-default btn-lg "> Other workshops in London, Amsterdam, ... </a>
+
 <img src="/img/posts/2014-06-18-workshop-expddd/modelstorming.jpg" alt="Model Storming">
 
-<a href="#" role="button" class="btn btn-success btn-lg "> Register now <i class="fa fa-arrow-circle-right"></i> </a>
-<a href="/workshops" role="button" class="btn btn-default btn-lg "> Other workshops in London, Amsterdam, ... </a>
+<a href="https://docs.google.com/forms/d/1lXqj_H9ZIqnEVItC5ylwVLC04waZLamSNUJMSa1TmEU/viewform?usp=send_form" role="button" class="btn btn-success btn-lg "> Register now <i class="fa fa-arrow-circle-right"></i> </a> EUR 995,- ex VAT, includes lunch, snacks, and drinks.
 
 Software design can have a very **slow feedback loop**: by the time you find out if the architectural and design decisions you made were the right ones, it may be too late for drastic changes. As developers, we tend to phrase all problems as technical problems, which can be sufficiently challenging in their own right. We tend to **lose sight of the underlying business concerns**.
 
@@ -20,6 +21,8 @@ Domain-Driven Design is **total approach to building software for complex domain
 In this workshop, we’ll explore this central premise of Domain-Driven Design. We’ll take a practical approach: participants will be working on real-world problems. There will be **no easy answers**. Instead, you’ll learn how to ask the right questions, and how to evaluate different models.
 
 *“For the things we have to learn before we can do them, we learn by doing them.”* - Aristotle
+
+
 
 ## Contents
 
@@ -54,4 +57,4 @@ You are either a Software Developer, or a Business Analyst, Domain Expert, or Pr
 - Having read “Domain-Driven Design” (Evans, 2004) is recommended, but not essential.
 - Laptops or other devices are not required, but useful for taking notes.
 
-
+<a href="https://docs.google.com/forms/d/1lXqj_H9ZIqnEVItC5ylwVLC04waZLamSNUJMSa1TmEU/viewform?usp=send_form" role="button" class="btn btn-success btn-lg "> Register now <i class="fa fa-arrow-circle-right"></i> </a> EUR 995,- ex VAT, includes lunch, snacks, and drinks.
