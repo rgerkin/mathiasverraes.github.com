@@ -12,10 +12,6 @@ published: true
 
 <img src="/img/posts/2014-06-18-workshop-expddd/modelstorming.jpg" alt="Model Storming">
 
-<a href="https://docs.google.com/forms/d/1lXqj_H9ZIqnEVItC5ylwVLC04waZLamSNUJMSa1TmEU/viewform?usp=send_form" role="button" class="btn btn-success btn-lg "> Register now <i class="fa fa-arrow-circle-right"></i> </a>
-
-<del>EUR 995,- ex VAT</del>, **Early Bird EUR 895,- ex VAT** includes lunch, snacks, and drinks.
-
 Software design can have a very **slow feedback loop**: by the time you find out if the architectural and design decisions you made were the right ones, it may be too late for drastic changes. As developers, we tend to phrase all problems as technical problems, which can be sufficiently challenging in their own right. We tend to **lose sight of the underlying business concerns**.
 
 Domain-Driven Design is **total approach to building software for complex domains.** It’s a way of thinking that helps you decide how to tackle complexity, and where to focus your efforts. By putting the business at the heart of our software, and keeping our domain model closely tied to our understanding of the business, we can create value at a much deeper level.
@@ -59,7 +55,8 @@ You are either a Software Developer, or a Business Analyst, Domain Expert, or Pr
 
 <a href="https://docs.google.com/forms/d/1lXqj_H9ZIqnEVItC5ylwVLC04waZLamSNUJMSa1TmEU/viewform?usp=send_form" role="button" class="btn btn-success btn-lg "> Register now <i class="fa fa-arrow-circle-right"></i> </a>
 
-- Course fee: <del>EUR 995,- ex VAT</del>, **Early Bird EUR 895,- ex VAT until June 10th** for three days
+- Course fee: EUR 995,- ex VAT for three days
+- **Early Bird pricing until June 11th EUR 895,- ex VAT**
 - Course fee includes lunch, snacks, and drinks.
 - August 20-22, 2014, 9:30-17:30
 - Language: English
