@@ -12,7 +12,9 @@ published: true
 
 <img src="/img/posts/2014-06-18-workshop-expddd/modelstorming.jpg" alt="Model Storming">
 
-<a href="https://docs.google.com/forms/d/1lXqj_H9ZIqnEVItC5ylwVLC04waZLamSNUJMSa1TmEU/viewform?usp=send_form" role="button" class="btn btn-success btn-lg "> Register now <i class="fa fa-arrow-circle-right"></i> </a> EUR 995,- ex VAT, includes lunch, snacks, and drinks.
+<a href="https://docs.google.com/forms/d/1lXqj_H9ZIqnEVItC5ylwVLC04waZLamSNUJMSa1TmEU/viewform?usp=send_form" role="button" class="btn btn-success btn-lg "> Register now <i class="fa fa-arrow-circle-right"></i> </a>
+
+<del>EUR 995,- ex VAT</del>, **Early Bird EUR 895,- ex VAT** includes lunch, snacks, and drinks.
 
 Software design can have a very **slow feedback loop**: by the time you find out if the architectural and design decisions you made were the right ones, it may be too late for drastic changes. As developers, we tend to phrase all problems as technical problems, which can be sufficiently challenging in their own right. We tend to **lose sight of the underlying business concerns**.
 
@@ -57,4 +59,8 @@ You are either a Software Developer, or a Business Analyst, Domain Expert, or Pr
 - Having read “Domain-Driven Design” (Evans, 2004) is recommended, but not essential.
 - Laptops or other devices are not required, but useful for taking notes.
 
-<a href="https://docs.google.com/forms/d/1lXqj_H9ZIqnEVItC5ylwVLC04waZLamSNUJMSa1TmEU/viewform?usp=send_form" role="button" class="btn btn-success btn-lg "> Register now <i class="fa fa-arrow-circle-right"></i> </a> EUR 995,- ex VAT, includes lunch, snacks, and drinks.
+<a href="https://docs.google.com/forms/d/1lXqj_H9ZIqnEVItC5ylwVLC04waZLamSNUJMSa1TmEU/viewform?usp=send_form" role="button" class="btn btn-success btn-lg "> Register now <i class="fa fa-arrow-circle-right"></i> </a>
+
+<del>EUR 995,- ex VAT</del>, **Early Bird EUR 895,- ex VAT** includes lunch, snacks, and drinks.
+
+<a href="/workshops/terms-and-conditions/">Terms and Conditions</a>
