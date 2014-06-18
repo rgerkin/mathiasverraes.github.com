@@ -46,10 +46,6 @@ _“I spent three days immersed in the Domain-Driven Design world with Mathias. 
 
 Mathias Verraes is a recovering music composer turned programmer, consultant, blogger, speaker, and podcaster. He advises companies on how to build enterprise web applications for complex business domains. For some weird reason, he enjoys working on large legacy projects: the kind where there’s half a million lines of spaghetti code, and nobody knows how to get the codebase under control. He’s the founder of the Domain-Driven Design Belgium community. When he’s not working, he’s at home in Kortrijk, Belgium, helping his two sons build crazy Lego train tracks.
 
-## Language
-
-English
-
 ## Intended Audience
 
 You are either a Software Developer, or a Business Analyst, Domain Expert, or Product Owner with a bit of technical background. You have some years of experience in working with complex domains.
@@ -59,8 +55,15 @@ You are either a Software Developer, or a Business Analyst, Domain Expert, or Pr
 - Having read “Domain-Driven Design” (Evans, 2004) is recommended, but not essential.
 - Laptops or other devices are not required, but useful for taking notes.
 
+## Misc
+
 <a href="https://docs.google.com/forms/d/1lXqj_H9ZIqnEVItC5ylwVLC04waZLamSNUJMSa1TmEU/viewform?usp=send_form" role="button" class="btn btn-success btn-lg "> Register now <i class="fa fa-arrow-circle-right"></i> </a>
 
-<del>EUR 995,- ex VAT</del>, **Early Bird EUR 895,- ex VAT** includes lunch, snacks, and drinks.
+- Course fee: <del>EUR 995,- ex VAT</del>, **Early Bird EUR 895,- ex VAT until June 10th** for three days
+- Course fee includes lunch, snacks, and drinks.
+- August 20-22, 2014, 9:30-17:30
+- Language: English
+- Venue: [Zebrastraat conference center](http://www.zebrastraat.be/), Ghent, Belgium
+- <a href="/workshops/terms-and-conditions/">Terms and Conditions</a>
 
-<a href="/workshops/terms-and-conditions/">Terms and Conditions</a>
+
