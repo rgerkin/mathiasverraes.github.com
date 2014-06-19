@@ -8,8 +8,6 @@ published: true
 
 {% include tldr.html text="Three day workshop for developers. August 20-22, 2014, in Ghent, Belgium." %}
 
-<a href="/workshops" role="button" class="btn btn-default btn-lg "> Other workshops in London, Amsterdam, ... </a>
-
 <img src="/img/posts/2014-06-18-workshop-expddd/modelstorming.jpg" alt="Model Storming">
 
 Software design can have a very **slow feedback loop**: by the time you find out if the architectural and design decisions you made were the right ones, it may be too late for drastic changes. As developers, we tend to phrase all problems as technical problems, which can be sufficiently challenging in their own right. We tend to **lose sight of the underlying business concerns**.
