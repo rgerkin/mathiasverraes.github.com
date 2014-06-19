@@ -56,7 +56,7 @@ You are either a Software Developer, or a Business Analyst, Domain Expert, or Pr
 <a href="https://docs.google.com/forms/d/1lXqj_H9ZIqnEVItC5ylwVLC04waZLamSNUJMSa1TmEU/viewform?usp=send_form" role="button" class="btn btn-success btn-lg "> Register now <i class="fa fa-arrow-circle-right"></i> </a>
 
 - Course fee: EUR 995,- ex VAT for three days
-- **Early Bird pricing until June 11th EUR 895,- ex VAT**
+- **Early Bird pricing until July 11th EUR 895,- ex VAT**
 - Course fee includes lunch, snacks, and drinks.
 - August 20-22, 2014, 9:30-17:30
 - Language: English
