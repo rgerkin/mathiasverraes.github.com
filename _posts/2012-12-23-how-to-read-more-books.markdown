@@ -41,6 +41,10 @@ Newspapers and magazines over here compete by getting fatter year after year, wi
 will be outdated tomorrow anyway. And let's be honest: first you read the funnies, then the headers, then some celebrity
 news. Do you really need a newspaper anymore?
 
+More generally, Gerald M. Weinberg wrote:
+
+<blockquote>Never read anything that isn't worth reading.</blockquote>
+
 ### Get an e-reader
 
 Or get two, or three. They're cheap, small, and light. They carry thousands of books. They're a pleasure to read, because
