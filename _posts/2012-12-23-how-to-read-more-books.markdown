@@ -122,7 +122,9 @@ waste (he cites watching TV and drinking in bars), and on making options (have a
 
 I've always felt walking was good for thinking and getting the creative juices flowing &ndash; back when I was a film music composer, that's how I came up with my best melodies. For the past few weeks, I've been trying something new: every morning, I take the same 45 minute walk, while reading on my Kindle. I'm taking small farmers' roads between the fields, so there's no traffic and it's safe. It's good for your health, so it's a double win. And if reading on the couch makes you drowsy, walking is the perfect remedy.
 
+### Pomodoro
 
+[@tvlooy](https://twitter.com/tvlooy/status/481500378362818560) uses the Pomodoro technique: set an alarm, read for 25 minutes, take a 5 minute break away from the book or screen, repeat ad lib. For the full Pomodoro experience, keep track of the finished (uninterrupted) reading sessions, and set goals.
 
 
 **What are your reading tips?**
