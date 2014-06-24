@@ -45,6 +45,8 @@ Still in doubt? Consider this: if a class is a closed now, or a method is privat
 
 Finally, I have a hypothesis. If, like some other languages, classes in php were final by default, and needed an "inheritable" keyword to open them up, many people who are now opposed to the final keyword, would have no problem with it at all.
 
+**Update June 24, 2014** I'm going to shamelessly steal this line from an [SO discussion](http://programmers.stackexchange.com/a/92771/29370): 
 
+<blockquote>"(...) designing a class that can be meaningfully inherited from takes more than just removing a final specifier; it takes a lot of care.</blockquote>
 
 
