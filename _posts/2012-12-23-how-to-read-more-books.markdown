@@ -124,7 +124,7 @@ I've always felt walking was good for thinking and getting the creative juices f
 
 ### Pomodoro
 
-[@tvlooy](https://twitter.com/tvlooy/status/481500378362818560) uses the Pomodoro technique: set an alarm, read for 25 minutes, take a 5 minute break away from the book or screen, repeat ad lib. For the full Pomodoro experience, keep track of the finished (uninterrupted) reading sessions, and set goals.
+[@tvlooy](https://twitter.com/tvlooy/status/481500378362818560) uses the Pomodoro technique: set an alarm, read for 25 minutes, take a 5 minute break away from the book or screen, repeat ad lib, with the same or a different book. For the full Pomodoro experience, keep track of the finished (uninterrupted) reading sessions, and set goals.
 
 
 **What are your reading tips?**
