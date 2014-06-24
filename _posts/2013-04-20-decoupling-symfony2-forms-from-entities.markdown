@@ -163,6 +163,10 @@ $this->entityManager->flush();
 A better solution is to move that particular code into a CommandHandler. Maybe something for a later blog post.
 
 
+## Read more
+
+- [When to Use Static Methods](http://verraes.net/2014/06/when-to-use-static-methods-in-php/)
+
 ## Comments
 
 ### [CryptoCompress](https://twitter.com/CryptoCompress)  - 2013/04/20
