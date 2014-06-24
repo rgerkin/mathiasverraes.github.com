@@ -48,6 +48,8 @@ they don't blast bright light at you like iPads, monitors, and TV's. Rid yoursel
  be touchable, sniffable, paper objects. They're just dead trees collecting dust in your living room, and you'll be
  really sorry when you move to a new house and have to carry them down four flights of stairs. The content is what matters.
 
+<img style="" src="/img/posts/2012-12-23/matilda-roald-dahl.jpg" alt="Matilda">
+
 ### Read everywhere
 
 Kindle has apps for every device, and syncs your progress. When I'm standing in line in the supermarket, I read a couple of
@@ -70,6 +72,10 @@ it gets easier, that you learn new concepts faster, that your brain gets more ad
 Keep track of what you've read, on sites like [Kindle Reading List](https://kindle.amazon.com/), or [GoodReads](http://www.goodreads.com/).
  You can share your list, follow others, turn it into a game. It's very rewarding to watch your reading list grow, realizing that all that
  knowledge is now in your head as well and makes you better at what you do.
+
+
+<img style="float:left;margin-right: 10px" src="/img/posts/2012-12-23/adopt_books_small.jpg" alt="I don't read books, I adopt them">
+
 
 (Update September 10, 2013:)
 
@@ -115,6 +121,7 @@ waste (he cites watching TV and drinking in bars), and on making options (have a
 ### Walk 'n' read
 
 I've always felt walking was good for thinking and getting the creative juices flowing &ndash; back when I was a film music composer, that's how I came up with my best melodies. For the past few weeks, I've been trying something new: every morning, I take the same 45 minute walk, while reading on my Kindle. I'm taking small farmers' roads between the fields, so there's no traffic and it's safe. It's good for your health, so it's a double win. And if reading on the couch makes you drowsy, walking is the perfect remedy.
+
 
 
 
