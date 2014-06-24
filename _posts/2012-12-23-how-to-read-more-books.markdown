@@ -71,7 +71,7 @@ Keep track of what you've read, on sites like [Kindle Reading List](https://kind
  You can share your list, follow others, turn it into a game. It's very rewarding to watch your reading list grow, realizing that all that
  knowledge is now in your head as well and makes you better at what you do.
 
-(Update September 10, 2013: three more tips:)
+(Update September 10, 2013:)
 
 ### Skip to a better book
 
@@ -91,7 +91,7 @@ I'd never given audiobooks much thought, but the last few months I've been drivi
 I finished my first two audiobooks -- easy and short ones to begin with. I find that I'm more relaxed and focused when driving with
  the gentle voice of a good narrator, than with blaring radio.
 
-(Update December 22, 2013: two more tips:)
+(Update December 22, 2013:)
 
 ### Read it before you need it
 
@@ -109,6 +109,13 @@ reactivate it in your brain.
 [Jurgen Appelo](http://www.noop.nl/2013/12/dont-make-goals-make-room-and-make-options.html) recommends not to set a target
 amount of books to read. Targets lead to sub-optimisation. And how would you know what amount is 'just right'? Focus on removing
 waste (he cites watching TV and drinking in bars), and on making options (have a backlog and always bring reading material).
+
+(Update June 24, 2014:)
+
+### Walk 'n' read
+
+I've always felt walking was good for thinking and getting the creative juices flowing &ndash; back when I was a film music composer, that's how I came up with my best melodies. For the past few weeks, I've been trying something new: every morning, I take the same 45 minute walk, while reading on my Kindle. I'm taking small farmers' roads between the fields, so there's no traffic and it's safe. It's good for your health, so it's a double win. And if reading on the couch makes you drowsy, walking is the perfect remedy.
+
 
 
 **What are your reading tips?**
