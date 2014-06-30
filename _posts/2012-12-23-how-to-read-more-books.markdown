@@ -131,4 +131,15 @@ I've always felt walking was good for thinking and getting the creative juices f
 [@tvlooy](https://twitter.com/tvlooy/status/481500378362818560) uses the [Pomodoro technique](http://pomodorotechnique.com/): set an alarm, read for 25 minutes, take a 5 minute break away from the book or screen, repeat ad lib, with the same or a different book. For the full Pomodoro experience, keep track of the finished (uninterrupted) reading sessions, and set goals.
 
 
+(Update June 30, 2014:)
+
+## Don't read biographies
+
+Although I'm sure some are valuable, don't read books written *about* interesting people. Read books written *by* interesting people.
+
+## Don't read single-idea books
+
+"This book was based on a popular article in the New York Times"? Dead give away: one idea, lots of air. "The Three Secrets to...", "Five steps to...": It's pretty likely that the book can be explained in a just a few paragraphs. Sometimes, a helpful Amazon customer review will in fact summarize the whole book for you. Read that instead. 
+
+
 **What are your reading tips?**
