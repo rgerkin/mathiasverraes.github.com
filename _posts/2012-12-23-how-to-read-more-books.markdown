@@ -133,6 +133,9 @@ I've always felt walking was good for thinking and getting the creative juices f
 
 (Update June 30, 2014:)
 
+<img style="float:right;margin-left: 10px" src="/img/posts/2012-12-23/install-software-in-brain.jpg" alt="It's called reading. It's how people install new software into their brains">
+
+
 ## Don't read biographies
 
 Although I'm sure some are valuable, don't read books written *about* interesting people. Read books written *by* interesting people.
@@ -140,6 +143,9 @@ Although I'm sure some are valuable, don't read books written *about* interestin
 ## Don't read single-idea books
 
 "This book was based on a popular article in the New York Times"? Dead give away: one idea, lots of air. "The Three Secrets to...", "Five steps to...": It's pretty likely that the book can be explained in a just a few paragraphs. Sometimes, a helpful Amazon customer review will in fact summarize the whole book for you. Read that instead. 
+
+
+/Users/mathias/workspace/mathiasverraes.github.com/img/posts/2012-12-23/
 
 
 **What are your reading tips?**
