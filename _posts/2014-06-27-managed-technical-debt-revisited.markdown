@@ -1,7 +1,7 @@
 ---
 title: "Managed Technical Debt (revisited)"
 slug: managed-technical-debt-revisited
-date: 2014-07-27
+date: 2014-06-27
 layout: post
 published: true
 ---
