@@ -47,7 +47,10 @@ More generally, Gerald M. Weinberg wrote:
 
 ### Get an e-reader
 
-Or get two, or three. They're cheap, small, and light. They carry thousands of books. They're a pleasure to read, because
+<a href="http://www.amazon.com/gp/product/B007HCCNJU/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B007HCCNJU&linkCode=as2&tag=verraesnet-20&linkId=PAXYR27D7TJUIIG3">
+Or get two, or three.
+</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=verraesnet-20&l=as2&o=1&a=B007HCCNJU" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+They're cheap, small, and light. They carry thousands of books. They're a pleasure to read, because
 they don't blast bright light at you like iPads, monitors, and TV's. Rid yourself of the romantic idea that books must
  be touchable, sniffable, paper objects. They're just dead trees collecting dust in your living room, and you'll be
  really sorry when you move to a new house and have to carry them down four flights of stairs. The content is what matters.
