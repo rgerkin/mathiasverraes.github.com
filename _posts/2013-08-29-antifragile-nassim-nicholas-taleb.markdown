@@ -68,9 +68,12 @@ Even though small economic units may be fragile, the fragility of the parts can 
 
 ## The Book
 
+<a href="http://www.amazon.com/gp/product/B0083DJWGO/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0083DJWGO&linkCode=as2&tag=verraesnet-20&linkId=Q2UYVYAWOKWT7F5V">
 <img style="float:left;margin-right: 10px" src="/img/posts/2013-08-29/antifragile-book.png" alt="Antifragile - Things That Gain from Disorder">
+</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=verraesnet-20&l=as2&o=1&a=B0083DJWGO" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
-I'm only 1/3 into Antifragile, and already I feel it's one of the most important books I've read in ages. I feel that neither
+
+I feel Antifragile is one of the most important books I've read in ages. Neither
 my short explanation above, nor the quotes below do it justice. It's hard to convey why it's so gripping. Already I'm seeing
 everything in my life in the light of the triad fragile - robust - antifragile.
 
