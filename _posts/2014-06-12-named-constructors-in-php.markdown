@@ -188,7 +188,7 @@ $customer = Customer::fromRegistration($name);
 $customer = Customer::fromImport($name);
 {% endhighlight %}
 
-Granted, that's not always better. In the case of Time, I might stick to toString, because maybe at this level of detail in our code, we want to serve the programmer more than the domain. I might even provide both options. But at least, thanks to named constructors, we now *have* options.  
+Granted, that's not always better. In the case of Time, I might stick to fromString, because maybe at this level of detail in our code, we want to serve the programmer more than the domain. I might even provide both options. But at least, thanks to named constructors, we now *have* options.  
 
 
 ## Read more
