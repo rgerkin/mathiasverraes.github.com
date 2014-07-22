@@ -75,8 +75,8 @@ Visualizing the story map and the technical debt, is incidentally a great way to
 
 Some people have started using the technique after seeing my lightning talk about it. Some early pictures:
 
-<img style="border: 1px solid gray" src="/img/posts/2013-07-21-managed-technical-debt/technical-debt-pascal.png">
-<img style="border: 1px solid gray" src="/img/posts/2013-07-21-managed-technical-debt/technical-debt-ramon.png">
+<img style="width:340px; border: 1px solid gray" src="/img/posts/2013-07-21-managed-technical-debt/technical-debt-pascal.png">
+<img style="float:left" style="width:340px; border: 1px solid gray" src="/img/posts/2013-07-21-managed-technical-debt/technical-debt-ramon.png">
 
 
 Be sure to let me know your experience with if you've tried it as well!
