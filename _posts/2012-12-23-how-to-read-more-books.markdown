@@ -148,7 +148,12 @@ Although I'm sure some are valuable, don't read books written *about* interestin
 "This book was based on a popular article in the New York Times"? Dead give away: one idea, lots of air. "The Three Secrets to...", "Five steps to...": It's pretty likely that the book can be explained in a just a few paragraphs. Sometimes, a helpful Amazon customer review will in fact summarize the whole book for you. Read that instead. 
 
 
-/Users/mathias/workspace/mathiasverraes.github.com/img/posts/2012-12-23/
+(Update July 22, 2014:)
+
+From [The Pleasures of Reading in an Age of Distraction](http://www.farnamstreetblog.com/2013/01/the-pleasures-of-reading-in-an-age-of-distraction/): 
+<blockquote>"Read what gives you delight — at least most of the time—and do so without shame. And even if you are that rare sort of person who is delighted chiefly by what some people call Great Books, don’t make them your steady intellectual diet, any more than you would eat at the most elegant of restaurants every day."</blockquote>
+
+
 
 
 **What are your reading tips?**
