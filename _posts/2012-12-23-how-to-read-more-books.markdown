@@ -150,8 +150,10 @@ Although I'm sure some are valuable, don't read books written *about* interestin
 
 (Update July 22, 2014:)
 
+## Read what gives you delight
+
 From [The Pleasures of Reading in an Age of Distraction](http://www.farnamstreetblog.com/2013/01/the-pleasures-of-reading-in-an-age-of-distraction/): 
-<blockquote>"Read what gives you delight — at least most of the time—and do so without shame. And even if you are that rare sort of person who is delighted chiefly by what some people call Great Books, don’t make them your steady intellectual diet, any more than you would eat at the most elegant of restaurants every day."</blockquote>
+<blockquote>"Read what gives you delight — at least most of the time — and do so without shame. And even if you are that rare sort of person who is delighted chiefly by what some people call Great Books, don’t make them your steady intellectual diet, any more than you would eat at the most elegant of restaurants every day."</blockquote>
 
 
 
