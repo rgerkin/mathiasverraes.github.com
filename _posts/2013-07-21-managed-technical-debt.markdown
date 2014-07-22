@@ -71,6 +71,16 @@ whether something needs fixing -- for example when we believe that future storie
 Visualizing the story map and the technical debt, is incidentally a great way to relieve stress: sure, there's a lot of
  work ahead, but it never feels unmanageable.
 
+(Update July 22, 2014)
+
+Some people have started using the technique after seeing my lightning talk about it. Some early pictures:
+
+<img style="float:left;margin-right: 10px" src="/img/posts/2013-07-21-managed-technical-debt/technical-debt-pascal.png">
+<img style="float:left;margin-right: 10px" src="/img/posts/2013-07-21-managed-technical-debt/technical-debt-ramon.png">
+
+
+Be sure to let me know your experience with if you've tried it as well!
+
 ## Read more
 
 - [Beautiful Code](http://verraes.net/2011/04/beautiful-code/)
