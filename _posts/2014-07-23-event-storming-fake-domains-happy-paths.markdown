@@ -28,6 +28,8 @@ So the last couple of times, when running Event Storming workshops with Jef Clae
 
 If you get the opportunity though, apply Event Storming with real projects, and real domain experts. It will be easier than using fake domains and experts. And you’ll all have skin in the game, which will focus the discussions.
 
+<img style="float:left;margin-right: 10px" src="/img/posts/2014-07-23-event-storming-fake-domains-happy-paths/event-storming-wall.jpg" alt="Event Storming">
+
 
 ## Actors
 
