@@ -52,7 +52,7 @@ Write down the same event on as many stickies as you need. Place them wherever t
 
 <img style="float:left;margin-right: 10px" src="/img/posts/2014-07-23-event-storming-fake-domains-happy-paths/event-storming-with-branches-small.jpg" alt="Happy Path">
 
-Now that we’ve gotten over our irrational fear of writing the same event down twice, there’s lots of cool things we can do. Typically, without duplication, you’d show a branches starting from the same place (first picture). With duplication, you can more clearly visualise different flows. Some of them are Happy Paths, i.e. a flow desired to the business or the user. The others are exceptions, edge cases, race conditions, or any possible outcomes. In the second picture, I mark them with green and red stickies. 
+Now that we’ve conquered our irrational fear of writing the same event down twice, there’s lots of cool things we can do. Typically, without duplication, you’d show a branches starting from the same place (first picture). With duplication, you can more clearly visualise different flows. Some of them are Happy Paths, i.e. a flow desired to the business or the user. The others are exceptions, edge cases, race conditions, or any possible outcomes. In the second picture, I mark them with green and red stickies. 
 
 
 <img style="float:left;margin-right: 10px" src="/img/posts/2014-07-23-event-storming-fake-domains-happy-paths/event-storming-happy-path-small.jpg" alt="Happy Path">
