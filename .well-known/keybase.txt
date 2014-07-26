@@ -1,0 +1,65 @@
+==================================================================
+https://keybase.io/mathiasverraes
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://verraes.net
+  * I am mathiasverraes (https://keybase.io/mathiasverraes) on keybase.
+  * I have a public key with fingerprint 3BCD D69A 3CBA E8EE 380A  BA63 C938 C231 E989 3D78
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "3bcdd69a3cbae8ee380aba63c938c231e9893d78",
+            "host": "keybase.io",
+            "key_id": "c938c231e9893d78",
+            "uid": "d56d9e1a0615fa68f68e4dfe6f02fd00",
+            "username": "mathiasverraes"
+        },
+        "service": {
+            "hostname": "verraes.net",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1406379707,
+    "expire_in": 157680000,
+    "prev": "107978d2562718a89fb0759028fd2034b42c26bdc9934b5cc8feb15a50b29fcb",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v0.1.23
+Comment: https://keybase.io/crypto
+
+yMHmAnicbZFfSBRfFMfXNTW3krAiiaQclbRWmT87f7UyotQSCnwxENc7c+/okDuz
+zsyumkhSIaiFopIZEi6ZxVr5A+kpLI0KQoPMhzQIH36UVBihWA+ReUfsrfsynPP9
+fL/nDOf5tliXJ2ZfsBV2/Pbsj5kc/xFylc4MPW4kZAM2EFIjcR6tf1RNr0Jm0NR0
+m5AIRlYg5ETAKDJAAkKMQAIZcIwiMoJCMxQSBZGBvEB4iWrDchw4RgYWytUM3MOF
+X4O4+w8+tC5AloMiogDJUawKOEHlBOSDKuJUklYhSTqghUwdBBCmA8Cu1oAVRqYJ
+kEU0eQmshTUFa43rC2xwG0CujmwcEDQN21CMGixU23ZQcnx2Q9AB65Ds34jwy5oO
+8c9jA7ZbmqETEoVJxdacTMpHcgwv8iTvJVB9UDORX3MIlucEEj9nDArjSIrElABp
+lqN5SgCCqMokz4okLaiQJhmf7KMVmpOhIoq4YBVFUJFMsYAlZVpUFRnPt1CtbhAS
+g9cEVTjS0qp0YIdMRDQ9Gy/f5IrxuOLj3M75XJ7E7X+PmtKS8MffvjL6aZbrLenp
+X7kd/Tw29ZZP+/izbyo1By7Fn1540hq321eOyDOZ1zMKtPyKFHdRQVuf60ta5dGk
+u8NSinvxe6RE7qpZjvtP0gp6KqQJ7kD4Q/HLhnDeqweHd6UPHK+bHg5lHlyaK0xc
+SLrETj5tvnkNvckK/B/tbTkyz26NT0j4NTh2bEdqZe7S+xsZZZtz8kf3Tqd3jl+Z
+WL3X2Vyos8kPk2e+DV0cUetXA96uyhyaOHT11KP2smhfXulgeWb+bMeF+1lFI23v
+rIj7Rbaxs/by4onI/GJ2bKRkLuvW9J2m6JbY1/3g5Ndu3TsU1PJG4fJAd3Hb2RbT
+veecaw0HKw23
+=DIK5
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mathiasverraes
+
+==================================================================
