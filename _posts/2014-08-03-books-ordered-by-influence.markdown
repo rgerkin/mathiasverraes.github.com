@@ -22,3 +22,13 @@ The rules:
 - Academic papers count, blog posts don't. Just drawing the line somewhere.
 
 I spend a lot of money on books, so most links here are Amazon affiliate links. You might just help fund my next purchase!
+
+
+<div class="media">
+
+{% include book.html title="Analysis Patterns: Reusable Object Models" author="Martin Fowler" img="analysispatterns.jpg" href="http://www.amazon.com/gp/product/0201895420/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0201895420&linkCode=as2&tag=verraesnet-20&linkId=LOLNJN3LMGPR6QHJ" %}
+
+
+</div>
+<br>
+<br>

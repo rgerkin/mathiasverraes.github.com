@@ -10,3 +10,4 @@ published: true
 
 @TODO CONTENT HERE
 
+{% include book.html title="TITLE" author="AUTHOR" img="IMAGE" href="LINK" %}
