@@ -67,6 +67,9 @@ The code is identical, but why? As good Domain-Driven Design practitioners, we'd
 
 In another scenario, the similarity of the code might also be simple coincidence. Maybe supply of the product is limited, and we want to give our customers equal opportunity to buy it.
  
+<img style="float:left;margin-right: 10px" src="/img/posts/2014-08-02-dry-is-about-knowledge/find-the-differences-small.jpg" alt="Find the differences">
+ 
+ 
 ## Reasons to Change
  
 Whatever the case, it doesn't matter. The problem is that the rules might change independently. The business might realize that they can still sell more than three products at a time, and divide the products over multiple shipments. In example 2, we are now stuck with high coupling of both types of domain objects, to the same business rule, and indirectly to each other. Changing the rule for Basket, changes the rule for Shipment, but potentially has dangerous consequences in the real world. The example is of course blatantly simple to refactor, but legacy code is usually a lot harder.  
