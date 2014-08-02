@@ -63,32 +63,9 @@ I spend a lot of money on books, so most links here are Amazon affiliate links. 
 
 {% include book.html title="Thinking, Fast and Slow" author="Daniel Kahneman" img="thinking.jpg" href="http://www.amazon.com/gp/product/B00555X8OA/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00555X8OA&linkCode=as2&tag=verraesnet-20&linkId=WRTRBQWNNPU4DUAC" %}
 
-{% include book.html title="TITLE" author="AUTHOR" img="IMAGE" href="LINK" %}
+{% include book.html title="Working Effectively with Legacy Code" author="Michael Feathers" img="legacy.jpg" href="http://www.amazon.com/gp/product/B005OYHF0A/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B005OYHF0A&linkCode=as2&tag=verraesnet-20&linkId=Q6AYZST7LBQPHINA" %}
 
-{% include book.html title="TITLE" author="AUTHOR" img="IMAGE" href="LINK" %}
+{% include book.html title="The Language Instinct: How the Mind Creates Language" author="Steven Pinker" img="languageinstinct.jpg" href="http://www.amazon.com/gp/product/0061336467/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0061336467&linkCode=as2&tag=verraesnet-20&linkId=DXAQQIEWLIKOVYT7" %}
 
-{% include book.html title="TITLE" author="AUTHOR" img="IMAGE" href="LINK" %}
-
-{% include book.html title="TITLE" author="AUTHOR" img="IMAGE" href="LINK" %}
-
-{% include book.html title="TITLE" author="AUTHOR" img="IMAGE" href="LINK" %}
-
-{% include book.html title="TITLE" author="AUTHOR" img="IMAGE" href="LINK" %}
-
-{% include book.html title="TITLE" author="AUTHOR" img="IMAGE" href="LINK" %}
-
-{% include book.html title="TITLE" author="AUTHOR" img="IMAGE" href="LINK" %}
-
-{% include book.html title="TITLE" author="AUTHOR" img="IMAGE" href="LINK" %}
-
-{% include book.html title="TITLE" author="AUTHOR" img="IMAGE" href="LINK" %}
-
-{% include book.html title="TITLE" author="AUTHOR" img="IMAGE" href="LINK" %}
-
-{% include book.html title="TITLE" author="AUTHOR" img="IMAGE" href="LINK" %}
-
-{% include book.html title="TITLE" author="AUTHOR" img="IMAGE" href="LINK" %}
-
-{% include book.html title="TITLE" author="AUTHOR" img="IMAGE" href="LINK" %}
 
 </div>
