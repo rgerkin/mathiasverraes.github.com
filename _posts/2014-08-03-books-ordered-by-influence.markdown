@@ -29,7 +29,7 @@ I spend a lot of money on books, so most links here are Amazon affiliate links. 
 
 {% include book.html title="Analysis Patterns: Reusable Object Models" author="Martin Fowler" img="analysispatterns.jpg" href="http://www.amazon.com/gp/product/0201895420/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0201895420&linkCode=as2&tag=verraesnet-20&linkId=LOLNJN3LMGPR6QHJ" %}
 
-{% include book.html title="Antifragile: Things That Gain from Disorder" author="Nassim Nicholas Taleb" img="antifragile-book.png" href="http://www.amazon.com/gp/product/B0083DJWGO/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0083DJWGO&linkCode=as2&tag=verraesnet-20&linkId=TMIGHXPC4REL73W3" %}
+{% include book.html title="Antifragile: Things That Gain from Disorder" author="Nassim Nicholas Taleb" img="antifragile-book.png" description="Read my <a href=\"http://verraes.net/2013/08/antifragile-nassim-nicholas-taleb/\">blog post about Antifragile</a>" href="http://www.amazon.com/gp/product/B0083DJWGO/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0083DJWGO&linkCode=as2&tag=verraesnet-20&linkId=TMIGHXPC4REL73W3" %}
 
 {% include book.html title="Are Your Lights On?" author="Gerald M Weinberg, Donald C. Gause" img="areyourlightson.jpg" href="http://www.amazon.com/gp/product/B004WOXYV2/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B004WOXYV2&linkCode=as2&tag=verraesnet-20&linkId=ARHLIN7VKAU3GSTO" %}
 

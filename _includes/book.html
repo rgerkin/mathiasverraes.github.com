@@ -6,8 +6,12 @@
     <div class="media-body">
         <a class="pull-left" href="{{ include.href }}">
             <h4 class="media-heading">{{ include.title }}</h4>
-
-            <p>{{ include.author }}</p>
+        </a><br/>
+        <a href="{{ include.href }}">
+            <h5>{{ include.author }}</h5>
         </a>
+        {% if include.description %}
+            <p>{{ include.description }}</p>
+        {% endif %}
     </div>
 </div>
