@@ -14,7 +14,7 @@ Some of the reactions to my last blog post on [Named Constructors in PHP](/2014/
 
 Static methods are nothing more than namespaced global functions. Namespacing, I think we can all agree on, is great. As for global functions: We use those all the time. The native functions in PHP form our basic building blocks.
 
-The problem too consider is, is shared global state. The example that I gave in my previous post, is referentially transparent:
+The problem to consider is shared global state. The example that I gave in my previous post, is referentially transparent:
 
 {% highlight php %}
 <?php
