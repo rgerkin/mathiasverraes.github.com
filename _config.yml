@@ -2,3 +2,4 @@ markdown: kramdown
 pygments: true
 permalink: /:year/:month/:title/
 url: http://verraes.net
+description: "Mathias Verraes' blog"
