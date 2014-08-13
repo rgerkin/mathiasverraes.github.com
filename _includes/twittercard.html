@@ -1,0 +1,23 @@
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@mathiasverraes">
+<meta name="twitter:creator" content="@mathiasverraes">
+{% if page.title %}
+<meta name="twitter:title" content="{{ page.title }}">
+{% else %}
+<meta name="twitter:title" content="{{ site.title }}">
+{% endif %}
+{% if page.url %}
+<meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+{% endif %}
+{% if page.abstract %}
+<meta name="twitter:description" content="{{ page.abstract }}">
+{% elsif page.description %}
+<meta name="twitter:description" content="{{ page.description }}">
+{% else %}
+<meta name="twitter:description" content="{{ site.description }}">
+{% endif %}
+{% if page.image %}
+<meta name="twitter:image:src" content="{{ site.url }}/path/to/image/{{ page.image }}">
+{% else %}
+    <!-- @todo general image -->
+{% endif %}
