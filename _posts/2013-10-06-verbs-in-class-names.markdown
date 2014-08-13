@@ -4,6 +4,7 @@ slug: verbs-in-class-names
 date: 2013-10-06
 layout: post
 published: true
+tags: [blog]
 ---
 
 {% include tldr.html text="Use a verb to build a sentence. There will be no translation to code in your brain. The sentence _is_ the code." %}

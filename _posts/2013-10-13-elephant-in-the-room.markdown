@@ -4,6 +4,7 @@ slug: elephant-in-the-room
 date: 2013-10-13
 layout: post
 published: true
+tags: [podcast]
 ---
 
 I had some really great discussions with Konstantin aka

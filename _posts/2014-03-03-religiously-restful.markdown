@@ -4,6 +4,7 @@ slug: religiously-restful
 date: 2014-03-03
 layout: post
 published: true
+tags: [blog]
 ---
 
 {% include tldr.html text="REST: The language of the future, or opium for the masses?" %}

@@ -4,6 +4,7 @@ slug: interface-discovery-with-phpunit-mock-objects
 date: 2011-03-21
 layout: post
 published: true
+tags: [blog]
 ---
 
 [PHPUnit](https://github.com/sebastianbergmann/phpunit/) provides some great features to create [mock objects](http://en.wikipedia.org/wiki/Mock_object). The idea is that when you are testing code that depends on another class, you provide the object with a mock instance of that class, instead of a real object. That way, you are making sure that your test will only fail if the system under test is broken, and not if one of it’s dependencies is broken. You could simply write a mock class and instantiate it, but PHPUnit can generate them for you.

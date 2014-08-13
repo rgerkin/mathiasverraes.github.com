@@ -4,6 +4,7 @@ slug: value-objects-and-user-interfaces
 date: 2013-11-15
 layout: post
 published: true
+tags: [blog]
 ---
 
 {% include tldr.html text="Separate value objects in your model from concepts that serve the UI" %}

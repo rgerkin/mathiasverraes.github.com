@@ -4,6 +4,7 @@ slug: final-classes-in-php
 date: 2014-05-12
 layout: post
 published: true
+tags: [blog]
 ---
 
 {% include tldr.html text="Composition, strategies, callbacks, plugins, event listeners, ... are all valid ways to extend without inheritance." %}

@@ -4,6 +4,7 @@ slug: named-constructors-in-php
 date: 2014-06-12
 layout: post
 published: true
+tags: [blog]
 ---
 
 {% include tldr.html text="Don't limit yourself by PHP's single constructor. Use static factory methods." %}

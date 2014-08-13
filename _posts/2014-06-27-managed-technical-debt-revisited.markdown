@@ -4,6 +4,7 @@ slug: managed-technical-debt-revisited
 date: 2014-06-27
 layout: post
 published: true
+tags: [talk]
 ---
 
 Debt is good. Organizations use it all the time to invest. Technical debt can be good. Are you investing wisely?

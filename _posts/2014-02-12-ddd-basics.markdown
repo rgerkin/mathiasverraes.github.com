@@ -4,6 +4,7 @@ slug: domain-driven-design-basics
 date: 2014-02-12
 layout: post
 published: true
+tags: [talk]
 ---
 
 Yesterday, we did a DDD Basics session with the <a href="http://domaindriven.be">Domain-Driven Design Belgium</a> community. We only covered Strategic DDD, and split up the work amongst the five founders of the group:

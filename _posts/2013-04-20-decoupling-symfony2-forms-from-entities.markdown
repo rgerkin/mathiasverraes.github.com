@@ -4,6 +4,7 @@ slug: decoupling-symfony2-forms-from-entities
 date: 2013-04-20
 layout: post
 published: true
+tags: [blog]
 ---
 
 {% include tldr.html text="Avoid tight coupling between your forms and your Entities by using the Command pattern as an intermediate." %}

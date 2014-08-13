@@ -4,6 +4,7 @@ slug: pre-merge-code-reviews
 date: 2013-10-26
 layout: post
 published: true
+tags: [blog]
 ---
 
 {% include tldr.html text="Rules, benefits, patterns, and anti-patterns for reviewing code before merging it." %}

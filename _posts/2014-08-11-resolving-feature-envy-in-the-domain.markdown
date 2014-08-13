@@ -4,6 +4,7 @@ slug: resolving-feature-envy-in-the-domain
 date: 2014-08-11
 layout: post
 published: true
+tags: [blog]
 ---
 
 {% include tldr.html text="Expressing the Ubiquitous Language helps us to get rid of Feature Envy code smell." %}

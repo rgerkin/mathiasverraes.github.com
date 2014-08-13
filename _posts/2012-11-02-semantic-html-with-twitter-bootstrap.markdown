@@ -5,6 +5,7 @@ date: 2012-11-02
 layout: post
 published: true
 filename: 2012-11-02-semantic-html-with-twitter-bootstrap.markdown
+tags: [blog]
 ---
 
 The downside to using front-end frameworks like [Twitter Bootstrap](http://getbootstrap.com),

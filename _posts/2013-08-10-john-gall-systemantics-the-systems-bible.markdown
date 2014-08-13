@@ -4,6 +4,7 @@ slug: john-gall-systemantics-the-systems-bible
 date: 2013-08-10
 layout: post
 published: true
+tags: [blog]
 ---
 
 

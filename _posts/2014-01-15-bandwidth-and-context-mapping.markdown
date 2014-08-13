@@ -4,6 +4,7 @@ slug: bandwidth-and-context-mapping
 date: 2014-01-15
 layout: post
 published: true
+tags: [blog]
 ---
 
 {% include tldr.html text="Context Mapping is about the whitespace between systems, and the bandwidth of the communications." %}

@@ -4,6 +4,7 @@ slug: 2013-02-16-casting-value_objects
 date: 2013-02-16
 layout: post
 published: true
+tags: [blog]
 ---
 
 {% include tldr.html text="Cast Value Objects to strings that can be parsed back into the Value Object." %}

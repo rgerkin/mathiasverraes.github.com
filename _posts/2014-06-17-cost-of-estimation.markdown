@@ -4,6 +4,7 @@ slug: cost-of-estimation
 date: 2014-06-17
 layout: post
 published: true
+tags: [blog]
 ---
 
 {% include tldr.html text="Asking for estimates can cost you more than you think. When you do estimate, take into account time, complexity, and risk." %}

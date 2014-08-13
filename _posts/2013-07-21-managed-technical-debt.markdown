@@ -4,6 +4,7 @@ slug: managed-technical-debt
 date: 2013-07-21
 layout: post
 published: true
+tags: [blog]
 ---
 
 {% include tldr.html text="We should make a distinction between Managed and Unmanaged Technical Debt." %}

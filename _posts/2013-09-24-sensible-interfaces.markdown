@@ -4,6 +4,7 @@ slug: sensible-interfaces
 date: 2013-09-24
 layout: post
 published: true
+tags: [blog]
 ---
 
 {% include tldr.html text="How did we get from 'Program to an interface, not to an implementation' to 'Just slap an interface on there, it's the fashionable thing to do'?" %}

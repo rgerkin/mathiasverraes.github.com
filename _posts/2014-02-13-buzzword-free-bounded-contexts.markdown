@@ -4,6 +4,7 @@ slug: buzzword-free-bounded-contexts
 date: 2014-02-13
 layout: post
 published: true
+tags: [blog]
 ---
 
 {% include tldr.html text="My recent attempt at explaining Bounded Contexts at @DDDBE, was criticised for being too heavy on terminology. Rinse, adjust, repeat." %}

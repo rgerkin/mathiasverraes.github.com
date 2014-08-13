@@ -4,6 +4,7 @@ slug: dddbe-modellathon
 date: 2013-09-05
 layout: post
 published: true
+tags: [talk]
 ---
 
 

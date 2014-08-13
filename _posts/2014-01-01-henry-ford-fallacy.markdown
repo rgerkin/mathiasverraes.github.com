@@ -4,6 +4,7 @@ slug: henry-ford-fallacy
 date: 2014-01-01
 layout: post
 published: true
+tags: [blog]
 ---
 
 

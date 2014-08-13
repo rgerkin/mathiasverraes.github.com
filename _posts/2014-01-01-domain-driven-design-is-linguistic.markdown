@@ -4,6 +4,7 @@ slug: domain-driven-design-is-linguistic.markdown
 date: 2014-01-01
 layout: post
 published: true
+tags: [blog]
 ---
 
 <img style="float:left;margin-right: 10px"  src="/img/posts/2014-01-01-domain-driven-design-is-linguistic/hoarding small.jpg" title="Hoarding is an extreme form of loss aversion. http://jamesgulliverhancock.com/projects/hoarding/">

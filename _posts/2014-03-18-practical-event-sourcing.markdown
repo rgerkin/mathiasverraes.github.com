@@ -4,6 +4,7 @@ slug: practical-event-sourcing.markdown
 date: 2014-03-18
 layout: post
 published: true
+tags: [talk]
 ---
 
 

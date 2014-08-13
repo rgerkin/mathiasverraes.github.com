@@ -4,6 +4,7 @@ slug: antifragile-nassim-nicholas-taleb
 date: 2013-08-29
 layout: post
 published: true
+tags: [blog]
 ---
 
 {% include tldr.html text="Robustness only goes so far. Embrace a system's natural antifragility." %}

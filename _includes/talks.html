@@ -1,11 +1,8 @@
+
 <ul class="list-unstyled">
-    <li><a href="/2014/07/managed-technical-debt-revisited/">Managed Technical Debt (revisited)</a></li>
-    <li><a href="/2014/05/why-domain-driven-design-matters/">Why Domain-Driven Design Matters</a></li>
-    <li><a href="/2014/03/practical-event-sourcing/">Practical Event Sourcing</a></li>
-    <li><a href="/2014/02/ddd-basics/">DDD Basics: Bounded Contexts, Modelling</a></li>
-    <li><a href="/2014/01/model-storming-workshop/">Model Storming Workshop</a></li>
-    <li><a href="/2013/12/fighting-bottlenecks-with-cqrs/">Fighting Bottlenecks with CQRS</a></li>
-    <li><a href="/2013/09/dddbe-modellathon/">Domain Driven Design Modellathon</a></li>
-    <li><a href="/2013/09/extract-till-you-drop/">Extract Till You Drop</a></li>
-    <li><a href="/2013/06/unbreakable-domain-models/">Unbreakable Domain Models</a></li>
+    {% for post in site.tags.talk %}
+    <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
 </ul>

@@ -4,6 +4,7 @@ slug: facilitating-event-storming
 date: 2013-08-28
 layout: post
 published: true
+tags: [blog]
 ---
 
 {% include tldr.html text="Domain-Driven Design modelling for Agile teams, Brandolini-style." %}

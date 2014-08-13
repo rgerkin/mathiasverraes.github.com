@@ -4,6 +4,7 @@ slug: coping-with-change-in-software-development
 date: 2011-07-21
 layout: post
 published: true
+tags: [blog]
 ---
 
 In a discussion about keeping developers motivated, someone said:

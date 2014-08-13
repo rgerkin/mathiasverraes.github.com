@@ -4,6 +4,7 @@ slug: unbreakable-domain-models
 date: 2013-06-09
 layout: post
 published: true
+tags: [talk]
 ---
 
 ### Slides
