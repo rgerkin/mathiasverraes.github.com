@@ -5,9 +5,8 @@ date: 2014-06-12
 layout: post
 published: true
 tags: [blog]
+abstract: "Don't limit yourself by PHP's single constructor. Use static factory methods."
 ---
-
-{% include tldr.html text="Don't limit yourself by PHP's single constructor. Use static factory methods." %}
 
 PHP allows only a single constructor per class. That's rather annoying. We'll probably never have proper constructor overloading in PHP, but we can at least enjoy some of the benefits. Let's take a simple Time value object. Which is the best way of instantiating it?
 

@@ -5,6 +5,7 @@ date: 2013-01-05
 layout: post
 published: true
 tags: [blog]
+abstract: "Format code to draw attention to what's important."
 ---
 
 

@@ -5,10 +5,8 @@ date: 2013-09-20
 layout: post
 published: true
 tags: [talk]
+abstract: "If I'm not afraid to refactor messy code in front of a live audience, you shouldn't be afraid to do it in the comfort of your office."
 ---
-
-{% include tldr.html text="If I'm not afraid to refactor messy code in front of a live audience, you shouldn't be afraid to do it in the comfort of your office." %}
-
 
 ### Screencast
 

@@ -5,10 +5,8 @@ date: 2013-10-26
 layout: post
 published: true
 tags: [blog]
+abstract: "Rules, benefits, patterns, and anti-patterns for reviewing code before merging it."
 ---
-
-{% include tldr.html text="Rules, benefits, patterns, and anti-patterns for reviewing code before merging it." %}
-
 
 I'm a big proponent of pre-merge code reviews. From my experience consulting for teams in problematic projects, I can say that
 (along with daily standup meetings) pre-merge code reviews are one of the most effective and yet fairly easy changes a team can introduce to radically improve

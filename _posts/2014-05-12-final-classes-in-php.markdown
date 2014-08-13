@@ -5,9 +5,9 @@ date: 2014-05-12
 layout: post
 published: true
 tags: [blog]
+abstract: "Composition, strategies, callbacks, plugins, event listeners, ... are all valid ways to extend without inheritance."
 ---
 
-{% include tldr.html text="Composition, strategies, callbacks, plugins, event listeners, ... are all valid ways to extend without inheritance." %}
 
 
 I make all my classes final by default. I even configured the templates in my IDE prefix new classes with 'final'. I've often explained my reasoning to people. A blog post is in order!

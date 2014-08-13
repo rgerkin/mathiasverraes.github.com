@@ -32,3 +32,10 @@ td.small {
 	font-size: 85%;
 	color: #999;
 }
+
+.blogpost .title  {
+    margin-top: 60px;
+    margin-bottom: 50px;
+    border-left: 12px solid #B02B2C;
+    padding-left: 12px;
+}

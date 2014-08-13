@@ -13,7 +13,7 @@ tags: [talk]
 #### Past
 
 - [DDD Paris Modellathon](http://www.meetup.com/DDD-Paris/events/142503812/) - October 29, 2013
-- DDD Belgium Modellathon in Ghent, Belgium, September 3, 2013
+- [DDD Belgium Modellathon](http://domaindriven.be) in Ghent, Belgium, September 3, 2013
 
 ### Goal
 

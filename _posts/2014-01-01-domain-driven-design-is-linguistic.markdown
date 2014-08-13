@@ -5,6 +5,7 @@ date: 2014-01-01
 layout: post
 published: true
 tags: [blog]
+abstract: "Just because two behaviours lead to the same outcome, does not mean they are replaceable."
 ---
 
 <img style="float:left;margin-right: 10px"  src="/img/posts/2014-01-01-domain-driven-design-is-linguistic/hoarding small.jpg" title="Hoarding is an extreme form of loss aversion. http://jamesgulliverhancock.com/projects/hoarding/">

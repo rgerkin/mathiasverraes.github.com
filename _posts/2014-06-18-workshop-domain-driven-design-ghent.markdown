@@ -5,9 +5,9 @@ date: 2014-06-18
 layout: post
 published: true
 tags: [workshop]
+abstract: "Three day workshop for developers. August 20-22, 2014, in Ghent, Belgium."
 ---
 
-{% include tldr.html text="Three day workshop for developers. August 20-22, 2014, in Ghent, Belgium." %}
 
 <img src="/img/posts/2014-06-18-workshop-expddd/modelstorming.jpg" alt="Model Storming">
 

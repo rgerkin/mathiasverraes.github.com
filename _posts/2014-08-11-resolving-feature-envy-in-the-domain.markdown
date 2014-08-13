@@ -5,10 +5,8 @@ date: 2014-08-11
 layout: post
 published: true
 tags: [blog]
+abstract: "Expressing the Ubiquitous Language helps us to get rid of the Feature Envy code smell."
 ---
-
-{% include tldr.html text="Expressing the Ubiquitous Language helps us to get rid of Feature Envy code smell." %}
-
 
 [Benjamin Eberlei](https://twitter.com/beberlei) did [a really nice job of explaining refactoring the Feature Envy code smell](http://www.whitewashing.de/2014/08/11/spotting_featureenvy_and_refactoring.html) on his blog. I wrote a comment because I felt the example could be taken one step further. You should read the original post. Below are Benjamin's code examples (for reference), followed by a repost of my comment.
 

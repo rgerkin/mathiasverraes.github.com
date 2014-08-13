@@ -5,9 +5,8 @@ date: 2013-04-19
 layout: post
 published: true
 tags: [blog]
+abstract: "CRUD doesn't express behaviour. Avoid setters, and use expressive, encapsulated operations instead."
 ---
-
-{% include tldr.html text="CRUD doesn't express behaviour. Avoid setters, and use expressive, encapsulated operations instead." %}
 
 CRUD is, as Greg Young calls it, our industry's [Grand Failure](http://herdingcode.com/?p=189). We have deluded our
 users, and ourselves, that applications are nothing more than a thin layer around our database. We present the user

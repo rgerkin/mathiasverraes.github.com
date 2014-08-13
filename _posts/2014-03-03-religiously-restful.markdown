@@ -5,9 +5,9 @@ date: 2014-03-03
 layout: post
 published: true
 tags: [blog]
+abstract: "REST: The language of the future, or opium for the masses?"
 ---
 
-{% include tldr.html text="REST: The language of the future, or opium for the masses?" %}
 
 
 Should you always speak and write perfect Oxford English? Most people will agree that this would be impractical, and take a lot of effort. It depends on your conversation partner, or your audience, and, quite importantly, on the expected lifespan of the message. If you are among friends, in the pub, you will most likely speak your local dialect. If you write a text message to your best mate, same. If, on the other hand, you were the King, and you were addressing the nation on a matter of the gravest importance, you'd want it to be in the best English you have at your disposal. If you write a document that is likely to survive you, such as legislature, you'd want to make sure it is still readable in a hundred years. Your local vernacular wouldn't provide that guarantee.

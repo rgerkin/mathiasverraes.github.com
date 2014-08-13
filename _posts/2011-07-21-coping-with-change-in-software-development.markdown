@@ -5,6 +5,7 @@ date: 2011-07-21
 layout: post
 published: true
 tags: [blog]
+abstract: "Change is not your enemy, it's your job."
 ---
 
 In a discussion about keeping developers motivated, someone said:

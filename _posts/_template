@@ -5,6 +5,7 @@ date: yyyy-mm-dd
 layout: post
 published: true
 tags: [blog, workshop, talk]
+abstract: "@TODO abstract"
 ---
 
 {% include tldr.html text="@TODO ABSTRACT" %}

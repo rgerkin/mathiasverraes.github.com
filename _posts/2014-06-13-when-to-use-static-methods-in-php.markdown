@@ -5,9 +5,8 @@ date: 2014-06-13
 layout: post
 published: true
 tags: [blog]
+abstract: "Static methods? Yes, when they are stateless."
 ---
-
-{% include tldr.html text="Static methods? Yes, when they are stateless." %}
 
 
 Some of the reactions to my last blog post on [Named Constructors in PHP](/2014/06/named-constructors-in-php/), originate from the notion that static methods are inherently bad and should never be used. This is rather overgeneralized. 

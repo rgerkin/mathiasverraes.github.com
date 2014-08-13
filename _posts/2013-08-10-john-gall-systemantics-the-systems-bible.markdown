@@ -4,7 +4,8 @@ slug: john-gall-systemantics-the-systems-bible
 date: 2013-08-10
 layout: post
 published: true
-tags: [blog]
+tags: [blog, book]
+abstract: "The System Kicks Back, Gets In The Way and Opposes Its Own Proper Function. Your own perspective becomes distorted by being In The System."
 ---
 
 

@@ -5,9 +5,8 @@ date: 2013-12-01
 layout: post
 published: true
 tags: [talk]
+abstract: "CQRS challenges the assumption that reading and writing are supposed to share the same abstractions."
 ---
-
-{% include tldr.html text="CQRS challenges the assumption that reading and writing are supposed to share the same abstrations." %}
 
 I hadn't done any presentations or blog posts about Command/Query Responsibility Segregation yet, even though I've been
 working with it for more than year (and have been wanting to use it for another year). [Volker Dusch](https://twitter.com/__edorian)

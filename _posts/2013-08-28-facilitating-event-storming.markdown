@@ -5,9 +5,8 @@ date: 2013-08-28
 layout: post
 published: true
 tags: [blog]
+abstract: "Domain-Driven Design modelling for Agile teams, Brandolini-style."
 ---
-
-{% include tldr.html text="Domain-Driven Design modelling for Agile teams, Brandolini-style." %}
 
 Event Storming is a technique where you get the developers and the business stakeholders in a room, and visualize the
 business processes. You do this using stickies with domain events and causality (such as commands), and end with drawing

@@ -5,9 +5,8 @@ date: 2014-08-02
 layout: post
 published: true
 tags: [blog]
+abstract: "Code duplication is not the issue."
 ---
-
-{% include tldr.html text="Code duplication is not the issue." %}
 
 Have a look at these two classes:
 

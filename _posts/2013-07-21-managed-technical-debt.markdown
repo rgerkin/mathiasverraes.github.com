@@ -5,9 +5,8 @@ date: 2013-07-21
 layout: post
 published: true
 tags: [blog]
+abstract: "We should make a distinction between Managed and Unmanaged Technical Debt."
 ---
-
-{% include tldr.html text="We should make a distinction between Managed and Unmanaged Technical Debt." %}
 
 [Alberto Brandolini](https://twitter.com/mathiasverraes/status/326435664319111170) said at IDDD Belgium (quoting from memory):
 

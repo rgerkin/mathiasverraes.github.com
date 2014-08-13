@@ -5,9 +5,8 @@ date: 2014-01-15
 layout: post
 published: true
 tags: [blog]
+abstract: "Context Mapping is about the whitespace between systems, and the bandwidth of the communications."
 ---
-
-{% include tldr.html text="Context Mapping is about the whitespace between systems, and the bandwidth of the communications." %}
 
 
 Context Mapping, first described by Eric Evans in Domain-Driven Design, is lightweight method of drawing out the relations between systems, and parts of systems. It's not technical per se. It exposes the politics of the organisations and the teams building the systems. As you start mapping, every edge that connects two systems, defines an upstream, and a downstream point; the latter system being the one that is affected by changes in the former. Or, to put it more graphically: if the upstream people piss in the river, the downstream people are drinking it. Pardon my French. In the book, Eric defines a number of patterns, that characterise those relations: Anticorruption Layer, Custom/Supplier, Open Host Service, Published Language, Shared Kernel, etc.

@@ -5,6 +5,7 @@ date: 2012-12-23
 layout: post
 published: true
 tags: [blog]
+abstract: "An ever-growing list of tips that help me read more books."
 ---
 
 <img style="float:right;margin-left: 10px" src="/img/posts/2012-12-23/reading_improves_your_view_of_the_world.jpg" alt="Reading improves your view of the world">

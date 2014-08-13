@@ -5,9 +5,8 @@ date: 2014-01-05
 layout: post
 published: true
 tags: [blog]
+abstract: "Admit failure. Build for failure. Live failure."
 ---
-
-{% include tldr.html text="Admit failure. Build for failure. Live failure." %}
 
 We can't avoid failure. Systems fail all the time. The deep assumption of failure needs to be engraved in everything we do or build.
 

@@ -5,6 +5,7 @@ date: 2014-03-18
 layout: post
 published: true
 tags: [talk]
+abstract: "A step by step guide to building your very first Event Sourced Aggregate."
 ---
 
 

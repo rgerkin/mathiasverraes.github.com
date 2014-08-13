@@ -5,9 +5,9 @@ date: 2013-12-30
 layout: post
 published: true
 tags: [blog]
+abstract: "Making the difference between Related Entities and Child Entities explicit, and choosing your modelling strategy accordingly, will pay off in the long term."
 ---
 
-{% include tldr.html text="Making the difference between Related Entities and Child Entities explicit, and choosing your modelling strategy accordingly, will pay off in the long term." %}
 
 
 

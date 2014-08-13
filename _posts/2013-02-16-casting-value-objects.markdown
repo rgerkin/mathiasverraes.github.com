@@ -5,9 +5,8 @@ date: 2013-02-16
 layout: post
 published: true
 tags: [blog]
+abstract: "Cast Value Objects to strings that can be parsed back into the Value Object."
 ---
-
-{% include tldr.html text="Cast Value Objects to strings that can be parsed back into the Value Object." %}
 
 
 I'm a big fan of Value Objects, as they are very helpful in encapsulating behavior, and communicating intent. In fact, as a

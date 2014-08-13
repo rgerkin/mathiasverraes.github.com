@@ -5,9 +5,9 @@ date: 2014-04-27
 layout: post
 published: true
 tags: [blog, workshop]
+abstract: "Intensive three day workshop with Mathias Verraes"
 ---
 
-{% include tldr.html text="Intensive three day workshop with Mathias Verraes" %}
 
 
 ## Locations

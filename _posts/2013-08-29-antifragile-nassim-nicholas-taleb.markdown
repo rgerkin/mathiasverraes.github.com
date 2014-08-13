@@ -4,10 +4,9 @@ slug: antifragile-nassim-nicholas-taleb
 date: 2013-08-29
 layout: post
 published: true
-tags: [blog]
+tags: [blog, book]
+abstract: "Robustness only goes so far. Embrace a system's natural antifragility."
 ---
-
-{% include tldr.html text="Robustness only goes so far. Embrace a system's natural antifragility." %}
 
 What is the opposite of **fragile** (breaks when confronted with unexpected events)? Changes are people answer with
 **robustness** (stays the same under unexpected events). But there's another way to look at it.

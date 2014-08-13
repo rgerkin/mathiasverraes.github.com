@@ -5,9 +5,9 @@ date: 2014-03-22
 layout: post
 published: true
 tags: [blog]
+abstract: "How we made continuous improvement truly continuous, using stickies, a timeline, and few minutes each day."
 ---
 
-{% include tldr.html text="How we made continuous improvement truly continuous, using stickies, a timeline, and few minutes each day." %}
 
 You're in a meeting. Maybe it's a daily stand-up meeting, or an agile retrospective. Somebody has an idea. A heated debate follows. Everybody is stating opinions, trying to convince the others, explaining why their idea is going to work, and the alternative is stupid. Because everybody is focused on making their point, nobody is actually listening to the others. Eventually the decision is either postponed, or the person with the highest salary makes the final decision, or the one who pushes the hardest. The decision is final, and it may or may not be actually get implemented. And if it is, it is never properly evaluated, or adapted.
 

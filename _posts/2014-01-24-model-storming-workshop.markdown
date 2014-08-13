@@ -5,17 +5,17 @@ date: 2014-01-22
 layout: post
 published: true
 tags: [talk]
+abstract: "Deliberately discover your domain, to get in Modelling Nirvana."
 ---
 
-{% include tldr.html text="Deliberately discover your domain, to get in Modelling Nirvana." %}
 
 #### Future
 
-- [Devnology](http://devnology.nl/), somewhere in the Netherlands (tba), June 4, 2014
 - Your company or event? [Contact me](http://verraes.net/#contact)
 
 #### Past
 
+- [Devnology](http://devnology.nl/), somewhere in the Netherlands (tba), June 4, 2014
 - [PHP Benelux](http://conference.phpbenelux.eu/2014/sessions/#model-storming-workshop) in Antwerp, Belgium, January 24, 2014
     - [Joind.in reviews](https://joind.in/talk/view/10281)
     - Review by [Carl Vuorinen](http://cvuorinen.net/2014/01/cqrs-or-did-you-mean-bumper-cars-my-phpbenelux-2014-experience/)

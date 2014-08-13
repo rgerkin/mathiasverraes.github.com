@@ -5,9 +5,8 @@ date: 2014-06-27
 layout: post
 published: true
 tags: [blog]
+abstract: "Learn by finding the differences, not the similarities."
 ---
-
-{% include tldr.html text="Learn by finding the differences, not the similarities." %}
 
 
 You are reading this on an Information Overload Device. Probably one that fits in your bag or even your pocket. You also have a large Information Overload Device in your living room, and there's a bunch of others spread across your home, your office, and your environment.

@@ -5,9 +5,8 @@ date: 2013-11-15
 layout: post
 published: true
 tags: [blog]
+abstract: "Separate value objects in your model from concepts that serve the UI."
 ---
-
-{% include tldr.html text="Separate value objects in your model from concepts that serve the UI" %}
 
 I got this mail from a listener of the [podcast episode on Value Objects](http://elephantintheroom.io/blog/2013/10/episode-2-heart-and-soul-of-oop/) I recorded with Konstantin:
 
