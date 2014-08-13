@@ -4,6 +4,7 @@ slug: 2013-01-05-contextual-code-formatting
 date: 2013-01-05
 layout: post
 published: true
+tags: [blog]
 ---
 
 

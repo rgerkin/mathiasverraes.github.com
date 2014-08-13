@@ -4,6 +4,7 @@ slug: javascript-dependency-injection-with-partial-functions
 date: 2012-10-30
 layout: post
 published: true
+tags: [blog]
 ---
 
 My gut reaction when writing Javascript, is to try and mimck patterns and concepts that I'm used to in

@@ -4,6 +4,7 @@ slug: code-folder-structure
 date: 2011-10-22
 layout: post
 published: true
+tags: [blog]
 ---
 
 

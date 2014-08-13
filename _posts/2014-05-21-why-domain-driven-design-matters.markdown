@@ -4,6 +4,7 @@ slug: why-domain-driven-design-matters
 date: 2014-05-21
 layout: post
 published: true
+tags: [talk]
 ---
 
 

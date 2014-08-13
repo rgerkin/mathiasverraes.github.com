@@ -4,6 +4,7 @@ slug: build-for-failure
 date: 2014-01-05
 layout: post
 published: true
+tags: [blog]
 ---
 
 {% include tldr.html text="Admit failure. Build for failure. Live failure." %}

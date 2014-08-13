@@ -4,6 +4,7 @@ slug: fighting-bottlenecks-with-cqrs
 date: 2013-12-01
 layout: post
 published: true
+tags: [talk]
 ---
 
 {% include tldr.html text="CQRS challenges the assumption that reading and writing are supposed to share the same abstrations." %}

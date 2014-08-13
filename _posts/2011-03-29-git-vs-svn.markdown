@@ -4,6 +4,7 @@ slug: git-vs-svn
 date: 2011-03-29
 layout: post
 published: true
+tags: [blog]
 ---
 
 A couple of weeks ago, I switched from Subversion to Git for a couple of smaller projects. Below are some of my findings.

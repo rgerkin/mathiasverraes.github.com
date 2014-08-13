@@ -4,6 +4,7 @@ slug: functional-foundation-for-cqrs-event-sourcing
 date: 2014-05-14
 layout: post
 published: true
+tags: [blog]
 ---
 
 

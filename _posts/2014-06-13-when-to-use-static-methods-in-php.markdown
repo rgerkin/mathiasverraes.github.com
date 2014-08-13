@@ -4,6 +4,7 @@ slug: when-to-use-static-methods-in-php
 date: 2014-06-13
 layout: post
 published: true
+tags: [blog]
 ---
 
 {% include tldr.html text="Static methods? Yes, when they are stateless." %}

@@ -4,6 +4,7 @@ slug: related-entities-vs-child-entities
 date: 2013-12-30
 layout: post
 published: true
+tags: [blog]
 ---
 
 {% include tldr.html text="Making the difference between Related Entities and Child Entities explicit, and choosing your modelling strategy accordingly, will pay off in the long term." %}

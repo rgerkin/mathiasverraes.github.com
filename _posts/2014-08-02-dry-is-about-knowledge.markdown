@@ -4,6 +4,7 @@ slug: dry-is-about-knowledge
 date: 2014-08-02
 layout: post
 published: true
+tags: [blog]
 ---
 
 {% include tldr.html text="Code duplication is not the issue." %}

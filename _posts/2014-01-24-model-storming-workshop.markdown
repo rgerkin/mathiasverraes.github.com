@@ -4,6 +4,7 @@ slug: model-storming-workshop
 date: 2014-01-22
 layout: post
 published: true
+tags: [talk]
 ---
 
 {% include tldr.html text="Deliberately discover your domain, to get in Modelling Nirvana." %}

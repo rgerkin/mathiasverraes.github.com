@@ -4,6 +4,7 @@ slug: lazy-loading-with-closures
 date: 2011-05-17 21:57:07
 layout: post
 published: true
+tags: [blog]
 ---
 
 Closures are a great way to do all kinds of neat tricks in PHP, and they’re particularly useful for  Lazy Loading. I’m

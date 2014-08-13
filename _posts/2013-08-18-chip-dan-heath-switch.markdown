@@ -4,6 +4,7 @@ slug: chip-dan-heath-switch
 date: 2013-08-18
 layout: post
 published: true
+tags: [blog]
 ---
 
 {% include tldr.html text="Switch is a framework for change that aims to operate on the emotional side, the logical side, and the environment." %}

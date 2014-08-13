@@ -4,6 +4,7 @@ slug: fowler-money-pattern-in-php
 date: 2011-04-04
 layout: post
 published: true
+tags: [blog]
 ---
 
 Whenever working with values in object oriented programming, it's often a good idea to wrap them in a ValueObject. Money is a perfect candidate for a ValueObject: When talking about money, numbers are meaningless if they are not combined with a currency.

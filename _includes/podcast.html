@@ -1,5 +1,7 @@
 <ul class="list-unstyled">
+    {% for post in site.tags.podcast %}
     <li>
-        <a href="http://elephantintheroom.io/">Elephant in the Room</a>
+        <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
+    {% endfor %}
 </ul>

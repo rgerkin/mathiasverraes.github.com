@@ -4,6 +4,7 @@ slug: information-overload
 date: 2014-06-27
 layout: post
 published: true
+tags: [blog]
 ---
 
 {% include tldr.html text="Learn by finding the differences, not the similarities." %}

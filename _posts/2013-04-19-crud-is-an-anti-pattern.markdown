@@ -4,6 +4,7 @@ slug: crud-is-an-anti-pattern
 date: 2013-04-19
 layout: post
 published: true
+tags: [blog]
 ---
 
 {% include tldr.html text="CRUD doesn't express behaviour. Avoid setters, and use expressive, encapsulated operations instead." %}

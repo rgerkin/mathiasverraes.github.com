@@ -4,6 +4,7 @@ slug: beautiful-code
 date: 2011-04-05
 layout: post
 published: true
+tags: [blog]
 ---
 
 Code doesn’t have to be beautiful. Some of the most successful projects have the ugliest code. Marketing, features, vendor lock-in, shiny GUI’s and all kinds of real or imagined qualities are what make or break a software product. Of all the factors that’ll make you reach your audience, beautiful code dangles somewhere at the bottom. The business value of beautiful code is near zero. CEO’s, managers, customers, and users, they don’t give a shit about the code. So neither should we. Just keep pumping out those LOC’s.

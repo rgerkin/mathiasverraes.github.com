@@ -4,6 +4,7 @@ slug: event-storming-fake-domains-happy-paths
 date: 2014-07-23
 layout: post
 published: true
+tags: [blog]
 ---
 
 {% include tldr.html text="More Event Storming Insights: picking good domains, modelling branches using duplication, and creative visualisation." %}
