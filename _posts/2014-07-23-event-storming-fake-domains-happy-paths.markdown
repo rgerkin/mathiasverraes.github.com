@@ -6,6 +6,7 @@ layout: post
 published: true
 tags: [blog]
 abstract: "More Event Storming insights: picking good domains, modelling branches using duplication, and creative visualisation."
+image: "/img/posts/2014-07-23-event-storming-fake-domains-happy-paths/event-storming-happy-path.jpg"
 ---
 
 Inspired by [Tim Schraepen’s experience report](http://sch3lp.github.io/2014/07/12/event-storming-exercise/), I thought I’d list some recent experiences with facilitating Event Storming sessions. You might want to read my [older post with notes on facilitating Event Storming sessions](/2013/08/facilitating-event-storming/), and the [huge amount of content Alberto Brandolini has produced on the topic](http://ziobrando.blogspot.be/search/label/EventStorming).
