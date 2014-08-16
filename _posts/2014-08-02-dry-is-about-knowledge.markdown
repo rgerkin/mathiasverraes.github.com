@@ -6,6 +6,7 @@ layout: post
 published: true
 tags: [blog]
 abstract: "Code duplication is not the issue."
+image: "/img/posts/2014-08-02-dry-is-about-knowledge/find-the-differences.jpg"
 ---
 
 Have a look at these two classes:
