@@ -6,9 +6,8 @@ layout: post
 published: true
 tags: [blog, workshop, talk]
 abstract: "@TODO abstract"
+image: "/img/posts/@TODO"
 ---
-
-{% include tldr.html text="@TODO ABSTRACT" %}
 
 @TODO CONTENT HERE
 
