@@ -6,6 +6,7 @@ layout: post
 published: true
 tags: [blog]
 abstract: "Making the difference between Related Entities and Child Entities explicit, and choosing your modelling strategy accordingly, will pay off in the long term."
+image: "http://verraes.net/img/posts/2013-12-30-related-entities-vs-child-entities/marshfrog_illus_cropped.jpg"
 ---
 
 

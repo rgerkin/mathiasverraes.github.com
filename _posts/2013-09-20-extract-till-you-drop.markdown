@@ -6,6 +6,7 @@ layout: post
 published: true
 tags: [talk]
 abstract: "If I'm not afraid to refactor messy code in front of a live audience, you shouldn't be afraid to do it in the comfort of your office."
+image: "https://speakerd.s3.amazonaws.com/presentations/3ce44050041f0131954556f7ac4f018a/slide_0.jpg?1392394580"
 ---
 
 ### Screencast

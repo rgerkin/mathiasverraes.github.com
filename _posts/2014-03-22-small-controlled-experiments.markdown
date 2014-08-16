@@ -6,6 +6,7 @@ layout: post
 published: true
 tags: [blog]
 abstract: "How we made continuous improvement truly continuous, using stickies, a timeline, and few minutes each day."
+image: "http://verraes.net/img/posts/2014-03-22-small-controlled-experiments/chemistry-show.jpg"
 ---
 
 

@@ -6,6 +6,7 @@ layout: post
 published: true
 tags: [blog, book]
 abstract: "Switch is a framework for change that aims to operate on the emotional side, the logical side, and the environment."
+image: "http://verraes.net/img/books/switch.jpg"
 ---
 
 <img style="float:left;margin-right: 10px" src="/img/books/switch.jpg" alt="Switch - How to Change Things When Change Is Hard">

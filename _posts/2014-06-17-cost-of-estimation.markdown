@@ -6,6 +6,7 @@ layout: post
 published: true
 tags: [blog]
 abstract: "Asking for estimates can cost you more than you think. When you do estimate, take into account time, complexity, and risk."
+image: "http://verraes.net/img/posts/2014-06-17-cost-of-estimation/1200521270Hine_Icarus_575.jpg"
 ---
 
 

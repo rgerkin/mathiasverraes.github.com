@@ -6,6 +6,7 @@ layout: post
 published: true
 tags: [blog]
 abstract: "Domain-Driven Design modelling for Agile teams, Brandolini-style."
+image: "http://verraes.net/img/posts/2013-08-28/event-storming.jpg"
 ---
 
 Event Storming is a technique where you get the developers and the business stakeholders in a room, and visualize the
@@ -54,6 +55,7 @@ Facilitator tips:
 
 ## Read More
 
+- [Event Storming: on Fake Domains and Happy Paths](http://verraes.net/2014/07/event-storming-fake-domains-happy-paths/)
 - [Domain-Driven Design is Linguistic](/2014/01/domain-driven-design-is-linguistic/)
 - [The DDDBE Modellathon](/2013/09/dddbe-modellathon/)
 - [Model Storming Workshop](/2014/01/model-storming-workshop/)

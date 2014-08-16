@@ -6,6 +6,7 @@ layout: post
 published: true
 tags: [blog]
 abstract: "Admit failure. Build for failure. Live failure."
+image: "http://verraes.net/img/posts/2014-01-05-build-for-failure/zeromq-book.jpg"
 ---
 
 We can't avoid failure. Systems fail all the time. The deep assumption of failure needs to be engraved in everything we do or build.

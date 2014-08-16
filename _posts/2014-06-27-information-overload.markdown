@@ -6,6 +6,7 @@ layout: post
 published: true
 tags: [blog]
 abstract: "Learn by finding the differences, not the similarities."
+image: "http://verraes.net/img/posts/2014-06-27-information-overload/biografias-alicia-martin-2.jpeg"
 ---
 
 

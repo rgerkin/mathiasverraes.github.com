@@ -5,6 +5,7 @@ date: 2014-01-01
 layout: post
 published: true
 tags: [blog]
+image: "http://verraes.net/img/posts/2014-01-01-henry-ford-fallacy/iron-dobbin.png"
 ---
 
 

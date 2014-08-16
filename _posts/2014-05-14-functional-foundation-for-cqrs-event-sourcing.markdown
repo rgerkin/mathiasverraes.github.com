@@ -6,6 +6,7 @@ layout: post
 published: true
 tags: [blog]
 abstract: "A CQRS architecture can be seen as a set of referentially transparent functions that model decisions and interpretation."
+image: "/img/posts/2014-05-14-functional-foundation-for-cqrs/circle-diagram.png"
 ---
 
 

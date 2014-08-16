@@ -6,6 +6,7 @@ layout: post
 published: true
 tags: [workshop]
 abstract: "Three day workshop for developers. August 20-22, 2014, in Ghent, Belgium."
+image: "http://verraes.net/img/posts/2014-06-18-workshop-expddd/modelstorming.jpg"
 ---
 
 

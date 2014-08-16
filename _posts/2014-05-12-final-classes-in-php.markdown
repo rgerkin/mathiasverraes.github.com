@@ -6,6 +6,7 @@ layout: post
 published: true
 tags: [blog]
 abstract: "Composition, strategies, callbacks, plugins, event listeners, ... are all valid ways to extend without inheritance."
+image: "http://verraes.net/img/posts/2014-05-12-final-classes-php/explicit-interface.png"
 ---
 
 

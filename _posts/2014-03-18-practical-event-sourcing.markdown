@@ -6,6 +6,7 @@ layout: post
 published: true
 tags: [talk]
 abstract: "A step by step guide to building your very first Event Sourced Aggregate."
+image: "https://speakerd.s3.amazonaws.com/presentations/78d43d2090a401318cc322b59c6a013f/slide_0.jpg?1395131089"
 ---
 
 

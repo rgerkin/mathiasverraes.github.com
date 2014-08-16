@@ -6,6 +6,7 @@ layout: post
 published: true
 tags: [talk]
 abstract: "CQRS challenges the assumption that reading and writing are supposed to share the same abstractions."
+image: "https://speakerd.s3.amazonaws.com/presentations/9954fc103bd40131db9c2eaec66c710f/slide_0.jpg?1392394564"
 ---
 
 I hadn't done any presentations or blog posts about Command/Query Responsibility Segregation yet, even though I've been

@@ -6,6 +6,7 @@ layout: post
 published: true
 tags: [blog]
 abstract: "Context Mapping is about the whitespace between systems, and the bandwidth of the communications."
+image: "http://verraes.net/img/posts/2014-01-15-bandwidth-and-context-mapping/context-map-bandwidth.jpg"
 ---
 
 

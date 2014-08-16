@@ -6,6 +6,7 @@ layout: post
 published: true
 tags: [talk]
 abstract: "Deliberately discover your domain, to get in Modelling Nirvana."
+image: "https://speakerd.s3.amazonaws.com/presentations/5d64816065aa0131a8e94ae38a915c91/slide_0.jpg?1392394555"
 ---
 
 

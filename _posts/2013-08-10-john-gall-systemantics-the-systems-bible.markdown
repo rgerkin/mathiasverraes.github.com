@@ -6,6 +6,7 @@ layout: post
 published: true
 tags: [blog, book]
 abstract: "The System Kicks Back, Gets In The Way and Opposes Its Own Proper Function. Your own perspective becomes distorted by being In The System."
+image: "http://verraes.net/img/books/systemantics.jpg"
 ---
 
 

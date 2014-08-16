@@ -6,6 +6,7 @@ layout: post
 published: true
 tags: [talk]
 abstract: "Thinking about Systems and Complexity."
+image: "https://speakerd.s3.amazonaws.com/presentations/318140a0c29a013152315aee9e57b660/slide_0.jpg?1400624346"
 ---
 
 

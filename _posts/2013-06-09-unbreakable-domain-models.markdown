@@ -5,6 +5,7 @@ date: 2013-06-09
 layout: post
 published: true
 tags: [talk]
+image: "https://speakerd.s3.amazonaws.com/presentations/838642907d6c0131238f2adccd741a3a/slide_0.jpg?1393018100"
 ---
 
 ### Slides

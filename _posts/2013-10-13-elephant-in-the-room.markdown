@@ -5,6 +5,7 @@ date: 2013-10-13
 layout: post
 published: true
 tags: [podcast]
+image: "https://raw.githubusercontent.com/elephantintheroom/website-source/master/source/images/elephantintheoffice1400x1400.jpg"
 ---
 
 I had some really great discussions with Konstantin aka

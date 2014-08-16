@@ -6,6 +6,7 @@ layout: post
 published: true
 tags: [blog, book]
 abstract: "Robustness only goes so far. Embrace a system's natural antifragility."
+image: "http://verraes.net/img/posts/2013-08-29/antifragile-book.png"
 ---
 
 What is the opposite of **fragile** (breaks when confronted with unexpected events)? Changes are people answer with

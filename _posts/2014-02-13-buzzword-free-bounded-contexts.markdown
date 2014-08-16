@@ -6,6 +6,7 @@ layout: post
 published: true
 tags: [blog]
 abstract: "My recent attempt at explaining Bounded Contexts at @DDDBE, was criticised for being too heavy on terminology. Rinse, adjust, repeat."
+image: "http://verraes.net/img/posts/2014-02-13-buzzword-free-bounded-contexts/m-and-ms.jpg"
 ---
 
 

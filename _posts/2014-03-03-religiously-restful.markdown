@@ -6,6 +6,7 @@ layout: post
 published: true
 tags: [blog]
 abstract: "REST: The language of the future, or opium for the masses?"
+image: "http://verraes.net/img/posts/2014-03-03-religiously-restful/colin-firth-as-king-george-vi-in-the-king.jpeg"
 ---
 
 
