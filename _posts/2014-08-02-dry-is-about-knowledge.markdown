@@ -86,7 +86,7 @@ abstract class ProductContainer
     public function addProduct($product)
     {
         if ($this->getProductLimit() == count($this->products)) {
-            throw new Exception("Max 3 products allowed");
+            throw new Exception(sprintf("Max %d products allowed", $this->getProductLimit()));
         }
         $this->products[] = $product;
     } 
