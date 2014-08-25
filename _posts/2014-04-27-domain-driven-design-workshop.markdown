@@ -9,12 +9,6 @@ abstract: "Intensive three day workshop with Mathias Verraes"
 ---
 
 
-
-## Locations
-
-- [Barcelona, Spain, May 19-21, 2014](https://www.eventbrite.com/e/ddd-workshop-barcelona-tickets-11279853345)
-- Your location? [Contact me](http://verraes.net/#contact)
-
 ## Abstract
 
 Software design can have a very slow feedback loop: by the time you find out if the architectural and design decisions you made were the right ones, it may be too late for drastic changes. As developers, we tend to phrase all problems as technical problems, which can be sufficiently challenging in their own right. We tend to lose sight of the underlying business concerns.
@@ -39,3 +33,5 @@ The workshop is not tied to any specific programming language. Good knowledge of
 ## About the instructor
 
 Mathias Verraes is a recovering music composer turned programmer, consultant, blogger, speaker, and podcaster. He advises companies on how to build enterprise web applications for complex business domains . For some weird reason, he enjoys working on large legacy projects: the kind where there’s half a million lines of spaghetti code, and nobody knows how to get the codebase under control. He’s the founder of the Domain-Driven Design Belgium community. When he’s not working, he’s at home in Kortrijk, Belgium, helping his two sons build crazy Lego train tracks.
+
+
