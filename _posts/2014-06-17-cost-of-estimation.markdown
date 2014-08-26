@@ -57,8 +57,18 @@ In the interest of making the implicit explicit, let's call this **"risk": the p
 
 We're getting somewhere now. There is a better way of estimating, by making the ingredients very visible. The formula for estimating in story points, is:
 
+<del>
 ```
 story points = time x complexity x risk
 ```
+</del>
 
 How this works in practice, and how to run estimation sessions, is the topic for future blog post.
+
+**Update:**
+
+```
+story points = (time, complexity, risk)
+```
+
+The first formula makes it look like something mathematically calculable. It isn't.
