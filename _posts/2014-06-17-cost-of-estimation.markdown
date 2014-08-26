@@ -4,12 +4,12 @@ slug: cost-of-estimation
 date: 2014-06-17
 layout: post
 published: true
-tags: [blog]
+tags: [blog, estimation-series]
 abstract: "Asking for estimates can cost you more than you think. When you do estimate, take into account time, complexity, and risk."
 image: "http://verraes.net/img/posts/2014-06-17-cost-of-estimation/1200521270Hine_Icarus_575.jpg"
 ---
 
-
+{% include estimation-series.html %}
 
 ## Ballpark Figures
 
@@ -19,11 +19,11 @@ When somebody asks you to estimate how long a feature or a project will take, yo
 
 If you have been burned by this, you move on to phase 2: padding your estimation. You do it secretly, and you feel like a cheat for doing it. For some reason, it’s **a taboo to estimate the time to do it right, as opposed to doing it fast**.
 
-At the worst end of the spectrum, there’s **blame culture**. Somebody storms into the office, and demands a “guesstimate” or a “ballpark figure”. Yet they still expect you to complete the task in that time, without even hesitating to dump more tasks in your lap. In the end, you are blamed for “not sticking to the plan” or “making wrong estimations”. Distrust between the team and the rest of business grows. A set of parallel universes spring into existence: reality; the plans of the managers; and the public secret that the plan is wrong anyway.
+At the worst end of the spectrum, there’s **blame culture**. Somebody storms into the office, and demands a “guesstimate” or a “ballpark figure”. Yet they still expect you to complete the task in that time, without even hesitating to dump more tasks in your lap. In the end, you are blamed for “not sticking to the plan” or “making wrong estimates”. Distrust between the team and the rest of business grows. A set of parallel universes spring into existence: reality; the plans of the managers; and the public secret that the plan is wrong anyway.
 
-## Ternary Estimations
+## Ternary Estimates
 
-Some people try to hack this, using **ternary estimations**: the combination of the expected duration, the optimistic duration, and the pessimistic duration. I’ve never seen this work in practice. Managing software projects is hard enough as it is, having to deal with three numbers all the time doesn’t make it easier. And the numbers are usually calculated (again implicitly) as `expected time +- 20%`, which is not the same as a proper optimistic or pessimistic estimate.
+Some people try to hack this, using **ternary estimates**: the combination of the expected duration, the optimistic duration, and the pessimistic duration. I’ve never seen this work in practice. Managing software projects is hard enough as it is, having to deal with three numbers all the time doesn’t make it easier. And the numbers are usually calculated (again implicitly) as `expected time +- 20%`, which is not the same as a proper optimistic or pessimistic estimate.
 
 ## Creative Problem Solving
 
@@ -72,3 +72,5 @@ story points = (time, complexity, risk)
 ```
 
 The first formula makes it look like something mathematically calculable. It isn't.
+
+{% include estimation-series.html %}

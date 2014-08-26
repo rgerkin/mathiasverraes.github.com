@@ -1,0 +1,10 @@
+<div style="border: 1px dotted gray; padding: 10px; width: 50%; margin-bottom: 10px;">
+    <strong>On Estimation</strong>
+    <ol>
+        {% for post in site.tags.estimation-series reversed %}
+        <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+    </ol>
+</div>
