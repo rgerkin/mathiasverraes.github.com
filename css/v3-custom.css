@@ -39,3 +39,8 @@ td.small {
     border-left: 12px solid #B02B2C;
     padding-left: 12px;
 }
+
+.blogpost .title p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
