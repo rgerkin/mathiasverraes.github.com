@@ -4,7 +4,7 @@ slug: domain-driven-design-workshop
 date: 2014-04-27
 layout: post
 published: true
-tags: [blog, workshop]
+tags: [workshop]
 abstract: "Intensive three day workshop with Mathias Verraes"
 ---
 
